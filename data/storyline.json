@@ -1336,6 +1336,1126 @@
         }
       ],
       "rewards": []
+    },
+    "They Are Already Here": {
+      "name": "They Are Already Here",
+      "id": "they_are_already_here",
+      "require": 1,
+      "wiki": "https://escapefromtarkov.fandom.com/wiki/They_Are_Already_Here",
+      "description": "I came across a strange note mentioning the Eye of the World and some kind of cult. I need to find out more about this group and what they're planning.",
+      "requirements": "Pick up and read Note about the Eye of the World from marked rooms on Customs, Reserve, Woods, or Shoreline island house",
+      "objectives": [
+        {
+          "id": "they_are_already_here_obj_1",
+          "type": "find",
+          "description": "Find 'Note about the Eye of the World'",
+          "note": "Can be found in marked rooms (Customs 314, Reserve RB-BK/RB-PKPM/RB-VO, Woods village, Shoreline island)",
+          "optional": false
+        },
+        {
+          "id": "they_are_already_here_obj_2",
+          "type": "locate",
+          "description": "Locate a place connected to the Eye of the World",
+          "optional": false
+        },
+        {
+          "id": "they_are_already_here_obj_3",
+          "type": "locate",
+          "description": "Locate the cult victim's apartment",
+          "location": "Lighthouse",
+          "note": "Collapsed cultist house in abandoned village",
+          "optional": false
+        },
+        {
+          "id": "they_are_already_here_obj_4",
+          "type": "find",
+          "description": "Obtain the key to the apartment",
+          "location": "Lighthouse",
+          "note": "Cult victim's apartment key - 4 spawn locations in the house",
+          "optional": true
+        },
+        {
+          "id": "they_are_already_here_obj_5",
+          "type": "find",
+          "description": "Obtain and read the book that the cultists planted with Igor",
+          "location": "Streets of Tarkov",
+          "note": "Book of the Arrival in apartment north of Stylobate extract",
+          "optional": false,
+          "items": [
+            {
+              "item": "Book of the Arrival",
+              "amount": 1,
+              "findInRaid": true
+            }
+          ]
+        },
+        {
+          "id": "they_are_already_here_obj_6",
+          "type": "investigate",
+          "description": "Investigate the victim's apartment",
+          "location": "Streets of Tarkov",
+          "optional": false
+        },
+        {
+          "id": "they_are_already_here_obj_7",
+          "type": "find",
+          "description": "Obtain the victim's first audio tape",
+          "location": "Streets of Tarkov",
+          "note": "Cult victim audio tape #1 on Igor's desk",
+          "optional": false,
+          "items": [
+            {
+              "item": "Cult victim audio tape #1",
+              "amount": 1,
+              "findInRaid": true
+            }
+          ]
+        },
+        {
+          "id": "they_are_already_here_obj_8",
+          "type": "talk",
+          "description": "Ask Mechanic about the Eye of the World",
+          "trader": "Mechanic",
+          "optional": false
+        },
+        {
+          "id": "they_are_already_here_obj_9",
+          "type": "elimination",
+          "description": "Locate and neutralize 2 Cultist Priests",
+          "count": 2,
+          "target": "Cultist Priests",
+          "optional": false
+        },
+        {
+          "id": "they_are_already_here_obj_10",
+          "type": "find",
+          "description": "Obtain more information on the Eye of the World",
+          "note": "Cultist priest's note in marked rooms (Customs 314, Reserve RB-BK/RB-VO)",
+          "optional": false
+        },
+        {
+          "id": "they_are_already_here_obj_11",
+          "type": "locate",
+          "description": "Locate the place marked with the Eye of the World on Lighthouse",
+          "location": "Lighthouse",
+          "note": "Blue chalet upstairs, note on balcony. Key on ATV by garage",
+          "optional": false
+        },
+        {
+          "id": "they_are_already_here_obj_12",
+          "type": "locate",
+          "description": "Locate the place marked with the Eye of the World on Woods",
+          "location": "Woods",
+          "note": "Abandoned village, newspaper clipping in poster room",
+          "optional": false
+        },
+        {
+          "id": "they_are_already_here_obj_13",
+          "type": "locate",
+          "description": "Locate the place marked with the Eye of the World on Shoreline",
+          "location": "Shoreline",
+          "note": "Radio tower at Road to customs. Bring Toolset to repair tower (60s)",
+          "optional": false
+        },
+        {
+          "id": "they_are_already_here_obj_14",
+          "type": "talk",
+          "description": "Learn more about Station 14-4 KORD from Mechanic",
+          "trader": "Mechanic",
+          "note": "Mechanic gives Secure Flash drive after talking",
+          "optional": false
+        },
+        {
+          "id": "they_are_already_here_obj_15",
+          "type": "craft",
+          "description": "Craft Station 14-4 KORD Arshavin K. pass (Restored) in Intelligence Center",
+          "note": "Requires 6 hours, needs Secure Flash drive, Military flash drive, VPX Flash Storage Module",
+          "optional": false
+        },
+        {
+          "id": "they_are_already_here_obj_16",
+          "type": "access",
+          "description": "Access ARRS Station 14-4 on Interchange",
+          "location": "Interchange",
+          "note": "Power station basement, turn on power first, use KORD pass",
+          "optional": false
+        },
+        {
+          "id": "they_are_already_here_obj_17",
+          "type": "place",
+          "description": "Place Secure Flash drive on the servers in cooling room",
+          "location": "Interchange",
+          "note": "Takes 30 seconds, flip switch in cooling room",
+          "optional": false
+        },
+        {
+          "id": "they_are_already_here_obj_18",
+          "type": "find",
+          "description": "Collect Mysterious Audio Tape from the safe",
+          "location": "Interchange",
+          "note": "Safe opens after placing flash drive",
+          "optional": false,
+          "items": [
+            {
+              "item": "Mysterious Audio Tape",
+              "amount": 1,
+              "findInRaid": true
+            }
+          ]
+        },
+        {
+          "id": "they_are_already_here_obj_19",
+          "type": "access",
+          "description": "Return to ARRS Station 14-4 and access lower server room",
+          "location": "Interchange",
+          "note": "Use pass to restore power, press button under desk, collect USB from server",
+          "optional": false
+        },
+        {
+          "id": "they_are_already_here_obj_20",
+          "type": "handover",
+          "description": "Give ARRS USB drive to Mechanic",
+          "trader": "Mechanic",
+          "optional": false,
+          "items": [
+            {
+              "item": "ARRS USB drive",
+              "amount": 1,
+              "findInRaid": true
+            }
+          ]
+        },
+        {
+          "id": "they_are_already_here_obj_21",
+          "type": "read",
+          "description": "Read the ARRS station Specifications from Mechanic",
+          "note": "Sent via message",
+          "optional": false
+        }
+      ],
+      "rewards": [
+        {
+          "type": "achievement",
+          "name": "When the Light Fades"
+        },
+        {
+          "type": "achievement",
+          "name": "Through Another's Eyes"
+        },
+        {
+          "type": "item",
+          "item": "ARRS system specifications",
+          "note": "Major evidence for The Ticket"
+        }
+      ]
+    },
+    "Blue Fire": {
+      "name": "Blue Fire",
+      "id": "blue_fire",
+      "require": 1,
+      "wiki": "https://escapefromtarkov.fandom.com/wiki/Blue_Fire",
+      "description": "During the raid on the office, some kind of special weapon went off on one of the roofs... I remember a bright blue flash before I blacked out. After that, all the electronics failed. I've never encountered such a powerful EMP weapon before. I need to find out what technology hit the city, and who's behind it.",
+      "requirements": "Pick up and read EMERCOM leaflet from Woods EMERCOM camp, Interchange tents, or ULTRA EMERCOM unit",
+      "objectives": [
+        {
+          "id": "blue_fire_obj_1",
+          "type": "talk",
+          "description": "Talk to Mechanic about the EMP Blast",
+          "trader": "Mechanic",
+          "optional": false
+        },
+        {
+          "id": "blue_fire_obj_2",
+          "type": "find",
+          "description": "Locate and obtain the device fragment",
+          "note": "Check Chek 13 marked room or Upper LexOS area on Streets of Tarkov",
+          "optional": false,
+          "items": [
+            {
+              "item": "Unknown device fragment",
+              "amount": 1,
+              "findInRaid": true
+            }
+          ]
+        },
+        {
+          "id": "blue_fire_obj_3",
+          "type": "talk",
+          "description": "Talk to Mechanic to get a hacking device",
+          "trader": "Mechanic",
+          "optional": false
+        },
+        {
+          "id": "blue_fire_obj_4",
+          "type": "place",
+          "description": "Plant the hacking device in the server room in The Lab",
+          "location": "The Lab",
+          "note": "1st floor server room next to Black Keycard doors, takes 60 seconds",
+          "optional": false
+        },
+        {
+          "id": "blue_fire_obj_5",
+          "type": "choice",
+          "description": "Hand over the fragment of Item 1156 to Mechanic or keep it",
+          "optional": false,
+          "options": [
+            {
+              "type": "handover",
+              "description": "Hand over the fragment to Mechanic",
+              "trader": "Mechanic",
+              "rewards": [
+                {
+                  "type": "currency",
+                  "item": "Roubles",
+                  "amount": 1500000
+                }
+              ]
+            },
+            {
+              "type": "keep",
+              "description": "Keep the fragment for yourself",
+              "rewards": [
+                {
+                  "type": "achievement",
+                  "name": "Better Served"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "blue_fire_obj_6",
+          "type": "find",
+          "description": "Find a lead on item 1156",
+          "note": "TerraGroup offices or facilities - Ground Zero or The Lab",
+          "optional": false
+        },
+        {
+          "id": "blue_fire_obj_7",
+          "type": "read",
+          "description": "Read note in TerraGroup science office on Ground Zero",
+          "location": "Ground Zero",
+          "note": "2nd floor office #4, requires TerraGroup science office key",
+          "optional": false
+        },
+        {
+          "id": "blue_fire_obj_8",
+          "type": "read",
+          "description": "Read note in The Lab office",
+          "location": "The Lab",
+          "note": "Office above Streets passage, closest to yellow keycard room",
+          "optional": true
+        },
+        {
+          "id": "blue_fire_obj_9",
+          "type": "investigate",
+          "description": "Investigate the Rus Post office",
+          "location": "Streets of Tarkov",
+          "note": "Primorsky Avenue opposite Pinewood Hotel",
+          "optional": false
+        },
+        {
+          "id": "blue_fire_obj_10",
+          "type": "find",
+          "description": "Collect 3 audio tapes from Rus Post office",
+          "location": "Streets of Tarkov",
+          "note": "Front desk, water cooler, and office room",
+          "optional": false,
+          "items": [
+            {
+              "item": "Rus Post audio tape",
+              "amount": 3,
+              "findInRaid": true
+            }
+          ]
+        },
+        {
+          "id": "blue_fire_obj_11",
+          "type": "find",
+          "description": "Find Rus Post car key",
+          "location": "Streets of Tarkov",
+          "note": "Under rear wheel of post van or in drawers",
+          "optional": false,
+          "items": [
+            {
+              "item": "Rus Post car key",
+              "amount": 1,
+              "findInRaid": true
+            }
+          ]
+        },
+        {
+          "id": "blue_fire_obj_12",
+          "type": "access",
+          "description": "Locate the Rus Post Car and access trunk",
+          "location": "Streets of Tarkov",
+          "note": "In front of Post Office on main road",
+          "optional": false
+        },
+        {
+          "id": "blue_fire_obj_13",
+          "type": "find",
+          "description": "Obtain Item 1156 specification from car trunk",
+          "location": "Streets of Tarkov",
+          "optional": false,
+          "items": [
+            {
+              "item": "Item 1156 specification",
+              "amount": 1,
+              "findInRaid": true
+            }
+          ]
+        },
+        {
+          "id": "blue_fire_obj_14",
+          "type": "read",
+          "description": "Listen to all tapes and read the specification",
+          "note": "Need Audio recorder or extract to read",
+          "optional": false
+        }
+      ],
+      "rewards": [
+        {
+          "type": "achievement",
+          "name": "Inferno"
+        },
+        {
+          "type": "item",
+          "item": "Item 1156 specification",
+          "note": "Major evidence for The Ticket"
+        }
+      ]
+    },
+    "The Ticket": {
+      "name": "The Ticket",
+      "id": "the_ticket",
+      "require": 1,
+      "wiki": "https://escapefromtarkov.fandom.com/wiki/The_Ticket",
+      "description": "This chapter determines your ending path based on choices made with the armored case from Falling Skies. Multiple branching paths lead to different endings: Savior, Debtor, Fallen, or Survivor.",
+      "requirements": "Complete Falling Skies storyline - choice between keeping or handing over the armored case to Prapor",
+      "note": "This is a complex multi-path storyline with 4 possible endings. The path splits based on your choices regarding the armored case and working with Mr. Kerman.",
+      "objectives": [
+        {
+          "id": "ticket_obj_1",
+          "type": "hideout",
+          "description": "Obtain Intelligence Center level 1",
+          "hideoutModule": "Intelligence center",
+          "hideoutLevel": 1,
+          "hideoutModuleId": 15,
+          "optional": false
+        },
+        {
+          "id": "ticket_obj_2",
+          "type": "talk",
+          "description": "Talk to Mr. Kerman via Intelligence Center",
+          "note": "Kerman contacts you after unlocking IC level 1",
+          "optional": false
+        }
+      ],
+      "branches": {
+        "handed_to_prapor": {
+          "description": "If you handed the armored case to Prapor in Falling Skies",
+          "objectives": [
+            {
+              "id": "ticket_prapor_1",
+              "type": "wait",
+              "description": "Wait for Mr. Kerman to reach out",
+              "optional": false
+            },
+            {
+              "id": "ticket_prapor_2",
+              "type": "locate",
+              "description": "Locate the camp of Prapor's people on Lighthouse",
+              "location": "Lighthouse",
+              "note": "Near lighthouse island, opposite basketball courts chalet",
+              "optional": false
+            },
+            {
+              "id": "ticket_prapor_3",
+              "type": "find",
+              "description": "Find clues about Prapor's people's intentions",
+              "location": "Lighthouse",
+              "note": "Note near sandbags in crate stack",
+              "optional": false
+            },
+            {
+              "id": "ticket_prapor_4",
+              "type": "unlock",
+              "description": "Gain access to Lightkeeper",
+              "note": "Unlocks Network Provider Part 1 quest, bypasses normal Lightkeeper requirements",
+              "optional": false
+            }
+          ]
+        },
+        "kept_case": {
+          "description": "If you kept the armored case for yourself",
+          "objectives": [
+            {
+              "id": "ticket_keep_1",
+              "type": "talk",
+              "description": "Ask Mechanic for help opening the case",
+              "trader": "Mechanic",
+              "optional": false
+            },
+            {
+              "id": "ticket_keep_2",
+              "type": "find",
+              "description": "Obtain the experimental signal jammer",
+              "location": "The Lab",
+              "note": "3 spawns: residential unit, R21 recreational area, or R16 lecture hall",
+              "optional": false,
+              "items": [
+                {
+                  "item": "Experimental signal jammer",
+                  "amount": 1,
+                  "findInRaid": true
+                }
+              ]
+            },
+            {
+              "id": "ticket_keep_3",
+              "type": "craft",
+              "description": "Unlock the armored case in Workbench",
+              "note": "Requires 55 hours uninterrupted power",
+              "optional": false
+            },
+            {
+              "id": "ticket_keep_4",
+              "type": "read",
+              "description": "Read the instructions from the armored case",
+              "note": "Contains Kruglov's RFID Keycard and manual",
+              "optional": false
+            },
+            {
+              "id": "ticket_keep_5",
+              "type": "choice",
+              "description": "Choose to continue working with Mr. Kerman or refuse",
+              "optional": false,
+              "branches": ["continue_kerman", "refuse_kerman"]
+            }
+          ]
+        },
+        "continue_kerman": {
+          "description": "Continue working with Mr. Kerman (leads to Savior or Debtor endings)",
+          "objectives": [
+            {
+              "id": "ticket_kerman_1",
+              "type": "find",
+              "description": "Obtain RFID card encryption device",
+              "note": "After 30+ min in Lab, Kerman says Raiders looted it",
+              "optional": false
+            },
+            {
+              "id": "ticket_kerman_2",
+              "type": "talk",
+              "description": "Contact Mechanic about Elektronik",
+              "trader": "Mechanic",
+              "optional": false
+            },
+            {
+              "id": "ticket_kerman_3",
+              "type": "wait",
+              "description": "Wait for Mechanic's response (1 day)",
+              "duration": "24 hours",
+              "optional": false
+            },
+            {
+              "id": "ticket_kerman_4",
+              "type": "handover",
+              "description": "Hand over 40 Physical Bitcoins to Mechanic",
+              "trader": "Mechanic",
+              "note": "All at once, not FiR required. Receive Elektronik's key",
+              "optional": false,
+              "items": [
+                {
+                  "item": "Physical Bitcoin",
+                  "amount": 40,
+                  "findInRaid": false
+                }
+              ]
+            },
+            {
+              "id": "ticket_kerman_5",
+              "type": "find",
+              "description": "Collect RFID card encryption device from Klimova 14A apartment 2",
+              "location": "Streets of Tarkov",
+              "note": "Under coffee table, next to Lab transit",
+              "optional": false,
+              "items": [
+                {
+                  "item": "RFID card encryption device",
+                  "amount": 1,
+                  "findInRaid": true
+                }
+              ]
+            },
+            {
+              "id": "ticket_kerman_6",
+              "type": "find",
+              "description": "Obtain Blank RFID Keycard",
+              "note": "From Scavs, Bosses, marked rooms, or Kruglov's safe",
+              "optional": false,
+              "items": [
+                {
+                  "item": "Blank RFID keycard",
+                  "amount": 1,
+                  "findInRaid": false
+                }
+              ]
+            },
+            {
+              "id": "ticket_kerman_7",
+              "type": "find",
+              "description": "Obtain TerraGroup Labs master keycard",
+              "location": "The Lab",
+              "note": "Kruglov's office safe, requires Black keycard",
+              "optional": false,
+              "items": [
+                {
+                  "item": "TerraGroup Labs master keycard",
+                  "amount": 1,
+                  "findInRaid": true
+                }
+              ]
+            },
+            {
+              "id": "ticket_kerman_8",
+              "type": "craft",
+              "description": "Activate Kruglov's RFID keycard at Intelligence Center",
+              "note": "Takes up to 39 hours with uninterrupted power",
+              "optional": false
+            },
+            {
+              "id": "ticket_kerman_9",
+              "type": "access",
+              "description": "Swipe the activated keycard at Terminal intercom",
+              "location": "Shoreline",
+              "note": "Use scanner underneath intercom box",
+              "optional": false
+            },
+            {
+              "id": "ticket_kerman_10",
+              "type": "choice",
+              "description": "Choose ending path: Help Kerman find evidence (Savior), Change mind (Debtor), or access Terminal",
+              "optional": false,
+              "branches": ["savior_ending", "debtor_ending"]
+            }
+          ]
+        },
+        "savior_ending": {
+          "description": "Help Mr. Kerman find evidence on TerraGroup",
+          "objectives": [
+            {
+              "id": "ticket_savior_1",
+              "type": "hideout",
+              "description": "Intelligence Center level 3",
+              "hideoutModule": "Intelligence center",
+              "hideoutLevel": 3,
+              "hideoutModuleId": 17,
+              "optional": false
+            },
+            {
+              "id": "ticket_savior_2",
+              "type": "handover",
+              "description": "Deliver 8 major TerraGroup evidences to Mr. Kerman",
+              "note": "Requires completing all other storylines",
+              "optional": false,
+              "items": [
+                {
+                  "item": "Transcript of conversation with Ms. A.",
+                  "source": "Cardinal apartment, Streets of Tarkov"
+                },
+                {
+                  "item": "Fuel catalyst test report",
+                  "source": "The Unheard - TerraGroup storage, Factory"
+                },
+                {
+                  "item": "Document mentioning the Warden",
+                  "source": "The Unheard - A.P.'s apartment, Streets"
+                },
+                {
+                  "item": "Item 1156 specification",
+                  "source": "Blue Fire - Rus Post car"
+                },
+                {
+                  "item": "ARRS system specifications",
+                  "source": "They Are Already Here - from Mechanic"
+                },
+                {
+                  "item": "Audio tape with incriminating evidence",
+                  "source": "Accidental Witness - Kozlov's hideout"
+                },
+                {
+                  "item": "Agent network deployment report",
+                  "source": "Batya - Lightkeeper's quarters"
+                },
+                {
+                  "item": "Labyrinth facility research report",
+                  "source": "The Labyrinth - Shoreline pier"
+                }
+              ]
+            },
+            {
+              "id": "ticket_savior_3",
+              "type": "wait",
+              "description": "Wait for Fence to reach out (36-48 hours)",
+              "duration": "36-48 hours",
+              "optional": false
+            },
+            {
+              "id": "ticket_savior_4",
+              "type": "choice",
+              "description": "Complete Fence's assignment (PvE or PvP variant)",
+              "optional": false,
+              "note": "Must not kill any Scavs during this",
+              "options": [
+                {
+                  "type": "pve_assignment",
+                  "description": "PvE: Eliminate 5 PMCs on Shoreline and Interchange in single raids",
+                  "targets": [
+                    {
+                      "location": "Shoreline",
+                      "count": 5,
+                      "target": "PMCs"
+                    },
+                    {
+                      "location": "Interchange",
+                      "count": 5,
+                      "target": "PMCs"
+                    }
+                  ]
+                },
+                {
+                  "type": "pvp_assignment",
+                  "description": "PvP: Extract via Co-Op extracts on Woods and Reserve",
+                  "extracts": ["Friendship Bridge (Woods)", "Scav Lands (Reserve)"]
+                }
+              ]
+            },
+            {
+              "id": "ticket_savior_5",
+              "type": "reputation",
+              "description": "Reach 0.4 standing with BTR Driver",
+              "note": "Complete The Price of Independence quest",
+              "optional": false
+            },
+            {
+              "id": "ticket_savior_6",
+              "type": "craft",
+              "description": "Craft Reprogrammed RFID keycard with Kerman's hash codes",
+              "note": "Requires Solar Power, takes up to 9 hours",
+              "optional": false
+            },
+            {
+              "id": "ticket_savior_7",
+              "type": "access",
+              "description": "Access Terminal between 22:00-04:00 with evidence container",
+              "location": "Shoreline > Terminal",
+              "note": "Bring Secure container Alpha-1 with TerraGroup evidence",
+              "optional": false
+            },
+            {
+              "id": "ticket_savior_8",
+              "type": "extract",
+              "description": "Extract on Zubr boat to complete ending",
+              "location": "Terminal",
+              "optional": false
+            }
+          ],
+          "rewards": [
+            {
+              "type": "achievement",
+              "name": "Savior (or Savior PVE)"
+            },
+            {
+              "type": "ending",
+              "name": "Savior Ending with cutscene and credits"
+            }
+          ]
+        }
+      },
+      "rewards": []
+    },
+    "The Unheard": {
+      "name": "The Unheard",
+      "id": "the_unheard",
+      "require": 1,
+      "wiki": "https://escapefromtarkov.fandom.com/wiki/The_Unheard",
+      "description": "I came across a strange note on a TerraGroup sheet. It mentions the will of The Unheard and some fuel needed for 'purification'. TerraGroup's definitely involved in this, and I should gather more information about The Unheard.",
+      "requirements": "Pick up Note with ramblings about the Purification from TerraGroup security post, TG office on Streets, or TG building on Ground Zero",
+      "objectives": [
+        {
+          "id": "the_unheard_obj_1",
+          "type": "investigate",
+          "description": "Learn more about the Unheard",
+          "note": "Investigate local TerraGroup offices",
+          "optional": false
+        },
+        {
+          "id": "the_unheard_obj_2",
+          "type": "find",
+          "description": "Learn more about TerraGroup's activities",
+          "location": "The Lab",
+          "note": "Find 2 documents: Document on changes in the lab (dome area) and Cargo transport fax (dark office)",
+          "optional": false,
+          "items": [
+            {
+              "item": "Document on changes in the lab",
+              "amount": 1,
+              "findInRaid": true
+            },
+            {
+              "item": "Cargo transport fax",
+              "amount": 1,
+              "findInRaid": true
+            }
+          ]
+        },
+        {
+          "id": "the_unheard_obj_3",
+          "type": "find",
+          "description": "Find more information about the special catalyst shipment",
+          "location": "Factory",
+          "note": "Transport log with notes next to med tent and hole",
+          "optional": false,
+          "items": [
+            {
+              "item": "Transport log with notes",
+              "amount": 1,
+              "findInRaid": true
+            }
+          ]
+        },
+        {
+          "id": "the_unheard_obj_4",
+          "type": "locate",
+          "description": "Locate Rzhevsky's service vehicle",
+          "location": "Streets of Tarkov",
+          "note": "Main road outside Aspect building next to LexOS",
+          "optional": false
+        },
+        {
+          "id": "the_unheard_obj_5",
+          "type": "find",
+          "description": "Retrieve the data from the hard drive in Rzhevsky's car",
+          "location": "Streets of Tarkov",
+          "note": "Front left door, central console",
+          "optional": false,
+          "items": [
+            {
+              "item": "A.P.'s HDD",
+              "amount": 1,
+              "findInRaid": true
+            }
+          ]
+        },
+        {
+          "id": "the_unheard_obj_6",
+          "type": "craft",
+          "description": "Retrieve data from HDD at Intelligence Center",
+          "note": "Requires 1 Printer paper, 3 PCB, 2 PC CPU. Takes up to 12 hours",
+          "optional": false
+        },
+        {
+          "id": "the_unheard_obj_7",
+          "type": "find",
+          "description": "Locate and obtain the documents on the Blue Ice fuel catalyst research",
+          "location": "Factory",
+          "note": "TerraGroup storage room - 2 documents with multiple spawns",
+          "optional": false,
+          "items": [
+            {
+              "item": "Burnt document",
+              "amount": 1,
+              "findInRaid": true
+            },
+            {
+              "item": "Fuel catalyst test report",
+              "amount": 1,
+              "findInRaid": true
+            }
+          ]
+        },
+        {
+          "id": "the_unheard_obj_8",
+          "type": "locate",
+          "description": "Search for any mention of A.P. in The Lab",
+          "location": "The Lab",
+          "note": "Whiteboard in office opposite Red Keycard room",
+          "optional": false
+        },
+        {
+          "id": "the_unheard_obj_9",
+          "type": "find",
+          "description": "Learn more about A.P.'s activities and role",
+          "location": "The Lab",
+          "note": "2 audio tapes in lecture room underneath cafeteria",
+          "optional": false,
+          "items": [
+            {
+              "item": "A.P. meeting audio tape Part 1",
+              "amount": 1,
+              "findInRaid": true
+            },
+            {
+              "item": "A.P. meeting audio tape Part 2",
+              "amount": 1,
+              "findInRaid": true
+            }
+          ]
+        },
+        {
+          "id": "the_unheard_obj_10",
+          "type": "locate",
+          "description": "Locate A.P.'s room in the Health Resort",
+          "location": "Shoreline",
+          "note": "East wing room 305, door unlocked",
+          "optional": false
+        },
+        {
+          "id": "the_unheard_obj_11",
+          "type": "find",
+          "description": "Obtain A.P.'s personal belongings and data storage device",
+          "location": "Shoreline",
+          "note": "USB on laptop, document on nightstand, apartment key on other nightstand",
+          "optional": false,
+          "items": [
+            {
+              "item": "Sliderkey flash drive marked with A.P.",
+              "amount": 1,
+              "findInRaid": true
+            },
+            {
+              "item": "TerraGroup corporate apartment key",
+              "amount": 1,
+              "findInRaid": true
+            }
+          ]
+        },
+        {
+          "id": "the_unheard_obj_12",
+          "type": "craft",
+          "description": "Decrypt the flash drive from A.P.'s room",
+          "note": "Requires 3 RAM, 1 Virtex, 3 CPU fans. Takes up to 12 hours",
+          "optional": false
+        },
+        {
+          "id": "the_unheard_obj_13",
+          "type": "talk",
+          "description": "Ask Mechanic for help with decrypted flash drive",
+          "trader": "Mechanic",
+          "note": "Mechanic asks for 5,000,000 roubles",
+          "optional": false
+        },
+        {
+          "id": "the_unheard_obj_14",
+          "type": "wait",
+          "description": "Wait for the news from Elektronik",
+          "note": "Kerman contacts you in hideout",
+          "optional": false
+        },
+        {
+          "id": "the_unheard_obj_15",
+          "type": "craft",
+          "description": "Integrate the tech files from A.P.'s flash drive into a TerraGroup keycard",
+          "note": "Craft Reprogrammed keycard (Green) at Intelligence Center",
+          "optional": false,
+          "items": [
+            {
+              "item": "TerraGroup Labs keycard (Green)",
+              "amount": 1
+            },
+            {
+              "item": "UHF RFID Reader",
+              "amount": 1
+            },
+            {
+              "item": "TerraGroup Blue Folders materials",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "id": "the_unheard_obj_16",
+          "type": "access",
+          "description": "Access A.P.'s corporate apartment",
+          "location": "Streets of Tarkov",
+          "note": "Cardinal apartment building, 2nd floor left",
+          "optional": false
+        },
+        {
+          "id": "the_unheard_obj_17",
+          "type": "access",
+          "description": "Access the hidden room in A.P.'s apartment",
+          "location": "Streets of Tarkov",
+          "note": "Storage room with keypad, use Green keycard",
+          "optional": false
+        },
+        {
+          "id": "the_unheard_obj_18",
+          "type": "find",
+          "description": "Collect 4 items from hidden room",
+          "location": "Streets of Tarkov",
+          "optional": false,
+          "items": [
+            {
+              "item": "Document mentioning the Warden",
+              "amount": 1,
+              "findInRaid": true
+            },
+            {
+              "item": "Copy of report for TG Worldwide",
+              "amount": 1,
+              "findInRaid": true
+            },
+            {
+              "item": "Document on changes in enterprise interactions",
+              "amount": 1,
+              "findInRaid": true
+            },
+            {
+              "item": "Order from TerraGroup Worldwide headquarters",
+              "amount": 1,
+              "findInRaid": true
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "achievement",
+          "name": "Breadcrumb Trail"
+        },
+        {
+          "type": "item",
+          "item": "Document mentioning the Warden",
+          "note": "Major evidence for The Ticket"
+        },
+        {
+          "type": "item",
+          "item": "Fuel catalyst test report",
+          "note": "Major evidence for The Ticket"
+        }
+      ]
+    },
+    "The Labyrinth": {
+      "name": "The Labyrinth",
+      "id": "the_labyrinth",
+      "require": 1,
+      "wiki": "https://escapefromtarkov.fandom.com/wiki/The_Labyrinth",
+      "description": "A facility of one of TerraGroup's contractors, Knossos LLC. According to public sources, they build amusement and theme parks. However, this place looks more like a heavily fortified bunker than a new theme park. I need to investigate this labyrinth and find out what TerraGroup was really doing here.",
+      "requirements": "Obtain Labrys access keycard and Knossos LLC facility key to access via Shoreline Health Resort west wing basement transit",
+      "objectives": [
+        {
+          "id": "the_labyrinth_obj_1",
+          "type": "obtain",
+          "description": "Obtain Labrys access keycard",
+          "note": "Required to access The Labyrinth location",
+          "optional": false,
+          "items": [
+            {
+              "item": "Labrys access keycard",
+              "amount": 1,
+              "findInRaid": false
+            }
+          ]
+        },
+        {
+          "id": "the_labyrinth_obj_2",
+          "type": "obtain",
+          "description": "Obtain Knossos LLC facility key",
+          "note": "Opens transit door in Shoreline Health Resort",
+          "optional": false,
+          "items": [
+            {
+              "item": "Knossos LLC facility key",
+              "amount": 1,
+              "findInRaid": false
+            }
+          ]
+        },
+        {
+          "id": "the_labyrinth_obj_3",
+          "type": "access",
+          "description": "Access The Labyrinth via Shoreline transit",
+          "location": "Shoreline > The Labyrinth",
+          "note": "West wing basement transit",
+          "optional": false
+        },
+        {
+          "id": "the_labyrinth_obj_4",
+          "type": "survive",
+          "description": "Escape your spawn chamber",
+          "note": "5 different spawn chambers with unique hazards/traps to solve",
+          "optional": false
+        },
+        {
+          "id": "the_labyrinth_obj_5",
+          "type": "elimination",
+          "description": "Defeat Shadow of Tagilla",
+          "target": "Shadow of Tagilla",
+          "note": "Boss that spawns tripwires and patrols the labyrinth",
+          "optional": false
+        },
+        {
+          "id": "the_labyrinth_obj_6",
+          "type": "elimination",
+          "description": "Defeat Vengeful Killa",
+          "target": "Vengeful Killa",
+          "note": "Appears after Shadow of Tagilla dies",
+          "optional": true
+        },
+        {
+          "id": "the_labyrinth_obj_7",
+          "type": "navigate",
+          "description": "Navigate through the labyrinth traps",
+          "note": "Avoid tripwires, poisoned barbed wire, and spike pits",
+          "optional": false
+        },
+        {
+          "id": "the_labyrinth_obj_8",
+          "type": "locate",
+          "description": "Locate the facility research documents",
+          "location": "The Labyrinth",
+          "note": "Search observation rooms and corpse rooms",
+          "optional": false
+        },
+        {
+          "id": "the_labyrinth_obj_9",
+          "type": "extract",
+          "description": "Extract via Ariadne's Path or The Way Up",
+          "location": "The Labyrinth",
+          "note": "Ariadne's Path requires Ariadne symbol key. The Way Up opens 15min after raid start",
+          "optional": false
+        },
+        {
+          "id": "the_labyrinth_obj_10",
+          "type": "find",
+          "description": "Retrieve Labyrinth facility research report",
+          "location": "Shoreline",
+          "note": "After completing Labyrinth, find report at pier area under bridge pillar",
+          "optional": false,
+          "items": [
+            {
+              "item": "Labyrinth facility research report",
+              "amount": 1,
+              "findInRaid": true
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "item",
+          "item": "Labyrinth facility research report",
+          "note": "Major evidence for The Ticket - final piece"
+        },
+        {
+          "type": "loot",
+          "note": "High-tier loot from Tagilla and Killa bosses"
+        }
+      ]
     }
   }
 }
+
