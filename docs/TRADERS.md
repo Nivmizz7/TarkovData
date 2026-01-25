@@ -97,18 +97,6 @@ Each item in the `items` array should have the following format:
 - **Currency**: RUB
 - **Note**: Dynamic inventory, no static items list
 
-## Loyalty Level Requirements Summary
-
-| Trader | LL2 Level | LL2 Rep | LL2 Sales | LL3 Level | LL3 Rep | LL3 Sales | LL4 Level | LL4 Rep | LL4 Sales |
-|--------|-----------|---------|-----------|-----------|---------|-----------|-----------|---------|-----------|
-| Prapor | 15 | 0.20 | 1,120,000₽ | 26 | 0.35 | 1,700,000₽ | 36 | 0.50 | 3,400,000₽ |
-| Therapist | 14 | 0.15 | 600,000₽ | 23 | 0.30 | 1,000,000₽ | 37 | 0.60 | 1,600,000₽ |
-| Skier | 15 | 0.20 | 1,200,000₽ | 28 | 0.40 | 2,400,000₽ | 38 | 0.75 | 3,900,000₽ |
-| Peacekeeper | 14 | 0.00 | $16,000 | 23 | 0.30 | $37,000 | 37 | 0.60 | $55,000 |
-| Mechanic | 20 | 0.15 | 1,120,000₽ | 30 | 0.30 | 2,400,000₽ | 40 | 0.60 | 3,700,000₽ |
-| Ragman | 17 | 0.00 | 1,120,000₽ | 32 | 0.30 | 2,400,000₽ | 42 | 0.60 | 3,700,000₽ |
-| Jaeger | 15 | 0.20 | 840,000₽ | 22 | 0.35 | 1,680,000₽ | 33 | 0.50 | 2,580,000₽ |
-
 ## Data Sources
 
 - **Trader Information**: https://escapefromtarkov.fandom.com/wiki/Trading

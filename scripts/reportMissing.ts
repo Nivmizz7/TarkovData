@@ -3,7 +3,7 @@ import { fetchCaliberList } from './fetchCalibers.js';
 import { fetchCaliberAmmoData } from './fetchAmmoData.js';
 import { AmmoDatabase, CaliberInfo } from './types.js';
 
-const AMMO_FILE = './ammunition.json';
+const AMMO_FILE = './data/ammunition.json';
 
 interface AmmoStats {
   totalInFile: number;
@@ -60,14 +60,14 @@ async function reportMissing(): Promise<void> {
     }
   }
   
-  console.log(`✓ Loaded ${stats.totalInFile} entries`);
-  console.log(`✓ Found ${stats.calibersInFile.size} different calibers in file`);
-  console.log(`⚠ Found ${stats.emptyEntries} empty/incomplete entries\n`);
+  console.log(`Loaded ${stats.totalInFile} entries`);
+  console.log(`Found ${stats.calibersInFile.size} different calibers in file`);
+  console.log(`Warning: Found ${stats.emptyEntries} empty/incomplete entries\n`);
   
   // Fetch calibers from wiki
   console.log('Fetching calibers from wiki...');
   const wikiCalibers = await fetchCaliberList();
-  console.log(`✓ Found ${wikiCalibers.length} calibers on wiki\n`);
+  console.log(`Found ${wikiCalibers.length} calibers on wiki\n`);
   
   // Track all wiki ammo
   const wikiAmmoNames = new Set<string>();
@@ -108,14 +108,14 @@ async function reportMissing(): Promise<void> {
         missingInCaliber.forEach(name => console.log(`     ❌ ${name}`));
         console.log();
       } else {
-        console.log(`✅ ${caliber.name} - Complet (${wikiAmmo.length} munitions)`);
+        console.log(`${caliber.name} - Complete (${wikiAmmo.length} ammunition types)`);
       }
       
       // Small delay to avoid hammering the wiki
       await new Promise(resolve => setTimeout(resolve, 500));
       
     } catch (error) {
-      console.error(`✗ Error processing ${caliber.name}:`, error);
+      console.error(`Error processing ${caliber.name}:`, error);
     }
   }
   
@@ -133,7 +133,7 @@ async function reportMissing(): Promise<void> {
   console.log(`  Sur le wiki: ${stats.calibersOnWiki.size}`);
   
   if (stats.missingCalibers.length > 0) {
-    console.log(`  ⚠ Calibers manquants: ${stats.missingCalibers.length}`);
+    console.log(`  Missing calibers: ${stats.missingCalibers.length}`);
     stats.missingCalibers.forEach(cal => console.log(`    - ${cal}`));
   }
   
@@ -153,14 +153,14 @@ async function reportMissing(): Promise<void> {
     }
   }
   
-  console.log('\n✓ Rapport terminé!');
+  console.log('\nReport completed!');
 }
 
 // Run if executed directly
 if (import.meta.url === `file://${process.argv[1]}`) {
   reportMissing()
     .catch(error => {
-      console.error('\n✗ Fatal error:', error);
+      console.error('\nFatal error:', error);
       process.exit(1);
     });
 }

@@ -1,25 +1,112 @@
-## SVG Maps
+# SVG Maps
 
-This map data is meant to provide the community and community tools with the basics for creating new, source shared maps. These maps are meant to be SVGs, so friendly to utilize with on the web for things like overlaying quest locations, spawns, extracts and more. They are stil a work in progress, and final formats may be subject to change
-Please open a discussion if you have any questions or want any direction on how you could contribute!
+This directory contains SVG map data for Escape From Tarkov maps. The maps are designed to be web-friendly and can be used by community tools for displaying quest locations, spawns, extracts, and other interactive features.
 
-### How to utilize
-Because the maps are SVGs, they should be easy to import in most application settings. The maps have been designed to have floors as SVG group elements (layers in Adobe Illustrator source files). This means you can selectively remove, hide, or chance opacity on those layers to swap to another floor. Additionally, each layer should contain sub-groups or layers which contain primarily one type of map feature (eg. 'roads', or 'rocks, or 'ramps'). You can selectively omit those as well if your application needs it.
+## Overview
+
+Maps are provided as SVG files for easy integration with web applications and tools. Each map is structured with layers representing different floors or areas, making it simple to show/hide specific sections.
+
+## Usage
+
+### Import Maps
+
+SVG maps can be imported directly into most application settings. Each map uses SVG group elements to represent floors (layers in Adobe Illustrator source files).
+
+### Layer Structure
+
+Maps are organized hierarchically:
+- **Floor Groups**: Top-level groups representing different floors
+- **Feature Groups**: Sub-groups containing specific map features (roads, rocks, ramps, etc.)
+
+You can selectively show, hide, or adjust the opacity of these layers based on your application needs.
 
 ### Metadata
-Currently, there is some metadata information available for the SVGs. The [maps.json](../maps.json) file has an `svg` property for each map with an SVG representation. `file` is the filename of the appropriate SVG for that map. `floors` is an array of element IDs for the SVG groups. `defaultFloor` is the group or layer which users would generally want to be displayed by default.
 
-In [quests.json](../quests.json) quests with fixed point objectives have a `gps` property. The `gps` property contains a `topPercent` (Y coordinate as a percentage) and `leftPercent` (X coordinate as a percentage) for coordinates. It also contains a `floor` property which specifies the SVG group or layer that the objective is intended to be displayed on.
+Map metadata is available in [data/maps.json](../data/maps.json):
 
-More map metadata to be added - if you're interested in things like extractions, locked doors, etc, feel free to open a discussion to figure out a format, and PRs are always welcome!
+```json
+{
+  "svg": {
+    "file": "map-filename.svg",
+    "floors": ["floor1", "floor2"],
+    "defaultFloor": "floor1"
+  }
+}
+```
 
-### Map Creation Guidelines
-- They should be entirely SVG drawn, no imported images
-- They should be as close to the in-game maps as possible, when available
-- They should not include labels
-- They should not include every detail, but just landmarks and any detail that would be required to provide information like quests, extracts, etc.
-- If the map requires multiple floors to be useful (Interchange), each floor should be a parent level group (layers in Adobe Illustrator)
-- Please include any source file if available in addition to the final SVG
-- Please utilize current color scheme for any new maps, if you want to utilize the maps with a different color scheme, coordinated colors can easily be replaced as a post-processing step.
+**Properties:**
+- `file` - SVG filename for the map
+- `floors` - Array of element IDs for SVG floor groups
+- `defaultFloor` - Default floor layer to display
+
+### Quest Coordinates
+
+Quest objectives with fixed locations include GPS coordinates in [data/quests.json](../data/quests.json):
+
+```json
+{
+  "gps": {
+    "topPercent": 45.5,
+    "leftPercent": 62.3,
+    "floor": "floor1"
+  }
+}
+```
+
+**Properties:**
+- `topPercent` - Y coordinate as percentage of map height
+- `leftPercent` - X coordinate as percentage of map width
+- `floor` - SVG group/layer ID for the objective location
+
+## Map Creation Guidelines
+
+When creating or updating maps, please follow these standards:
+
+### Technical Requirements
+
+- **SVG Only**: All maps must be entirely SVG-drawn, no raster images
+- **Accuracy**: Match in-game maps as closely as possible
+- **No Labels**: Do not include text labels in the SVG
+- **Appropriate Detail**: Include landmarks and important features, but avoid excessive detail
+- **Floor Groups**: Multi-floor maps (like Interchange) must use parent-level groups for each floor
+- **Source Files**: Include source files (e.g., Adobe Illustrator) in addition to final SVG
+
+### Design Standards
+
+- **Consistency**: Use the existing color scheme for new maps
+- **Post-Processing**: Color schemes can be adjusted in post-processing if needed
+- **Simplicity**: Focus on functional clarity over artistic detail
+
+## Future Metadata
+
+Additional metadata planned for future releases:
+- Extraction points
+- Locked door locations
+- Spawn points
+- Loot locations
+- Key usage locations
+
+If you need specific metadata types, please open a discussion to propose a format. Pull requests are always welcome.
+
+## Contributing
+
+To contribute map improvements:
+
+1. Follow the creation guidelines above
+2. Include both SVG and source files
+3. Test coordinates with existing quest data
+4. Submit a pull request with detailed changes
+
+## File Format
+
+SVG files should be optimized for web use:
+- Clean, semantic markup
+- Minimal file size
+- Consistent naming conventions
+- Valid XML structure
+
+## Support
+
+For questions about map usage or contribution guidelines, please open a discussion on GitHub.
 
 
