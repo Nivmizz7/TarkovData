@@ -790,6 +790,552 @@
         }
       ],
       "rewards": []
+    },
+    "Batya": {
+      "name": "Batya",
+      "id": "batya",
+      "require": 1,
+      "wiki": "https://escapefromtarkov.fandom.com/wiki/Batya",
+      "description": "Turns out BEAR didn't send just regular squads into Tarkov, there were real SOF guys here. I'd like to know more about those units and what exactly they were doing.",
+      "requirements": "Visit one of the BEAR outpost locations (Customs scav base, Reserve radar, Shoreline bunker, or Woods USEC camp)",
+      "objectives": [
+        {
+          "id": "batya_obj_1",
+          "type": "locate",
+          "description": "Locate the traces of the BEAR special squad (check BEAR outposts)",
+          "optional": false
+        },
+        {
+          "id": "batya_obj_2",
+          "type": "talk",
+          "description": "Learn more about the Bogatyr squad from the traders",
+          "trader": "Jaeger",
+          "optional": false
+        },
+        {
+          "id": "batya_obj_3",
+          "type": "locate",
+          "description": "Locate the Gnezdo outpost",
+          "location": "Interchange",
+          "note": "The outpost is in the forest on the western side of the Ultra mall",
+          "optional": false
+        },
+        {
+          "id": "batya_obj_4",
+          "type": "search",
+          "description": "Figure out what happened to the Bogatyr squad",
+          "optional": false
+        },
+        {
+          "id": "batya_obj_5",
+          "type": "learn",
+          "description": "Learn more about the Bogatyr squad's members",
+          "optional": false
+        },
+        {
+          "id": "batya_obj_6",
+          "type": "locate",
+          "description": "Locate the Ryabina outpost",
+          "location": "Woods",
+          "note": "It should be somewhere on the ridge in the Priozersk forest, it was used as an observation point",
+          "optional": false
+        },
+        {
+          "id": "batya_obj_7",
+          "type": "search",
+          "description": "Find more information about the Bogatyr squad (search large stores or shopping malls)",
+          "optional": false
+        },
+        {
+          "id": "batya_obj_8",
+          "type": "locate",
+          "description": "Locate the Carousel outpost",
+          "location": "Interchange",
+          "optional": false
+        },
+        {
+          "id": "batya_obj_9",
+          "type": "learn",
+          "description": "Learn more about Voevoda",
+          "optional": false
+        },
+        {
+          "id": "batya_obj_10",
+          "type": "find",
+          "description": "Find the Bogatyr squad's personal notes",
+          "optional": false
+        },
+        {
+          "id": "batya_obj_11",
+          "type": "learn",
+          "description": "Learn more about Taran",
+          "optional": false
+        },
+        {
+          "id": "batya_obj_12",
+          "type": "learn",
+          "description": "Learn more about Strelets",
+          "optional": false
+        },
+        {
+          "id": "batya_obj_13",
+          "type": "find",
+          "description": "Find Voevoda's personal belongings",
+          "optional": false
+        },
+        {
+          "id": "batya_obj_14",
+          "type": "learn",
+          "description": "Learn more about the Bogatyr squad's activities",
+          "optional": false
+        },
+        {
+          "id": "batya_obj_15",
+          "type": "search",
+          "description": "Search the Gnezdo outpost",
+          "location": "Interchange",
+          "optional": false
+        },
+        {
+          "id": "batya_obj_16",
+          "type": "craft",
+          "description": "Retrieve more information about the ambush from Moreman's phone (use Workbench and phone parts)",
+          "optional": false
+        },
+        {
+          "id": "batya_obj_17",
+          "type": "hideout",
+          "description": "Intelligence Center level 3",
+          "hideoutModule": "Intelligence center",
+          "hideoutLevel": 3,
+          "hideoutModuleId": 17,
+          "optional": false
+        },
+        {
+          "id": "batya_obj_18",
+          "type": "contact",
+          "description": "Contact the Bogatyr squad",
+          "optional": false
+        },
+        {
+          "id": "batya_obj_19",
+          "type": "unlock",
+          "description": "Gain access to Lightkeeper",
+          "note": "Stay on good terms with lightkeeper",
+          "optional": false
+        },
+        {
+          "id": "batya_obj_20",
+          "type": "handover",
+          "description": "Bring all of Bogatyr squad's items to Lightkeeper",
+          "trader": "Lightkeeper",
+          "optional": false,
+          "items": [
+            {
+              "item": "Voevoda's audio recorder",
+              "amount": 1,
+              "findInRaid": true
+            },
+            {
+              "item": "Taran's postcard",
+              "amount": 1,
+              "findInRaid": true
+            },
+            {
+              "item": "Strelets' amulet",
+              "amount": 1,
+              "findInRaid": true
+            },
+            {
+              "item": "Moreman's dogtag",
+              "amount": 1,
+              "findInRaid": true
+            },
+            {
+              "item": "Bogatyrs patch",
+              "amount": 1,
+              "findInRaid": true
+            }
+          ]
+        },
+        {
+          "id": "batya_obj_21",
+          "type": "wait",
+          "description": "Wait for Voevoda to reach out",
+          "duration": "12-24 hours",
+          "optional": false
+        },
+        {
+          "id": "batya_obj_22",
+          "type": "elimination",
+          "description": "Eliminate 15 targets without dying",
+          "count": 15,
+          "optional": false
+        },
+        {
+          "id": "batya_obj_23",
+          "type": "elimination",
+          "description": "Kill 4 PMCs without dying",
+          "count": 4,
+          "target": "PMCs",
+          "optional": false
+        },
+        {
+          "id": "batya_obj_24",
+          "type": "skill",
+          "description": "Level up Assault Rifles skill to 10",
+          "skill": "Assault Rifles",
+          "level": 10,
+          "optional": false
+        },
+        {
+          "id": "batya_obj_25",
+          "type": "skill",
+          "description": "Level up Light Machine Guns to 5",
+          "skill": "Light Machine Guns",
+          "level": 5,
+          "optional": false
+        },
+        {
+          "id": "batya_obj_26",
+          "type": "skill",
+          "description": "Level up Stress Resistance to 10",
+          "skill": "Stress Resistance",
+          "level": 10,
+          "optional": false
+        },
+        {
+          "id": "batya_obj_27",
+          "type": "skill",
+          "description": "Level up Strength to 15",
+          "skill": "Strength",
+          "level": 15,
+          "optional": false
+        },
+        {
+          "id": "batya_obj_28",
+          "type": "talk",
+          "description": "Contact Voevoda",
+          "optional": false
+        },
+        {
+          "id": "batya_obj_29",
+          "type": "investigate",
+          "description": "Locate the traces of the traitors (search through BEAR camps)",
+          "optional": false
+        },
+        {
+          "id": "batya_obj_30",
+          "type": "investigate",
+          "description": "Investigate the command bunker on Reserve",
+          "location": "Reserve",
+          "optional": false
+        },
+        {
+          "id": "batya_obj_31",
+          "type": "investigate",
+          "description": "Investigate the BEAR camp on Lighthouse",
+          "location": "Lighthouse",
+          "optional": false,
+          "note": "Note tying Prapor to the ambush found here"
+        },
+        {
+          "id": "batya_obj_32",
+          "type": "investigate",
+          "description": "Investigate the BEAR camp east of the ultra mall on Interchange",
+          "location": "Interchange",
+          "optional": false
+        },
+        {
+          "id": "batya_obj_33",
+          "type": "talk",
+          "description": "Interrogate Prapor",
+          "trader": "Prapor",
+          "optional": false
+        },
+        {
+          "id": "batya_obj_34",
+          "type": "investigate",
+          "description": "Figure out how the cultists are connected to the General",
+          "optional": false
+        },
+        {
+          "id": "batya_obj_35",
+          "type": "investigate",
+          "description": "Investigate the cultist circle on Customs",
+          "location": "Customs",
+          "note": "Note labeled 'General' in Dorm 314 marked room",
+          "optional": false
+        },
+        {
+          "id": "batya_obj_36",
+          "type": "investigate",
+          "description": "Investigate the cultist circle on Reserve",
+          "location": "Reserve",
+          "optional": false
+        },
+        {
+          "id": "batya_obj_37",
+          "type": "investigate",
+          "description": "Investigate the cultist circle on Woods",
+          "location": "Woods",
+          "optional": false
+        },
+        {
+          "id": "batya_obj_38",
+          "type": "investigate",
+          "description": "Investigate the cultist circle on Shoreline",
+          "location": "Shoreline",
+          "note": "Lightkeeper gave the go-ahead to carry out the General's orders",
+          "optional": false
+        },
+        {
+          "id": "batya_obj_39",
+          "type": "talk",
+          "description": "Talk to Lightkeeper",
+          "trader": "Lightkeeper",
+          "optional": false
+        },
+        {
+          "id": "batya_obj_40",
+          "type": "wait",
+          "description": "Wait for Lightkeeper to prepare the documents on the Unheard",
+          "duration": "24 hours",
+          "optional": false
+        },
+        {
+          "id": "batya_obj_41",
+          "type": "find",
+          "description": "Read the agent network deployment report",
+          "location": "Lighthouse",
+          "note": "Documents inside Lightkeeper's Quarters on red box",
+          "optional": false
+        }
+      ],
+      "optionalObjectives": [
+        {
+          "id": "batya_opt_1",
+          "type": "find",
+          "description": "Locate and obtain the squad commander's recorder",
+          "optional": true
+        },
+        {
+          "id": "batya_opt_2",
+          "type": "find",
+          "description": "Locate and obtain a keepsake of one of the Bogatyrs",
+          "optional": true
+        },
+        {
+          "id": "batya_opt_3",
+          "type": "find",
+          "description": "Locate and obtain a personal item of one of the Bogatyrs",
+          "optional": true
+        },
+        {
+          "id": "batya_opt_4",
+          "type": "find",
+          "description": "Locate and obtain a dogtag of one of the Bogatyrs",
+          "optional": true
+        },
+        {
+          "id": "batya_opt_5",
+          "type": "find",
+          "description": "Locate and obtain the Bogatyr squad patch",
+          "optional": true
+        },
+        {
+          "id": "batya_opt_6",
+          "type": "find",
+          "description": "Locate and obtain Moreman's phone",
+          "optional": true
+        }
+      ],
+      "rewards": [
+        {
+          "type": "achievement",
+          "name": "This Is All (Not) Coincidence"
+        }
+      ]
+    },
+    "Accidental Witness": {
+      "name": "Accidental Witness",
+      "id": "accidental_witness",
+      "require": 1,
+      "wiki": "https://escapefromtarkov.fandom.com/wiki/Accidental_Witness",
+      "description": "Next to the dorms, there's a sedan with a threatening message left on it. It seems one of the residents had a serious debt. But this Kozlov was probably not the only debtor in the industrial zone. Perhaps he was being hunted for a reason?",
+      "requirements": "Locate the scribbled over car in the courtyard of the dormitories on Customs",
+      "objectives": [
+        {
+          "id": "accidental_witness_obj_1",
+          "type": "investigate",
+          "description": "Figure out where Kozlov lived",
+          "location": "Customs",
+          "optional": false
+        },
+        {
+          "id": "accidental_witness_obj_2",
+          "type": "read",
+          "description": "Read the note on Kozlov's door",
+          "location": "Customs",
+          "note": "Two-story dorms, room 110 door",
+          "optional": false
+        },
+        {
+          "id": "accidental_witness_obj_3",
+          "type": "investigate",
+          "description": "Find out what Kozlov was involved in",
+          "location": "Customs",
+          "optional": false
+        },
+        {
+          "id": "accidental_witness_obj_4",
+          "type": "access",
+          "description": "Access Kozlov's room",
+          "location": "Customs",
+          "note": "Dorm room 110 key required",
+          "optional": true
+        },
+        {
+          "id": "accidental_witness_obj_5",
+          "type": "investigate",
+          "description": "Figure out where to get Kozlov's key",
+          "optional": true
+        },
+        {
+          "id": "accidental_witness_obj_6",
+          "type": "talk",
+          "description": "Ask the traders about Anastasia",
+          "traders": ["Skier", "Ragman"],
+          "optional": false
+        },
+        {
+          "id": "accidental_witness_obj_7",
+          "type": "access",
+          "description": "Access Skier's accomplice's apartment",
+          "location": "Streets of Tarkov",
+          "note": "Zmeisky building 3, apartment 7",
+          "optional": false
+        },
+        {
+          "id": "accidental_witness_obj_8",
+          "type": "investigate",
+          "description": "Find the key to the apartment",
+          "note": "Zmeisky 3 apartment key",
+          "optional": true
+        },
+        {
+          "id": "accidental_witness_obj_9",
+          "type": "learn",
+          "description": "Learn more about Skier's accomplice's apartment",
+          "optional": false
+        },
+        {
+          "id": "accidental_witness_obj_10",
+          "type": "read",
+          "description": "Read the documents in Skier's accomplice's apartment",
+          "location": "Streets of Tarkov",
+          "note": "Documents spawn on armchair, under TV, in kitchen, on wall, on windowsill",
+          "optional": false
+        },
+        {
+          "id": "accidental_witness_obj_11",
+          "type": "talk",
+          "description": "Report to Skier",
+          "trader": "Skier",
+          "optional": false
+        },
+        {
+          "id": "accidental_witness_obj_12",
+          "type": "talk",
+          "description": "Talk to Ragman",
+          "trader": "Ragman",
+          "optional": false
+        },
+        {
+          "id": "accidental_witness_obj_13",
+          "type": "locate",
+          "description": "Locate Anastasia's apartment",
+          "location": "Streets of Tarkov",
+          "note": "One door to the right of Chek 13 entrance",
+          "optional": false
+        },
+        {
+          "id": "accidental_witness_obj_14",
+          "type": "investigate",
+          "description": "Investigate the entrance to Anastasia's building",
+          "location": "Streets of Tarkov",
+          "optional": false
+        },
+        {
+          "id": "accidental_witness_obj_15",
+          "type": "learn",
+          "description": "Learn more about Anastasia",
+          "note": "Check mailbox near entrance for letter and newspaper",
+          "optional": false
+        },
+        {
+          "id": "accidental_witness_obj_16",
+          "type": "locate",
+          "description": "Locate courier Pasha",
+          "location": "Customs",
+          "note": "Bike and letter behind second story dorms, next to a rock with blood",
+          "optional": false
+        },
+        {
+          "id": "accidental_witness_obj_17",
+          "type": "search",
+          "description": "Search the ambush spot",
+          "location": "Customs",
+          "optional": false
+        },
+        {
+          "id": "accidental_witness_obj_18",
+          "type": "talk",
+          "description": "Talk to Skier",
+          "trader": "Skier",
+          "optional": false
+        },
+        {
+          "id": "accidental_witness_obj_19",
+          "type": "locate",
+          "description": "Locate Reshala's stash",
+          "location": "Customs",
+          "note": "Outside crackhouse, requires Reshala's bunkhouse key",
+          "optional": false
+        },
+        {
+          "id": "accidental_witness_obj_20",
+          "type": "investigate",
+          "description": "Investigate Reshala's bunkhouse",
+          "location": "Customs",
+          "note": "Find three items: one on wall beside door, one on wall beside far bed, one on chair",
+          "optional": false
+        },
+        {
+          "id": "accidental_witness_obj_21",
+          "type": "locate",
+          "description": "Locate Kozlov's hideout",
+          "location": "Shoreline",
+          "note": "Village near the tunnel, central house",
+          "optional": false
+        },
+        {
+          "id": "accidental_witness_obj_22",
+          "type": "find",
+          "description": "Locate and obtain Kozlov's evidence",
+          "location": "Shoreline",
+          "note": "Exit building, turn right, tape below shovel in planters",
+          "optional": false,
+          "items": [
+            {
+              "item": "Audio tape with incriminating evidence",
+              "amount": 1,
+              "findInRaid": true
+            }
+          ]
+        }
+      ],
+      "rewards": []
     }
   }
 }
