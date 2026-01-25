@@ -466,6 +466,330 @@
           "name": "Pathfinder"
         }
       ]
+    },
+    "Falling Skies": {
+      "name": "Falling Skies",
+      "id": "falling_skies",
+      "require": 1,
+      "wiki": "https://escapefromtarkov.fandom.com/wiki/Falling_Skies",
+      "description": "Mechanic and I got to talking about that plane that went down somewhere in the nature reserve. Nobody really knows what happened to it. I should track it down and take a look — maybe I'll find something interesting.",
+      "requirements": "Ask Mechanic about the downed plane while progressing through the story chapter Tour",
+      "objectives": [
+        {
+          "id": "falling_skies_obj_1",
+          "type": "locate",
+          "description": "Locate the fallen plane",
+          "location": "Woods",
+          "optional": false
+        },
+        {
+          "id": "falling_skies_obj_2",
+          "type": "loyalty",
+          "description": "Reach Loyalty Level 2 with Prapor",
+          "trader": "Prapor",
+          "level": 2,
+          "optional": false
+        },
+        {
+          "id": "falling_skies_obj_3",
+          "type": "talk",
+          "description": "Ask the traders about the fallen plane",
+          "traders": ["Prapor", "Therapist", "Skier", "Mechanic", "Jaeger"],
+          "optional": false
+        },
+        {
+          "id": "falling_skies_obj_4",
+          "type": "handover",
+          "description": "Hand over 2,000 USD to Therapist to learn details about the SUV",
+          "trader": "Therapist",
+          "optional": true,
+          "items": [
+            {
+              "item": "Dollars",
+              "amount": 2000,
+              "findInRaid": false
+            }
+          ]
+        },
+        {
+          "id": "falling_skies_obj_5",
+          "type": "find",
+          "description": "Retrieve the flash drive from one of the G-Wagon SUVs",
+          "location": "Shoreline",
+          "optional": false,
+          "items": [
+            {
+              "item": "G-Wagon flash drive",
+              "amount": 1,
+              "findInRaid": true
+            }
+          ]
+        },
+        {
+          "id": "falling_skies_obj_6",
+          "type": "handover",
+          "description": "Hand over the flash drive to Prapor",
+          "trader": "Prapor",
+          "optional": false,
+          "items": [
+            {
+              "item": "G-Wagon flash drive",
+              "amount": 1,
+              "findInRaid": true
+            }
+          ]
+        },
+        {
+          "id": "falling_skies_obj_7",
+          "type": "wait",
+          "description": "Wait for information from Prapor",
+          "duration": "1 hour",
+          "optional": false
+        },
+        {
+          "id": "falling_skies_obj_8",
+          "type": "find",
+          "description": "Retrieve the plane's flight recorder",
+          "location": "Woods",
+          "optional": false,
+          "items": [
+            {
+              "item": "Crashed plane's flight recorder",
+              "amount": 1,
+              "findInRaid": true
+            }
+          ]
+        },
+        {
+          "id": "falling_skies_obj_9",
+          "type": "place",
+          "description": "Leave the flight recorder in the specified spot",
+          "location": "Shoreline",
+          "optional": false,
+          "items": [
+            {
+              "item": "Crashed plane's flight recorder",
+              "amount": 1,
+              "findInRaid": true
+            }
+          ]
+        },
+        {
+          "id": "falling_skies_obj_10",
+          "type": "talk",
+          "description": "Visit Prapor",
+          "trader": "Prapor",
+          "optional": false
+        },
+        {
+          "id": "falling_skies_obj_11",
+          "type": "handover",
+          "description": "Hand over 3 found in raid Rechargeable batteries",
+          "trader": "Prapor",
+          "optional": false,
+          "items": [
+            {
+              "item": "Rechargeable battery",
+              "amount": 3,
+              "findInRaid": true
+            }
+          ]
+        },
+        {
+          "id": "falling_skies_obj_12",
+          "type": "handover",
+          "description": "Hand over 5 found in raid Printed circuit boards",
+          "trader": "Prapor",
+          "optional": false,
+          "items": [
+            {
+              "item": "Printed circuit board",
+              "amount": 5,
+              "findInRaid": true
+            }
+          ]
+        },
+        {
+          "id": "falling_skies_obj_13",
+          "type": "handover",
+          "description": "Hand over 2 found in raid Toolsets",
+          "trader": "Prapor",
+          "optional": false,
+          "items": [
+            {
+              "item": "Toolset",
+              "amount": 2,
+              "findInRaid": true
+            }
+          ]
+        },
+        {
+          "id": "falling_skies_obj_14",
+          "type": "wait",
+          "description": "Wait for information from Prapor",
+          "duration": "3-5 hours",
+          "optional": false
+        },
+        {
+          "id": "falling_skies_obj_15",
+          "type": "find",
+          "description": "Hand over the flight crew's transcript to Prapor",
+          "location": "Shoreline",
+          "optional": false,
+          "items": [
+            {
+              "item": "Plane crew transcript",
+              "amount": 1,
+              "findInRaid": true
+            }
+          ],
+          "rewards": [
+            {
+              "type": "currency",
+              "item": "Roubles",
+              "amount": 300000,
+              "bonuses": [
+                {
+                  "condition": "Intelligence Center Level 1",
+                  "amount": 315000
+                },
+                {
+                  "condition": "Intelligence Center Level 2",
+                  "amount": 345000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "falling_skies_obj_16",
+          "type": "find",
+          "description": "Hand over Elektronik's secure flash drive to Prapor",
+          "location": "Shoreline",
+          "optional": false,
+          "items": [
+            {
+              "item": "Elektronik's flash drive",
+              "amount": 1,
+              "findInRaid": true
+            }
+          ]
+        },
+        {
+          "id": "falling_skies_obj_17",
+          "type": "wait",
+          "description": "Wait for information from Prapor",
+          "duration": "1-3 hours",
+          "optional": false,
+          "rewards": [
+            {
+              "type": "currency",
+              "item": "Roubles",
+              "amount": 300000,
+              "condition": "Answer 'yes' when Prapor asks if you read the transcript",
+              "bonuses": [
+                {
+                  "condition": "Intelligence Center Level 1",
+                  "amount": 315000
+                },
+                {
+                  "condition": "Intelligence Center Level 2",
+                  "amount": 345000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "falling_skies_obj_18",
+          "type": "find",
+          "description": "Retrieve the armored case",
+          "location": "Woods",
+          "optional": false,
+          "items": [
+            {
+              "item": "Armored case",
+              "amount": 1,
+              "findInRaid": true
+            }
+          ]
+        },
+        {
+          "id": "falling_skies_obj_19",
+          "type": "find",
+          "description": "Find any additional clues",
+          "location": "Woods",
+          "optional": true,
+          "items": [
+            {
+              "item": "Note from Mr. Kerman",
+              "amount": 1,
+              "findInRaid": true
+            }
+          ]
+        },
+        {
+          "id": "falling_skies_obj_20",
+          "type": "choice",
+          "description": "Keep the armored case for yourself or hand it over to Prapor",
+          "optional": false,
+          "options": [
+            {
+              "type": "keep",
+              "description": "Keep the armored case",
+              "rewards": [
+                {
+                  "type": "reputation",
+                  "trader": "Prapor",
+                  "amount": -0.3
+                },
+                {
+                  "type": "item",
+                  "item": "Armored case",
+                  "amount": 1
+                },
+                {
+                  "type": "achievement",
+                  "name": "Just Business"
+                }
+              ]
+            },
+            {
+              "type": "handover_honest",
+              "description": "Hand over the armored case directly to Prapor",
+              "trader": "Prapor",
+              "rewards": [
+                {
+                  "type": "currency",
+                  "item": "Roubles",
+                  "amount": 1500000
+                },
+                {
+                  "type": "achievement",
+                  "name": "Man of His Word"
+                }
+              ]
+            },
+            {
+              "type": "handover_dishonest",
+              "description": "Pretend you didn't find the armored case, but still hand it over to Prapor",
+              "trader": "Prapor",
+              "rewards": [
+                {
+                  "type": "currency",
+                  "item": "Roubles",
+                  "amount": 1000000
+                },
+                {
+                  "type": "achievement",
+                  "name": "Man of His Word"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "rewards": []
     }
   }
 }
