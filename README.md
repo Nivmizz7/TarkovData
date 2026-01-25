@@ -29,7 +29,7 @@ Ammunition metadata including ballistics, damage, penetration, and other stats f
 Hideout station information and upgrade requirements, including all modules, construction times, and item requirements.
 
 ### [data/items.en.json](data/items.en.json)
-Item names in English with both short and long forms, indexed by BSG UIDs.
+Item names in English with both short and long forms.
 
 ### [data/quests.json](data/quests.json)
 Quest data including requirements, unlocks, objectives, and rewards.
