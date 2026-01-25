@@ -965,7 +965,8 @@
                 }
             ],
             "id": 17,
-            "stationId": 20
+            "stationId": 20,
+            "completesStorylineObjective": "batya_obj_17"
         },
         {
             "module": "Lavatory",
