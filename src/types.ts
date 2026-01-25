@@ -49,3 +49,50 @@ export interface CaliberInfo {
 }
 
 export type AmmoDatabase = Record<string, Ammunition>;
+
+// Hideout types
+export interface HideoutStation {
+  id: number;
+  locales: {
+    en: string;
+  };
+  function: string;
+  imgSource: string;
+  disabled?: boolean;
+}
+
+export interface HideoutRequirement {
+  type: string;
+  name: string;
+  quantity: number;
+  id: number;
+}
+
+export interface HideoutModule {
+  module: string;
+  level: number;
+  require: HideoutRequirement[];
+  bonuses?: any[];
+  require_build?: number;
+  time?: number;
+}
+
+export interface HideoutDatabase {
+  stations: HideoutStation[];
+  modules: HideoutModule[];
+}
+
+// Wiki hideout types
+export interface WikiHideoutStation {
+  name: string;
+  function?: string;
+  imgSource?: string;
+}
+
+export interface WikiHideoutModule {
+  name: string;
+  level: number;
+  requirements?: any[];
+  bonuses?: string;
+  constructionTime?: string;
+}

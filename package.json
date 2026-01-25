@@ -11,6 +11,9 @@
     "update:ammo": "tsx src/syncAmmunition.ts",
     "fetch:calibers": "tsx src/fetchCalibers.ts",
     "fetch:ammo": "tsx src/fetchAmmoData.ts",
+    "sync:hideout": "tsx src/syncHideout.ts",
+    "update:hideout": "tsx src/syncHideout.ts",
+    "fetch:hideout": "tsx src/fetchHideoutData.ts",
     "report:missing": "tsx src/reportMissing.ts"
   },
   "repository": {

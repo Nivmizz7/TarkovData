@@ -168,6 +168,60 @@
             },
             "function": "Provides passive income boosts and produces rare data items",
             "imgSource": "/img/Intelligence_Center_Portrait.png"
+        },
+        {
+            "id": 21,
+            "locales": {
+                "en": "Cultist Circle"
+            },
+            "function": "",
+            "imgSource": "/img/Cultist_Circle_Portrait.png",
+            "disabled": false
+        },
+        {
+            "id": 22,
+            "locales": {
+                "en": "Defective Wall"
+            },
+            "function": "",
+            "imgSource": "/img/Defective_Wall_Portrait.png",
+            "disabled": false
+        },
+        {
+            "id": 23,
+            "locales": {
+                "en": "Gear Rack"
+            },
+            "function": "",
+            "imgSource": "/img/Gear_Rack_Portrait.png",
+            "disabled": false
+        },
+        {
+            "id": 24,
+            "locales": {
+                "en": "Gym"
+            },
+            "function": "",
+            "imgSource": "/img/Gym_Portrait.png",
+            "disabled": false
+        },
+        {
+            "id": 25,
+            "locales": {
+                "en": "Hall of Fame"
+            },
+            "function": "",
+            "imgSource": "/img/Hall_of_Fame_Portrait.png",
+            "disabled": false
+        },
+        {
+            "id": 26,
+            "locales": {
+                "en": "Weapon Rack"
+            },
+            "function": "",
+            "imgSource": "/img/Weapon_Rack_Portrait.png",
+            "disabled": false
         }
     ],
     "modules": [
@@ -2525,6 +2579,141 @@
             ],
             "id": 5,
             "stationId": 19
+        },
+        {
+            "module": "Cultist Circle",
+            "level": 1,
+            "require": []
+        },
+        {
+            "module": "Defective Wall",
+            "level": 1,
+            "require": []
+        },
+        {
+            "module": "Defective Wall",
+            "level": 2,
+            "require": []
+        },
+        {
+            "module": "Defective Wall",
+            "level": 3,
+            "require": []
+        },
+        {
+            "module": "Defective Wall",
+            "level": 4,
+            "require": []
+        },
+        {
+            "module": "Defective Wall",
+            "level": 5,
+            "require": []
+        },
+        {
+            "module": "Defective Wall",
+            "level": 6,
+            "require": []
+        },
+        {
+            "module": "Gear Rack",
+            "level": 1,
+            "require": []
+        },
+        {
+            "module": "Gear Rack",
+            "level": 2,
+            "require": []
+        },
+        {
+            "module": "Gear Rack",
+            "level": 3,
+            "require": []
+        },
+        {
+            "module": "Hall of Fame",
+            "level": 1,
+            "require": []
+        },
+        {
+            "module": "Hall of Fame",
+            "level": 2,
+            "require": []
+        },
+        {
+            "module": "Hall of Fame",
+            "level": 3,
+            "require": []
+        },
+        {
+            "module": "Gym",
+            "level": 1,
+            "require": []
+        },
+        {
+            "module": "Intelligence Center",
+            "level": 1,
+            "require": []
+        },
+        {
+            "module": "Intelligence Center",
+            "level": 2,
+            "require": []
+        },
+        {
+            "module": "Intelligence Center",
+            "level": 3,
+            "require": []
+        },
+        {
+            "module": "Nutrition Unit",
+            "level": 1,
+            "require": []
+        },
+        {
+            "module": "Nutrition Unit",
+            "level": 2,
+            "require": []
+        },
+        {
+            "module": "Nutrition Unit",
+            "level": 3,
+            "require": []
+        },
+        {
+            "module": "Rest Space",
+            "level": 1,
+            "require": []
+        },
+        {
+            "module": "Rest Space",
+            "level": 2,
+            "require": []
+        },
+        {
+            "module": "Rest Space",
+            "level": 3,
+            "require": []
+        },
+        {
+            "module": "Scav Case",
+            "level": 1,
+            "require": []
+        },
+        {
+            "module": "Weapon Rack",
+            "level": 1,
+            "require": []
+        },
+        {
+            "module": "Weapon Rack",
+            "level": 2,
+            "require": []
+        },
+        {
+            "module": "Weapon Rack",
+            "level": 3,
+            "require": []
         }
     ]
 }
