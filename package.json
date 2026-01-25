@@ -2,10 +2,16 @@
   "name": "tarkovdata",
   "version": "1.0.0",
   "description": "Escape From Tarkov game data for external tools & fan sites",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "verify-quest-data": "./cli.js verify-quest-data"
+    "verify-quest-data": "./cli.js verify-quest-data",
+    "sync:ammo": "tsx src/syncAmmunition.ts",
+    "update:ammo": "tsx src/syncAmmunition.ts",
+    "fetch:calibers": "tsx src/fetchCalibers.ts",
+    "fetch:ammo": "tsx src/fetchAmmoData.ts",
+    "report:missing": "tsx src/reportMissing.ts"
   },
   "repository": {
     "type": "git",
@@ -19,5 +25,11 @@
   "homepage": "https://thaddeus.github.io/tarkovdata/",
   "dependencies": {
     "vorpal": "^1.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "cheerio": "^1.0.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
   }
 }

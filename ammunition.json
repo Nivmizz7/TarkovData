@@ -17,6 +17,10 @@
       "ricochetChance": 0.05,
       "penetrationChance": 0.1,
       "penetrationPower": 13,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": -7,
       "accuracy": 0,
       "recoil": 0,
       "initialSpeed": 330
@@ -40,6 +44,10 @@
       "ricochetChance": 0.03,
       "penetrationChance": 0.085,
       "penetrationPower": 6,
+      "lightBleedingDelta": 15,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": -8,
       "accuracy": 0,
       "recoil": 0,
       "initialSpeed": 330
@@ -57,15 +65,19 @@
     "ammoType": "bullet",
     "projectileCount": 1,
     "ballistics": {
-      "damage": 79,
-      "armorDamage": 75,
-      "fragmentationChance": 0.14,
+      "damage": 82,
+      "armorDamage": 65,
+      "fragmentationChance": 0.15,
       "ricochetChance": 0.38,
       "penetrationChance": 0.67,
-      "penetrationPower": 44,
-      "accuracy": -6,
-      "recoil": -5,
-      "initialSpeed": 816
+      "penetrationPower": 42,
+      "accuracy": -10,
+      "recoil": 1,
+      "initialSpeed": 820,
+      "lightBleedingDelta": 10,
+      "heavyBleedingDelta": 10,
+      "durabilityBurnFactor": 15,
+      "heatFactor": 25
     }
   },
   "573718ba2459775a75491131": {
@@ -82,10 +94,14 @@
     "ballistics": {
       "damage": 53,
       "armorDamage": 28,
-      "fragmentationChance": 0.17,
+      "fragmentationChance": 0.15,
       "ricochetChance": 0.095,
       "penetrationChance": 0.11,
       "penetrationPower": 18,
+      "lightBleedingDelta": 15,
+      "heavyBleedingDelta": 10,
+      "durabilityBurnFactor": 15,
+      "heatFactor": 4,
       "accuracy": 0,
       "recoil": 0,
       "initialSpeed": 325
@@ -105,10 +121,14 @@
     "ballistics": {
       "damage": 58,
       "armorDamage": 33,
-      "fragmentationChance": 0.17,
+      "fragmentationChance": 0.6,
       "ricochetChance": 0.075,
       "penetrationChance": 0.11,
       "penetrationPower": 24,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 60,
+      "heatFactor": 8,
       "accuracy": 0,
       "recoil": 5,
       "initialSpeed": 420
@@ -132,6 +152,10 @@
       "ricochetChance": 0.05,
       "penetrationChance": 0.01,
       "penetrationPower": 1,
+      "lightBleedingDelta": 15,
+      "heavyBleedingDelta": 10,
+      "durabilityBurnFactor": -20,
+      "heatFactor": -14,
       "accuracy": 0,
       "recoil": 0,
       "initialSpeed": 250
@@ -155,6 +179,10 @@
       "ricochetChance": 0.065,
       "penetrationChance": 0.085,
       "penetrationPower": 5,
+      "lightBleedingDelta": 10,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": -7,
       "accuracy": 0,
       "recoil": 0,
       "initialSpeed": 302
@@ -178,6 +206,10 @@
       "ricochetChance": 0.01,
       "penetrationChance": 0.05,
       "penetrationPower": 3,
+      "lightBleedingDelta": 10,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": -8,
       "accuracy": 0,
       "recoil": 0,
       "initialSpeed": 280
@@ -197,10 +229,14 @@
     "ballistics": {
       "damage": 50,
       "armorDamage": 26,
-      "fragmentationChance": 0.2,
+      "fragmentationChance": 0.15,
       "ricochetChance": 0.1,
       "penetrationChance": 0.1,
       "penetrationPower": 12,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 15,
+      "heatFactor": 3,
       "accuracy": 0,
       "recoil": 0,
       "initialSpeed": 298
@@ -226,7 +262,11 @@
       "penetrationPower": 11,
       "accuracy": 0,
       "recoil": 0,
-      "initialSpeed": 427
+      "initialSpeed": 427,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": -2
     }
   },
   "57371f8d24597761006c6a81": {
@@ -247,6 +287,10 @@
       "ricochetChance": 0.065,
       "penetrationChance": 0.085,
       "penetrationPower": 5,
+      "lightBleedingDelta": 15,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": -9,
       "accuracy": 10,
       "recoil": 0,
       "initialSpeed": 315
@@ -266,13 +310,17 @@
     "ballistics": {
       "damage": 54,
       "armorDamage": 33,
-      "fragmentationChance": 0.15,
+      "fragmentationChance": 1.17,
       "ricochetChance": 0.05,
       "penetrationChance": 0.2,
       "penetrationPower": 20,
       "accuracy": 0,
       "recoil": 0,
-      "initialSpeed": 457
+      "initialSpeed": 457,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 117,
+      "heatFactor": 7
     }
   },
   "59e68f6f86f7746c9f75e846": {
@@ -287,15 +335,19 @@
     "ammoType": "bullet",
     "projectileCount": 1,
     "ballistics": {
-      "damage": 55,
-      "armorDamage": 34,
-      "fragmentationChance": 0.328,
+      "damage": 60,
+      "armorDamage": 26,
+      "fragmentationChance": 0.15,
       "ricochetChance": 0.38,
       "penetrationChance": 0.55,
-      "penetrationPower": 23,
+      "penetrationPower": 18,
       "accuracy": -2,
       "recoil": -2,
-      "initialSpeed": 874
+      "initialSpeed": 874,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 15,
+      "heatFactor": 63
     }
   },
   "57372140245977611f70ee91": {
@@ -316,6 +368,10 @@
       "ricochetChance": 0.05,
       "penetrationChance": 0.1,
       "penetrationPower": 2,
+      "lightBleedingDelta": 25,
+      "heavyBleedingDelta": 10,
+      "durabilityBurnFactor": 0,
+      "heatFactor": -6,
       "accuracy": 0,
       "recoil": 0,
       "initialSpeed": 420
@@ -333,15 +389,19 @@
     "ammoType": "bullet",
     "projectileCount": 1,
     "ballistics": {
-      "damage": 40,
-      "armorDamage": 58,
-      "fragmentationChance": 0.32,
+      "damage": 42,
+      "armorDamage": 52,
+      "fragmentationChance": 0.7,
       "ricochetChance": 0.36,
       "penetrationChance": 0.6,
       "penetrationPower": 53,
-      "accuracy": 0,
+      "accuracy": -7,
       "recoil": 8,
-      "initialSpeed": 1013
+      "initialSpeed": 1013,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 70,
+      "heatFactor": 80
     }
   },
   "59e6906286f7746c9f75e847": {
@@ -356,15 +416,19 @@
     "ammoType": "bullet",
     "projectileCount": 1,
     "ballistics": {
-      "damage": 51,
-      "armorDamage": 52,
-      "fragmentationChance": 0.328,
+      "damage": 52,
+      "armorDamage": 44,
+      "fragmentationChance": 0.2,
       "ricochetChance": 0.38,
       "penetrationChance": 0.55,
-      "penetrationPower": 37,
-      "accuracy": -1,
+      "penetrationPower": 38,
+      "accuracy": -4,
       "recoil": 4,
-      "initialSpeed": 940
+      "initialSpeed": 940,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 20,
+      "heatFactor": 65
     }
   },
   "54527ac44bdc2d36668b4567": {
@@ -379,15 +443,19 @@
     "ammoType": "bullet",
     "projectileCount": 1,
     "ballistics": {
-      "damage": 46,
-      "armorDamage": 52,
+      "damage": 49,
+      "armorDamage": 47,
       "fragmentationChance": 0.34,
       "ricochetChance": 0.38,
       "penetrationChance": 0.55,
-      "penetrationPower": 45,
-      "accuracy": -10,
+      "penetrationPower": 44,
+      "accuracy": -5,
       "recoil": 5,
-      "initialSpeed": 945
+      "initialSpeed": 945,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 34,
+      "heatFactor": 71
     }
   },
   "573719df2459775a626ccbc2": {
@@ -404,10 +472,14 @@
     "ballistics": {
       "damage": 40,
       "armorDamage": 30,
-      "fragmentationChance": 0.16,
+      "fragmentationChance": 0.7,
       "ricochetChance": 0.09,
       "penetrationChance": 0.12,
       "penetrationPower": 28,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 70,
+      "heatFactor": 14,
       "accuracy": 0,
       "recoil": 4,
       "initialSpeed": 519
@@ -425,15 +497,19 @@
     "ammoType": "bullet",
     "projectileCount": 1,
     "ballistics": {
-      "damage": 50,
-      "armorDamage": 35,
-      "fragmentationChance": 0.4,
+      "damage": 56,
+      "armorDamage": 40,
+      "fragmentationChance": 0.1,
       "ricochetChance": 0.4,
       "penetrationChance": 0.7,
-      "penetrationPower": 27,
+      "penetrationPower": 28,
       "accuracy": 0,
       "recoil": 0,
-      "initialSpeed": 890
+      "initialSpeed": 890,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 10,
+      "heatFactor": 48
     }
   },
   "560d61e84bdc2da74d8b4571": {
@@ -450,13 +526,17 @@
     "ballistics": {
       "damage": 75,
       "armorDamage": 87,
-      "fragmentationChance": 0.08,
+      "fragmentationChance": 0.2,
       "ricochetChance": 0.285,
       "penetrationChance": 0.84,
       "penetrationPower": 62,
       "accuracy": 0,
       "recoil": 10,
-      "initialSpeed": 875
+      "initialSpeed": 875,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 20,
+      "heatFactor": 133
     }
   },
   "57371eb62459776125652ac1": {
@@ -477,6 +557,10 @@
       "ricochetChance": 0.005,
       "penetrationChance": 0.085,
       "penetrationPower": 6,
+      "lightBleedingDelta": 15,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": -9,
       "accuracy": 0,
       "recoil": 0,
       "initialSpeed": 302
@@ -502,7 +586,11 @@
       "penetrationPower": 10,
       "accuracy": 0,
       "recoil": 0,
-      "initialSpeed": 340
+      "initialSpeed": 340,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 1
     }
   },
   "58dd3ad986f77403051cba8f": {
@@ -518,14 +606,18 @@
     "projectileCount": 1,
     "ballistics": {
       "damage": 80,
-      "armorDamage": 66,
-      "fragmentationChance": 0.17,
+      "armorDamage": 67,
+      "fragmentationChance": 0.12,
       "ricochetChance": 0.38,
       "penetrationChance": 0.75,
-      "penetrationPower": 41,
-      "accuracy": 0,
-      "recoil": 0,
-      "initialSpeed": 833
+      "penetrationPower": 43,
+      "accuracy": -13,
+      "recoil": 1,
+      "initialSpeed": 820,
+      "lightBleedingDelta": 8,
+      "heavyBleedingDelta": 8,
+      "durabilityBurnFactor": 12,
+      "heatFactor": 10
     }
   },
   "59e6918f86f7746c9f75e849": {
@@ -540,15 +632,19 @@
     "ammoType": "bullet",
     "projectileCount": 1,
     "ballistics": {
-      "damage": 60,
-      "armorDamage": 32,
-      "fragmentationChance": 0.03,
+      "damage": 72,
+      "armorDamage": 24,
+      "fragmentationChance": 0.1,
       "ricochetChance": 0.1,
       "penetrationChance": 0.2,
-      "penetrationPower": 17,
+      "penetrationPower": 11,
       "accuracy": 0,
       "recoil": 0,
-      "initialSpeed": 936
+      "initialSpeed": 936,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 10,
+      "heatFactor": 59
     }
   },
   "5887431f2459777e1612938f": {
@@ -565,13 +661,17 @@
     "ballistics": {
       "damage": 81,
       "armorDamage": 78,
-      "fragmentationChance": 0.18,
+      "fragmentationChance": 0.1,
       "ricochetChance": 0.39,
       "penetrationChance": 0.76,
       "penetrationPower": 42,
-      "accuracy": 0,
+      "accuracy": -5,
       "recoil": 0,
-      "initialSpeed": 865
+      "initialSpeed": 865,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 10,
+      "heatFactor": 131
     }
   },
   "56dff338d2720bbd668b4569": {
@@ -586,15 +686,19 @@
     "ammoType": "bullet",
     "projectileCount": 1,
     "ballistics": {
-      "damage": 60,
-      "armorDamage": 28,
-      "fragmentationChance": 0.3,
+      "damage": 70,
+      "armorDamage": 24,
+      "fragmentationChance": 0.15,
       "ricochetChance": 0.04,
       "penetrationChance": 0.51,
-      "penetrationPower": 14,
+      "penetrationPower": 13,
       "accuracy": 0,
       "recoil": -5,
-      "initialSpeed": 866
+      "initialSpeed": 866,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 15,
+      "heatFactor": 50
     }
   },
   "56dff061d2720bb5668b4567": {
@@ -609,15 +713,19 @@
     "ammoType": "bullet",
     "projectileCount": 1,
     "ballistics": {
-      "damage": 44,
-      "armorDamage": 49,
-      "fragmentationChance": 0.164,
+      "damage": 54,
+      "armorDamage": 44,
+      "fragmentationChance": 0.5,
       "ricochetChance": 0.37,
       "penetrationChance": 0.66,
       "penetrationPower": 37,
-      "accuracy": -2,
-      "recoil": 3,
-      "initialSpeed": 880
+      "accuracy": -4,
+      "recoil": 5,
+      "initialSpeed": 880,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 50,
+      "heatFactor": 68
     }
   },
   "5ba26835d4351e0035628ff5": {
@@ -634,13 +742,17 @@
     "ballistics": {
       "damage": 35,
       "armorDamage": 46,
-      "fragmentationChance": 0.1,
+      "fragmentationChance": 0.5,
       "ricochetChance": 0.6,
       "penetrationChance": 0.6,
       "penetrationPower": 53,
       "accuracy": 0,
       "recoil": 10,
-      "initialSpeed": 680
+      "initialSpeed": 680,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 50,
+      "heatFactor": 10
     }
   },
   "573601b42459776410737435": {
@@ -657,13 +769,17 @@
     "ballistics": {
       "damage": 64,
       "armorDamage": 28,
-      "fragmentationChance": 0.35,
+      "fragmentationChance": 0.15,
       "ricochetChance": 0.05,
       "penetrationChance": 0.16,
       "penetrationPower": 8,
       "accuracy": 5,
       "recoil": -5,
-      "initialSpeed": 375
+      "initialSpeed": 375,
+      "lightBleedingDelta": 15,
+      "heavyBleedingDelta": 10,
+      "durabilityBurnFactor": 15,
+      "heatFactor": 6
     }
   },
   "56dff421d2720b5f5a8b4567": {
@@ -678,15 +794,19 @@
     "ammoType": "bullet",
     "projectileCount": 1,
     "ballistics": {
-      "damage": 68,
-      "armorDamage": 34,
+      "damage": 67,
+      "armorDamage": 31,
       "fragmentationChance": 0.45,
       "ricochetChance": 0.15,
       "penetrationChance": 0.4,
-      "penetrationPower": 11,
-      "accuracy": 10,
-      "recoil": -15,
-      "initialSpeed": 873
+      "penetrationPower": 15,
+      "accuracy": 5,
+      "recoil": -5,
+      "initialSpeed": 873,
+      "lightBleedingDelta": 10,
+      "heavyBleedingDelta": 10,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 45
     }
   },
   "59e6927d86f77411da468256": {
@@ -701,15 +821,19 @@
     "ammoType": "bullet",
     "projectileCount": 1,
     "ballistics": {
-      "damage": 75,
+      "damage": 79,
       "armorDamage": 22,
       "fragmentationChance": 0.7,
       "ricochetChance": 0.2,
       "penetrationChance": 0.4,
-      "penetrationPower": 9,
+      "penetrationPower": 7,
       "accuracy": 0,
       "recoil": 0,
-      "initialSpeed": 947
+      "initialSpeed": 947,
+      "lightBleedingDelta": 15,
+      "heavyBleedingDelta": 15,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 55
     }
   },
   "57371e4124597760ff7b25f1": {
@@ -726,10 +850,14 @@
     "ballistics": {
       "damage": 59,
       "armorDamage": 22,
-      "fragmentationChance": 0.166,
+      "fragmentationChance": 0.15,
       "ricochetChance": 0.1,
       "penetrationChance": 0.09,
       "penetrationPower": 8,
+      "lightBleedingDelta": 15,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 15,
+      "heatFactor": 3,
       "accuracy": -5,
       "recoil": -7,
       "initialSpeed": 301
@@ -747,15 +875,19 @@
     "ammoType": "bullet",
     "projectileCount": 1,
     "ballistics": {
-      "damage": 74,
-      "armorDamage": 20,
+      "damage": 76,
+      "armorDamage": 15,
       "fragmentationChance": 0.35,
       "ricochetChance": 0.2,
       "penetrationChance": 0.48,
-      "penetrationPower": 11,
-      "accuracy": 0,
-      "recoil": 5,
-      "initialSpeed": 884
+      "penetrationPower": 9,
+      "accuracy": 3,
+      "recoil": -3,
+      "initialSpeed": 884,
+      "lightBleedingDelta": 15,
+      "heavyBleedingDelta": 15,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 41
     }
   },
   "54527a984bdc2d4e668b4567": {
@@ -770,38 +902,19 @@
     "ammoType": "bullet",
     "projectileCount": 1,
     "ballistics": {
-      "damage": 50,
+      "damage": 54,
       "armorDamage": 37,
-      "fragmentationChance": 0.4,
+      "fragmentationChance": 0.15,
       "ricochetChance": 0.4,
       "penetrationChance": 0.5,
-      "penetrationPower": 28,
-      "accuracy": -5,
-      "recoil": 0,
-      "initialSpeed": 922
-    }
-  },
-  "5c0d5e4486f77478390952fe": {
-    "id": "5c0d5e4486f77478390952fe",
-    "name": "5.45x39mm PPBS gs \"Igolnik\"",
-    "shortName": "PPBS",
-    "weight": 0.011,
-    "caliber": "Caliber545x39",
-    "stackMaxSize": 60,
-    "tracer": false,
-    "tracerColor": "red",
-    "ammoType": "bullet",
-    "projectileCount": 1,
-    "ballistics": {
-      "damage": 37,
-      "armorDamage": 60,
-      "fragmentationChance": 0.02,
-      "ricochetChance": 0.38,
-      "penetrationChance": 0.8,
-      "penetrationPower": 62,
+      "penetrationPower": 31,
       "accuracy": 0,
-      "recoil": 15,
-      "initialSpeed": 905
+      "recoil": 0,
+      "initialSpeed": 922,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 15,
+      "heatFactor": 61
     }
   },
   "59e6658b86f77411d949b250": {
@@ -818,13 +931,17 @@
     "ballistics": {
       "damage": 110,
       "armorDamage": 38,
-      "fragmentationChance": 0.45,
+      "fragmentationChance": 0.35,
       "ricochetChance": 0.05,
       "penetrationChance": 0.12,
       "penetrationPower": 14,
       "accuracy": 0,
       "recoil": 0,
-      "initialSpeed": 550
+      "initialSpeed": 550,
+      "lightBleedingDelta": 30,
+      "heavyBleedingDelta": 10,
+      "durabilityBurnFactor": 35,
+      "heatFactor": 104
     }
   },
   "59e6542b86f77411dc52a77a": {
@@ -847,30 +964,11 @@
       "penetrationPower": 23,
       "accuracy": 0,
       "recoil": 10,
-      "initialSpeed": 580
-    }
-  },
-  "5c3df7d588a4501f290594e5": {
-    "id": "5c3df7d588a4501f290594e5",
-    "name": "9x19mm T gzh",
-    "shortName": "T",
-    "weight": 0.006,
-    "caliber": "Caliber9x19PARA",
-    "stackMaxSize": 50,
-    "tracer": true,
-    "tracerColor": "tracerGreen",
-    "ammoType": "bullet",
-    "projectileCount": 1,
-    "ballistics": {
-      "damage": 58,
-      "armorDamage": 33,
-      "fragmentationChance": 0.15,
-      "ricochetChance": 0.05,
-      "penetrationChance": 0.2,
-      "penetrationPower": 14,
-      "accuracy": -5,
-      "recoil": -6,
-      "initialSpeed": 365
+      "initialSpeed": 580,
+      "lightBleedingDelta": 20,
+      "heavyBleedingDelta": 25,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 83
     }
   },
   "5ba26812d4351e003201fef1": {
@@ -886,14 +984,18 @@
     "projectileCount": 1,
     "ballistics": {
       "damage": 65,
-      "armorDamage": 39,
+      "armorDamage": 28,
       "fragmentationChance": 0.5,
       "ricochetChance": 0.3,
       "penetrationChance": 0.2,
       "penetrationPower": 18,
       "accuracy": 0,
       "recoil": 0,
-      "initialSpeed": 690
+      "initialSpeed": 690,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": -1
     }
   },
   "573603562459776430731618": {
@@ -910,13 +1012,17 @@
     "ballistics": {
       "damage": 50,
       "armorDamage": 36,
-      "fragmentationChance": 0.2,
+      "fragmentationChance": 0.4,
       "ricochetChance": 0.1,
       "penetrationChance": 0.2,
       "penetrationPower": 25,
       "accuracy": 0,
       "recoil": 0,
-      "initialSpeed": 430
+      "initialSpeed": 430,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 40,
+      "heatFactor": 7
     }
   },
   "5736026a245977644601dc61": {
@@ -939,7 +1045,11 @@
       "penetrationPower": 14,
       "accuracy": 0,
       "recoil": 0,
-      "initialSpeed": 430
+      "initialSpeed": 430,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": -4
     }
   },
   "5a38ebd9c4a282000d722a5b": {
@@ -954,15 +1064,19 @@
     "ammoType": "buckshot",
     "projectileCount": 8,
     "ballistics": {
-      "damage": 25,
+      "damage": 8,
       "armorDamage": 14,
-      "fragmentationChance": 0,
+      "fragmentationChance": 0.35,
       "ricochetChance": 0,
       "penetrationChance": 0.02,
       "penetrationPower": 3,
       "accuracy": 0,
       "recoil": 0,
-      "initialSpeed": 430
+      "initialSpeed": 430,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
     }
   },
   "59e655cb86f77411dc52a77b": {
@@ -985,7 +1099,11 @@
       "penetrationPower": 30,
       "accuracy": -10,
       "recoil": -15,
-      "initialSpeed": 770
+      "initialSpeed": 770,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 20,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 81
     }
   },
   "573602322459776445391df1": {
@@ -1002,13 +1120,17 @@
     "ballistics": {
       "damage": 66,
       "armorDamage": 27,
-      "fragmentationChance": 0.35,
+      "fragmentationChance": 0.15,
       "ricochetChance": 0.05,
       "penetrationChance": 0.16,
       "penetrationPower": 7,
       "accuracy": 10,
       "recoil": -10,
-      "initialSpeed": 385
+      "initialSpeed": 385,
+      "lightBleedingDelta": 15,
+      "heavyBleedingDelta": 10,
+      "durabilityBurnFactor": 15,
+      "heatFactor": 6
     }
   },
   "5656d7c34bdc2d9d198b4587": {
@@ -1023,15 +1145,19 @@
     "ammoType": "bullet",
     "projectileCount": 1,
     "ballistics": {
-      "damage": 57,
+      "damage": 61,
       "armorDamage": 52,
-      "fragmentationChance": 0.25,
+      "fragmentationChance": 0.2,
       "ricochetChance": 0.35,
       "penetrationChance": 0.4,
-      "penetrationPower": 32,
+      "penetrationPower": 35,
       "accuracy": 0,
       "recoil": 0,
-      "initialSpeed": 700
+      "initialSpeed": 717,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 20,
+      "heatFactor": 12
     }
   },
   "56dff4ecd2720b5f5a8b4568": {
@@ -1047,14 +1173,18 @@
     "projectileCount": 1,
     "ballistics": {
       "damage": 65,
-      "armorDamage": 34,
+      "armorDamage": 33,
       "fragmentationChance": 0.1,
       "ricochetChance": 0.4,
       "penetrationChance": 0.45,
-      "penetrationPower": 15,
+      "penetrationPower": 17,
       "accuracy": 0,
-      "recoil": -25,
-      "initialSpeed": 303
+      "recoil": -15,
+      "initialSpeed": 303,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": -20,
+      "heatFactor": 32
     }
   },
   "5735fdcd2459776445391d61": {
@@ -1077,7 +1207,11 @@
       "penetrationPower": 12,
       "accuracy": 15,
       "recoil": -15,
-      "initialSpeed": 425
+      "initialSpeed": 425,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": -5
     }
   },
   "59e4d3d286f774176a36250a": {
@@ -1092,15 +1226,19 @@
     "ammoType": "bullet",
     "projectileCount": 1,
     "ballistics": {
-      "damage": 87,
-      "armorDamage": 35,
+      "damage": 80,
+      "armorDamage": 20,
       "fragmentationChance": 0.2625,
       "ricochetChance": 0.175,
       "penetrationChance": 0.26,
       "penetrationPower": 15,
       "accuracy": -5,
-      "recoil": 0,
-      "initialSpeed": 754
+      "recoil": 5,
+      "initialSpeed": 754,
+      "lightBleedingDelta": 15,
+      "heavyBleedingDelta": 15,
+      "durabilityBurnFactor": 0,
+      "heatFactor": -7
     }
   },
   "59e6920f86f77411d82aa167": {
@@ -1115,15 +1253,19 @@
     "ammoType": "bullet",
     "projectileCount": 1,
     "ballistics": {
-      "damage": 52,
+      "damage": 57,
       "armorDamage": 33,
       "fragmentationChance": 0.5,
       "ricochetChance": 0.26,
       "penetrationChance": 0.425,
-      "penetrationPower": 24,
-      "accuracy": 10,
-      "recoil": -5,
-      "initialSpeed": 957
+      "penetrationPower": 23,
+      "accuracy": 0,
+      "recoil": 0,
+      "initialSpeed": 957,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 50
     }
   },
   "5ba2678ad4351e44f824b344": {
@@ -1146,7 +1288,11 @@
       "penetrationPower": 40,
       "accuracy": 0,
       "recoil": 0,
-      "initialSpeed": 620
+      "initialSpeed": 620,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
     }
   },
   "56dfef82d2720bbd668b4567": {
@@ -1161,15 +1307,19 @@
     "ammoType": "bullet",
     "projectileCount": 1,
     "ballistics": {
-      "damage": 49,
-      "armorDamage": 41,
-      "fragmentationChance": 0.16,
+      "damage": 48,
+      "armorDamage": 46,
+      "fragmentationChance": 0.35,
       "ricochetChance": 0.36,
       "penetrationChance": 0.72,
-      "penetrationPower": 35,
-      "accuracy": 0,
-      "recoil": 0,
-      "initialSpeed": 890
+      "penetrationPower": 45,
+      "accuracy": -3,
+      "recoil": 7,
+      "initialSpeed": 890,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 35,
+      "heatFactor": 59
     }
   },
   "56dff026d2720bb8668b4567": {
@@ -1184,15 +1334,19 @@
     "ammoType": "bullet",
     "projectileCount": 1,
     "ballistics": {
-      "damage": 40,
+      "damage": 45,
       "armorDamage": 57,
-      "fragmentationChance": 0.17,
+      "fragmentationChance": 0.45,
       "ricochetChance": 0.38,
       "penetrationChance": 0.75,
-      "penetrationPower": 51,
-      "accuracy": -3,
+      "penetrationPower": 54,
+      "accuracy": -4,
       "recoil": 10,
-      "initialSpeed": 830
+      "initialSpeed": 830,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 45,
+      "heatFactor": 69
     }
   },
   "59e4d24686f7741776641ac7": {
@@ -1215,7 +1369,11 @@
       "penetrationPower": 29,
       "accuracy": 5,
       "recoil": -30,
-      "initialSpeed": 300
+      "initialSpeed": 301,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": -20,
+      "heatFactor": -10
     }
   },
   "59e4cf5286f7741778269d8a": {
@@ -1230,15 +1388,19 @@
     "ammoType": "bullet",
     "projectileCount": 1,
     "ballistics": {
-      "damage": 62,
+      "damage": 65,
       "armorDamage": 46,
-      "fragmentationChance": 0.12,
+      "fragmentationChance": 0.2,
       "ricochetChance": 0.35,
       "penetrationChance": 0.33,
       "penetrationPower": 30,
       "accuracy": -4,
       "recoil": -6,
-      "initialSpeed": 720
+      "initialSpeed": 720,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 20,
+      "heatFactor": 20
     }
   },
   "5d6e6a05a4b93618084f58d0": {
@@ -1255,13 +1417,17 @@
     "ballistics": {
       "damage": 154,
       "armorDamage": 42,
-      "fragmentationChance": 0.1,
+      "fragmentationChance": 0.8,
       "ricochetChance": 0.1,
       "penetrationChance": 0.17,
       "penetrationPower": 16,
       "accuracy": 130,
       "recoil": 5,
-      "initialSpeed": 415
+      "initialSpeed": 415,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
     }
   },
   "56dff4a2d2720bbd668b456a": {
@@ -1276,15 +1442,19 @@
     "ammoType": "bullet",
     "projectileCount": 1,
     "ballistics": {
-      "damage": 57,
-      "armorDamage": 38,
-      "fragmentationChance": 0.16,
+      "damage": 59,
+      "armorDamage": 36,
+      "fragmentationChance": 0.15,
       "ricochetChance": 0.4,
       "penetrationChance": 0.54,
       "penetrationPower": 20,
-      "accuracy": -5,
-      "recoil": -5,
-      "initialSpeed": 883
+      "accuracy": -3,
+      "recoil": 0,
+      "initialSpeed": 883,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 15,
+      "heatFactor": 52
     }
   },
   "59e0d99486f7744a32234762": {
@@ -1301,13 +1471,17 @@
     "ballistics": {
       "damage": 58,
       "armorDamage": 63,
-      "fragmentationChance": 0.12,
+      "fragmentationChance": 0.45,
       "ricochetChance": 0.315,
       "penetrationChance": 0.6,
       "penetrationPower": 47,
       "accuracy": -3,
-      "recoil": 5,
-      "initialSpeed": 730
+      "recoil": 7,
+      "initialSpeed": 730,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 45,
+      "heatFactor": 91
     }
   },
   "573603c924597764442bd9cb": {
@@ -1324,13 +1498,17 @@
     "ballistics": {
       "damage": 55,
       "armorDamage": 34,
-      "fragmentationChance": 0.166,
+      "fragmentationChance": 0.5,
       "ricochetChance": 0.1,
       "penetrationChance": 0.18,
       "penetrationPower": 18,
       "accuracy": -10,
       "recoil": 0,
-      "initialSpeed": 415
+      "initialSpeed": 415,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 50,
+      "heatFactor": 18
     }
   },
   "5a6086ea4f39f99cd479502f": {
@@ -1345,38 +1523,19 @@
     "ammoType": "bullet",
     "projectileCount": 1,
     "ballistics": {
-      "damage": 70,
-      "armorDamage": 83,
-      "fragmentationChance": 0.13,
+      "damage": 73,
+      "armorDamage": 79,
+      "fragmentationChance": 0.4,
       "ricochetChance": 0.3,
       "penetrationChance": 0.9,
-      "penetrationPower": 64,
-      "accuracy": 3,
-      "recoil": 10,
-      "initialSpeed": 849
-    }
-  },
-  "57371b192459775a9f58a5e0": {
-    "id": "57371b192459775a9f58a5e0",
-    "name": "9x18mm PM Ppe gzh",
-    "shortName": "Ppe",
-    "weight": 0.009,
-    "caliber": "Caliber9x18PM",
-    "stackMaxSize": 50,
-    "tracer": false,
-    "tracerColor": "red",
-    "ammoType": "bullet",
-    "projectileCount": 1,
-    "ballistics": {
-      "damage": 61,
-      "armorDamage": 15,
-      "fragmentationChance": 0.35,
-      "ricochetChance": 0.05,
-      "penetrationChance": 0.08,
-      "penetrationPower": 7,
-      "accuracy": 0,
-      "recoil": 0,
-      "initialSpeed": 297
+      "penetrationPower": 60,
+      "accuracy": 5,
+      "recoil": 3,
+      "initialSpeed": 833,
+      "lightBleedingDelta": 6,
+      "heavyBleedingDelta": 6,
+      "durabilityBurnFactor": 40,
+      "heatFactor": 30
     }
   },
   "59e77a2386f7742ee578960a": {
@@ -1391,15 +1550,19 @@
     "ammoType": "bullet",
     "projectileCount": 1,
     "ballistics": {
-      "damage": 86,
+      "damage": 84,
       "armorDamage": 84,
-      "fragmentationChance": 0.083,
+      "fragmentationChance": 0.15,
       "ricochetChance": 0.285,
       "penetrationChance": 0.77,
       "penetrationPower": 45,
       "accuracy": 10,
       "recoil": 8,
-      "initialSpeed": 875
+      "initialSpeed": 875,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 15,
+      "heatFactor": 118
     }
   },
   "5ba26844d4351e00334c9475": {
@@ -1414,15 +1577,19 @@
     "ammoType": "bullet",
     "projectileCount": 1,
     "ballistics": {
-      "damage": 45,
-      "armorDamage": 46,
+      "damage": 52,
+      "armorDamage": 33,
       "fragmentationChance": 0.2,
       "ricochetChance": 0.5,
       "penetrationChance": 0.3,
-      "penetrationPower": 36,
+      "penetrationPower": 23,
       "accuracy": 10,
       "recoil": -22,
-      "initialSpeed": 290
+      "initialSpeed": 290,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": -30,
+      "heatFactor": -12
     }
   },
   "56dff0bed2720bb0668b4567": {
@@ -1437,15 +1604,19 @@
     "ammoType": "bullet",
     "projectileCount": 1,
     "ballistics": {
-      "damage": 56,
-      "armorDamage": 30,
+      "damage": 55,
+      "armorDamage": 38,
       "fragmentationChance": 0.25,
       "ricochetChance": 0.26,
       "penetrationChance": 0.51,
-      "penetrationPower": 21,
+      "penetrationPower": 24,
       "accuracy": 0,
       "recoil": 0,
-      "initialSpeed": 884
+      "initialSpeed": 884,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 43
     }
   },
   "5c0d5ae286f7741e46554302": {
@@ -1460,15 +1631,19 @@
     "ammoType": "bullet",
     "projectileCount": 1,
     "ballistics": {
-      "damage": 85,
-      "armorDamage": 14,
+      "damage": 88,
+      "armorDamage": 11,
       "fragmentationChance": 0.9,
       "ricochetChance": 0.05,
       "penetrationChance": 0.2,
       "penetrationPower": 3,
       "accuracy": 10,
       "recoil": 10,
-      "initialSpeed": 936
+      "initialSpeed": 936,
+      "lightBleedingDelta": 20,
+      "heavyBleedingDelta": 20,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 53
     }
   },
   "56dff2ced2720bb4668b4567": {
@@ -1483,61 +1658,19 @@
     "ammoType": "bullet",
     "projectileCount": 1,
     "ballistics": {
-      "damage": 48,
-      "armorDamage": 32,
-      "fragmentationChance": 0.17,
+      "damage": 51,
+      "armorDamage": 42,
+      "fragmentationChance": 0.2,
       "ricochetChance": 0.38,
       "penetrationChance": 0.66,
-      "penetrationPower": 33,
-      "accuracy": 0,
-      "recoil": 0,
-      "initialSpeed": 886
-    }
-  },
-  "5cde8864d7f00c0010373be1": {
-    "id": "5cde8864d7f00c0010373be1",
-    "name": "12.7x108mm B-32 gl",
-    "shortName": "B-32",
-    "weight": 0.133,
-    "caliber": "Caliber127x108",
-    "stackMaxSize": 20,
-    "tracer": false,
-    "tracerColor": "red",
-    "ammoType": "bullet",
-    "projectileCount": 1,
-    "ballistics": {
-      "damage": 182,
-      "armorDamage": 88,
-      "fragmentationChance": 0.17,
-      "ricochetChance": 0.38,
-      "penetrationChance": 0.75,
-      "penetrationPower": 88,
-      "accuracy": 0,
-      "recoil": 0,
-      "initialSpeed": 818
-    }
-  },
-  "5d70e500a4b9364de70d38ce": {
-    "id": "5d70e500a4b9364de70d38ce",
-    "name": "30x29mm VOG-30",
-    "shortName": "VOG-30",
-    "weight": 0.35,
-    "caliber": "Caliber30x29",
-    "stackMaxSize": 1,
-    "tracer": false,
-    "tracerColor": "green",
-    "ammoType": "grenade",
-    "projectileCount": 1,
-    "ballistics": {
-      "damage": 199,
-      "armorDamage": 95,
-      "fragmentationChance": 0,
-      "ricochetChance": 0,
-      "penetrationChance": 0,
-      "penetrationPower": 1,
-      "accuracy": 0,
-      "recoil": 0,
-      "initialSpeed": 185
+      "penetrationPower": 34,
+      "accuracy": -2,
+      "recoil": 3,
+      "initialSpeed": 886,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 20,
+      "heatFactor": 54
     }
   },
   "5a269f97c4a282000b151807": {
@@ -1552,15 +1685,19 @@
     "ammoType": "bullet",
     "projectileCount": 1,
     "ballistics": {
-      "damage": 49,
-      "armorDamage": 46,
-      "fragmentationChance": 0.2,
+      "damage": 59,
+      "armorDamage": 39,
+      "fragmentationChance": 0.35,
       "ricochetChance": 0.4,
       "penetrationChance": 0.6,
-      "penetrationPower": 35,
-      "accuracy": 0,
-      "recoil": 0,
-      "initialSpeed": 410
+      "penetrationPower": 22,
+      "accuracy": 1,
+      "recoil": -3,
+      "initialSpeed": 410,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 35,
+      "heatFactor": 18
     }
   },
   "5a26abfac4a28232980eabff": {
@@ -1577,13 +1714,17 @@
     "ballistics": {
       "damage": 65,
       "armorDamage": 44,
-      "fragmentationChance": 0.3,
+      "fragmentationChance": 0.1,
       "ricochetChance": 0.2,
       "penetrationChance": 0.3,
       "penetrationPower": 18,
       "accuracy": 0,
       "recoil": 0,
-      "initialSpeed": 413
+      "initialSpeed": 413,
+      "lightBleedingDelta": 15,
+      "heavyBleedingDelta": 10,
+      "durabilityBurnFactor": 10,
+      "heatFactor": 0
     }
   },
   "5c0d56a986f774449d5de529": {
@@ -1600,13 +1741,17 @@
     "ballistics": {
       "damage": 102,
       "armorDamage": 11,
-      "fragmentationChance": 1,
+      "fragmentationChance": 0.2,
       "ricochetChance": 0.002,
       "penetrationChance": 0.02,
       "penetrationPower": 2,
       "accuracy": 0,
-      "recoil": 20,
-      "initialSpeed": 381
+      "recoil": 5,
+      "initialSpeed": 381,
+      "lightBleedingDelta": 30,
+      "heavyBleedingDelta": 10,
+      "durabilityBurnFactor": 20,
+      "heatFactor": 8
     }
   },
   "5c925fa22e221601da359b7b": {
@@ -1623,13 +1768,17 @@
     "ballistics": {
       "damage": 52,
       "armorDamage": 48,
-      "fragmentationChance": 0.05,
+      "fragmentationChance": 0.35,
       "ricochetChance": 0.2,
       "penetrationChance": 0.4,
       "penetrationPower": 30,
       "accuracy": 0,
       "recoil": 0,
-      "initialSpeed": 392
+      "initialSpeed": 392,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 35,
+      "heatFactor": 13
     }
   },
   "5a3c16fe86f77452b62de32a": {
@@ -1646,36 +1795,17 @@
     "ballistics": {
       "damage": 70,
       "armorDamage": 38,
-      "fragmentationChance": 0.25,
+      "fragmentationChance": 0.1,
       "ricochetChance": 0.065,
       "penetrationChance": 0.12,
       "penetrationPower": 10,
       "accuracy": 0,
       "recoil": 0,
-      "initialSpeed": 420
-    }
-  },
-  "5656eb674bdc2d35148b457c": {
-    "id": "5656eb674bdc2d35148b457c",
-    "name": "40mm VOG-25",
-    "shortName": "40mm",
-    "weight": 0.25,
-    "caliber": "Caliber40mmRU",
-    "stackMaxSize": 1,
-    "tracer": false,
-    "tracerColor": "red",
-    "ammoType": "grenade",
-    "projectileCount": 1,
-    "ballistics": {
-      "damage": 0,
-      "armorDamage": 68,
-      "fragmentationChance": 0,
-      "ricochetChance": 0,
-      "penetrationChance": 0,
-      "penetrationPower": 0,
-      "accuracy": 0,
-      "recoil": 0,
-      "initialSpeed": 76
+      "initialSpeed": 420,
+      "lightBleedingDelta": 20,
+      "heavyBleedingDelta": 20,
+      "durabilityBurnFactor": 10,
+      "heatFactor": -4
     }
   },
   "5c0d688c86f77413ae3407b2": {
@@ -1690,15 +1820,19 @@
     "ammoType": "bullet",
     "projectileCount": 1,
     "ballistics": {
-      "damage": 60,
-      "armorDamage": 68,
-      "fragmentationChance": 0.1,
+      "damage": 58,
+      "armorDamage": 69,
+      "fragmentationChance": 0.35,
       "ricochetChance": 0.5,
       "penetrationChance": 0.75,
-      "penetrationPower": 55,
+      "penetrationPower": 54,
       "accuracy": 10,
-      "recoil": 22,
-      "initialSpeed": 295
+      "recoil": 15,
+      "initialSpeed": 295,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 35,
+      "heatFactor": 61
     }
   },
   "5a26ac06c4a282000c5a90a8": {
@@ -1715,13 +1849,17 @@
     "ballistics": {
       "damage": 80,
       "armorDamage": 63,
-      "fragmentationChance": 0.35,
+      "fragmentationChance": 0.1,
       "ricochetChance": 0.2,
       "penetrationChance": 0.4,
       "penetrationPower": 15,
-      "accuracy": 0,
-      "recoil": 0,
-      "initialSpeed": 415
+      "accuracy": 3,
+      "recoil": -5,
+      "initialSpeed": 415,
+      "lightBleedingDelta": 15,
+      "heavyBleedingDelta": 10,
+      "durabilityBurnFactor": 10,
+      "heatFactor": 0
     }
   },
   "5c0d668f86f7747ccb7f13b2": {
@@ -1736,15 +1874,19 @@
     "ammoType": "bullet",
     "projectileCount": 1,
     "ballistics": {
-      "damage": 64,
-      "armorDamage": 56,
-      "fragmentationChance": 0.2,
+      "damage": 68,
+      "armorDamage": 48,
+      "fragmentationChance": 0.1,
       "ricochetChance": 0.4,
       "penetrationChance": 0.6,
-      "penetrationPower": 50,
+      "penetrationPower": 35,
       "accuracy": 10,
-      "recoil": 20,
-      "initialSpeed": 310
+      "recoil": 7,
+      "initialSpeed": 310,
+      "lightBleedingDelta": 10,
+      "heavyBleedingDelta": 20,
+      "durabilityBurnFactor": 10,
+      "heatFactor": 45
     }
   },
   "57a0dfb82459774d3078b56c": {
@@ -1759,15 +1901,19 @@
     "ammoType": "bullet",
     "projectileCount": 1,
     "ballistics": {
-      "damage": 68,
-      "armorDamage": 52,
+      "damage": 71,
+      "armorDamage": 39,
       "fragmentationChance": 0.2,
       "ricochetChance": 0.4,
       "penetrationChance": 0.6,
-      "penetrationPower": 38,
+      "penetrationPower": 28,
       "accuracy": 0,
       "recoil": 0,
-      "initialSpeed": 290
+      "initialSpeed": 290,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 10,
+      "durabilityBurnFactor": 20,
+      "heatFactor": 53
     }
   },
   "57a0e5022459774d1673f889": {
@@ -1782,15 +1928,19 @@
     "ammoType": "bullet",
     "projectileCount": 1,
     "ballistics": {
-      "damage": 58,
-      "armorDamage": 60,
-      "fragmentationChance": 0.1,
+      "damage": 60,
+      "armorDamage": 64,
+      "fragmentationChance": 0.45,
       "ricochetChance": 0.5,
       "penetrationChance": 0.7,
-      "penetrationPower": 46,
+      "penetrationPower": 48,
       "accuracy": 0,
-      "recoil": 10,
-      "initialSpeed": 305
+      "recoil": 5,
+      "initialSpeed": 305,
+      "lightBleedingDelta": 10,
+      "heavyBleedingDelta": 10,
+      "durabilityBurnFactor": 45,
+      "heatFactor": 61
     }
   },
   "5a26ac0ec4a28200741e1e18": {
@@ -1805,15 +1955,19 @@
     "ammoType": "bullet",
     "projectileCount": 1,
     "ballistics": {
-      "damage": 63,
-      "armorDamage": 47,
-      "fragmentationChance": 0.2,
+      "damage": 52,
+      "armorDamage": 42,
+      "fragmentationChance": 0.4,
       "ricochetChance": 0.4,
       "penetrationChance": 0.6,
-      "penetrationPower": 39,
-      "accuracy": -4,
-      "recoil": -4,
-      "initialSpeed": 410
+      "penetrationPower": 32,
+      "accuracy": -5,
+      "recoil": 0,
+      "initialSpeed": 410,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 40,
+      "heatFactor": 25
     }
   },
   "5cadf6ddae9215051e1c23b2": {
@@ -1830,36 +1984,17 @@
     "ballistics": {
       "damage": 115,
       "armorDamage": 60,
-      "fragmentationChance": 0.3,
+      "fragmentationChance": 0.4,
       "ricochetChance": 0.4,
       "penetrationChance": 0.6,
       "penetrationPower": 28,
       "accuracy": 10,
       "recoil": 0,
-      "initialSpeed": 285
-    }
-  },
-  "5d2f2ab648f03550091993ca": {
-    "id": "5d2f2ab648f03550091993ca",
-    "name": "12.7x108mm BZT-44M gzh",
-    "shortName": "BZT-44M",
-    "weight": 0.128,
-    "caliber": "Caliber127x108",
-    "stackMaxSize": 20,
-    "tracer": true,
-    "tracerColor": "green",
-    "ammoType": "bullet",
-    "projectileCount": 1,
-    "ballistics": {
-      "damage": 199,
-      "armorDamage": 95,
-      "fragmentationChance": 0.17,
-      "ricochetChance": 0.38,
-      "penetrationChance": 0.75,
-      "penetrationPower": 80,
-      "accuracy": 0,
-      "recoil": 0,
-      "initialSpeed": 818
+      "initialSpeed": 300,
+      "lightBleedingDelta": 30,
+      "heavyBleedingDelta": 20,
+      "durabilityBurnFactor": 40,
+      "heatFactor": 138
     }
   },
   "5cadf6e5ae921500113bb973": {
@@ -1882,7 +2017,11 @@
       "penetrationPower": 10,
       "accuracy": -15,
       "recoil": -12,
-      "initialSpeed": 290
+      "initialSpeed": 870,
+      "lightBleedingDelta": 35,
+      "heavyBleedingDelta": 30,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 113
     }
   },
   "5d6e6806a4b936088465b17e": {
@@ -1897,7 +2036,7 @@
     "ammoType": "buckshot",
     "projectileCount": 8,
     "ballistics": {
-      "damage": 50,
+      "damage": 8,
       "armorDamage": 26,
       "fragmentationChance": 0,
       "ricochetChance": 0,
@@ -1905,7 +2044,11 @@
       "penetrationPower": 2,
       "accuracy": -15,
       "recoil": 115,
-      "initialSpeed": 385
+      "initialSpeed": 385,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
     }
   },
   "560d5e524bdc2d25448b4571": {
@@ -1920,7 +2063,7 @@
     "ammoType": "buckshot",
     "projectileCount": 8,
     "ballistics": {
-      "damage": 39,
+      "damage": 8,
       "armorDamage": 26,
       "fragmentationChance": 0,
       "ricochetChance": 0,
@@ -1928,7 +2071,11 @@
       "penetrationPower": 3,
       "accuracy": 0,
       "recoil": 0,
-      "initialSpeed": 415
+      "initialSpeed": 415,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
     }
   },
   "5d6e6772a4b936088465b17c": {
@@ -1943,7 +2090,7 @@
     "ammoType": "buckshot",
     "projectileCount": 8,
     "ballistics": {
-      "damage": 37,
+      "damage": 8,
       "armorDamage": 15,
       "fragmentationChance": 0,
       "ricochetChance": 0,
@@ -1951,7 +2098,11 @@
       "penetrationPower": 1,
       "accuracy": 0,
       "recoil": 0,
-      "initialSpeed": 330
+      "initialSpeed": 330,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
     }
   },
   "5cadf6eeae921500134b2799": {
@@ -1968,13 +2119,17 @@
     "ballistics": {
       "damage": 102,
       "armorDamage": 57,
-      "fragmentationChance": 0.3,
+      "fragmentationChance": 0.8,
       "ricochetChance": 0.5,
       "penetrationChance": 0.8,
       "penetrationPower": 46,
       "accuracy": 0,
       "recoil": 15,
-      "initialSpeed": 300
+      "initialSpeed": 570,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 15,
+      "durabilityBurnFactor": 80,
+      "heatFactor": 151
     }
   },
   "5d6e67fba4b9361bc73bc779": {
@@ -1989,7 +2144,7 @@
     "ammoType": "buckshot",
     "projectileCount": 9,
     "ballistics": {
-      "damage": 35,
+      "damage": 9,
       "armorDamage": 26,
       "fragmentationChance": 0,
       "ricochetChance": 0,
@@ -1997,7 +2152,11 @@
       "penetrationPower": 3,
       "accuracy": 15,
       "recoil": 0,
-      "initialSpeed": 430
+      "initialSpeed": 430,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
     }
   },
   "5d6e6911a4b9361bd5780d52": {
@@ -2012,15 +2171,19 @@
     "ammoType": "buckshot",
     "projectileCount": 8,
     "ballistics": {
-      "damage": 25,
+      "damage": 8,
       "armorDamage": 26,
-      "fragmentationChance": 0,
+      "fragmentationChance": 0.6,
       "ricochetChance": 0,
       "penetrationChance": 0.3,
       "penetrationPower": 31,
       "accuracy": -10,
       "recoil": 0,
-      "initialSpeed": 320
+      "initialSpeed": 320,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
     }
   },
   "5d6e68e6a4b9361c140bcfe0": {
@@ -2037,13 +2200,17 @@
     "ballistics": {
       "damage": 183,
       "armorDamage": 50,
-      "fragmentationChance": 0.1,
+      "fragmentationChance": 0.5,
       "ricochetChance": 0.1,
       "penetrationChance": 0.28,
       "penetrationPower": 20,
       "accuracy": 135,
       "recoil": -25,
-      "initialSpeed": 480
+      "initialSpeed": 480,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
     }
   },
   "5d6e68a8a4b9360b6c0d54e2": {
@@ -2060,13 +2227,17 @@
     "ballistics": {
       "damage": 164,
       "armorDamage": 65,
-      "fragmentationChance": 0.03,
+      "fragmentationChance": 1.2,
       "ricochetChance": 0.1,
       "penetrationChance": 0.36,
       "penetrationPower": 37,
       "accuracy": 80,
       "recoil": 50,
-      "initialSpeed": 510
+      "initialSpeed": 510,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
     }
   },
   "5c0d591486f7744c505b416f": {
@@ -2083,13 +2254,17 @@
     "ballistics": {
       "damage": 265,
       "armorDamage": 11,
-      "fragmentationChance": 1,
+      "fragmentationChance": 0.6,
       "ricochetChance": 0.01,
       "penetrationChance": 0,
       "penetrationPower": 2,
       "accuracy": 80,
       "recoil": 35,
-      "initialSpeed": 410
+      "initialSpeed": 410,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
     }
   },
   "5d6e69c7a4b9360b6c0d54e4": {
@@ -2104,15 +2279,19 @@
     "ammoType": "buckshot",
     "projectileCount": 9,
     "ballistics": {
-      "damage": 23,
+      "damage": 9,
       "armorDamage": 13,
-      "fragmentationChance": 0,
+      "fragmentationChance": 0.3,
       "ricochetChance": 0,
       "penetrationChance": 0.02,
       "penetrationPower": 3,
       "accuracy": 0,
       "recoil": 15,
-      "initialSpeed": 475
+      "initialSpeed": 475,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
     }
   },
   "5d6e68dea4b9361bcc29e659": {
@@ -2127,15 +2306,19 @@
     "ammoType": "bullet",
     "projectileCount": 2,
     "ballistics": {
-      "damage": 85,
+      "damage": 2,
       "armorDamage": 65,
-      "fragmentationChance": 0.1,
+      "fragmentationChance": 0.5,
       "ricochetChance": 0.1,
       "penetrationChance": 0.25,
       "penetrationPower": 17,
       "accuracy": 100,
       "recoil": 15,
-      "initialSpeed": 415
+      "initialSpeed": 415,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
     }
   },
   "5d6e6a5fa4b93614ec501745": {
@@ -2152,13 +2335,17 @@
     "ballistics": {
       "damage": 198,
       "armorDamage": 13,
-      "fragmentationChance": 1,
+      "fragmentationChance": 0.5,
       "ricochetChance": 0.1,
       "penetrationChance": 0.05,
       "penetrationPower": 5,
       "accuracy": 125,
       "recoil": 30,
-      "initialSpeed": 405
+      "initialSpeed": 405,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
     }
   },
   "5d6e6869a4b9361c140bcfde": {
@@ -2181,7 +2368,11 @@
       "penetrationPower": 12,
       "accuracy": 80,
       "recoil": 20,
-      "initialSpeed": 390
+      "initialSpeed": 390,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
     }
   },
   "5cc80f53e4a949000e1ea4f8": {
@@ -2196,15 +2387,19 @@
     "ammoType": "bullet",
     "projectileCount": 1,
     "ballistics": {
-      "damage": 58,
+      "damage": 53,
       "armorDamage": 41,
-      "fragmentationChance": 0.2,
+      "fragmentationChance": 0.15,
       "ricochetChance": 0.6,
       "penetrationChance": 0.5,
       "penetrationPower": 33,
       "accuracy": -4,
       "recoil": 0,
-      "initialSpeed": 922
+      "initialSpeed": 715,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 15,
+      "heatFactor": 11
     }
   },
   "5cc80f79e4a949033c7343b2": {
@@ -2219,15 +2414,19 @@
     "ammoType": "bullet",
     "projectileCount": 1,
     "ballistics": {
-      "damage": 74,
-      "armorDamage": 15,
+      "damage": 70,
+      "armorDamage": 19,
       "fragmentationChance": 0.8,
       "ricochetChance": 0.2,
       "penetrationChance": 0.1,
-      "penetrationPower": 10,
+      "penetrationPower": 17,
       "accuracy": 0,
       "recoil": 0,
-      "initialSpeed": 792
+      "initialSpeed": 792,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
     }
   },
   "5d6e68c4a4b9361b93413f79": {
@@ -2244,13 +2443,17 @@
     "ballistics": {
       "damage": 197,
       "armorDamage": 57,
-      "fragmentationChance": 0.05,
+      "fragmentationChance": 1,
       "ricochetChance": 0.1,
       "penetrationChance": 0.28,
       "penetrationPower": 26,
       "accuracy": 90,
       "recoil": 25,
-      "initialSpeed": 410
+      "initialSpeed": 410,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
     }
   },
   "5cc80f8fe4a949033b0224a2": {
@@ -2270,56 +2473,14 @@
       "fragmentationChance": 0.5,
       "ricochetChance": 0.2,
       "penetrationChance": 0.2,
-      "penetrationPower": 20,
-      "accuracy": 0,
+      "penetrationPower": 25,
+      "accuracy": 10,
       "recoil": 0,
-      "initialSpeed": 594
-    }
-  },
-  "5d6e689ca4b9361bc8618956": {
-    "id": "5d6e689ca4b9361bc8618956",
-    "name": "12/70 \"Poleva-6u\" slug",
-    "shortName": "Poleva-6u",
-    "weight": 0.048,
-    "caliber": "Caliber12g",
-    "stackMaxSize": 20,
-    "tracer": false,
-    "tracerColor": "red",
-    "ammoType": "bullet",
-    "projectileCount": 1,
-    "ballistics": {
-      "damage": 150,
-      "armorDamage": 50,
-      "fragmentationChance": 0.15,
-      "ricochetChance": 0.1,
-      "penetrationChance": 0.2,
-      "penetrationPower": 20,
-      "accuracy": 115,
-      "recoil": -10,
-      "initialSpeed": 430
-    }
-  },
-  "5d6e6891a4b9361bd473feea": {
-    "id": "5d6e6891a4b9361bd473feea",
-    "name": "12/70 \"Poleva-3\" slug",
-    "shortName": "Poleva-3",
-    "weight": 0.044,
-    "caliber": "Caliber12g",
-    "stackMaxSize": 20,
-    "tracer": false,
-    "tracerColor": "red",
-    "ammoType": "bullet",
-    "projectileCount": 1,
-    "ballistics": {
-      "damage": 140,
-      "armorDamage": 40,
-      "fragmentationChance": 0.2,
-      "ricochetChance": 0.1,
-      "penetrationChance": 0.17,
-      "penetrationPower": 17,
-      "accuracy": 110,
-      "recoil": -15,
-      "initialSpeed": 410
+      "initialSpeed": 594,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": -20,
+      "heatFactor": 0
     }
   },
   "5d6e69b9a4b9361bc8618958": {
@@ -2334,7 +2495,7 @@
     "ammoType": "buckshot",
     "projectileCount": 8,
     "ballistics": {
-      "damage": 22,
+      "damage": 8,
       "armorDamage": 13,
       "fragmentationChance": 0,
       "ricochetChance": 0,
@@ -2342,7 +2503,11 @@
       "penetrationPower": 2,
       "accuracy": 0,
       "recoil": 0,
-      "initialSpeed": 410
+      "initialSpeed": 410,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
     }
   },
   "5d6e695fa4b936359b35d852": {
@@ -2357,7 +2522,7 @@
     "ammoType": "buckshot",
     "projectileCount": 8,
     "ballistics": {
-      "damage": 26,
+      "damage": 8,
       "armorDamage": 12,
       "fragmentationChance": 0,
       "ricochetChance": 0,
@@ -2365,53 +2530,11 @@
       "penetrationPower": 1,
       "accuracy": -10,
       "recoil": 10,
-      "initialSpeed": 340
-    }
-  },
-  "5d6e6a53a4b9361bd473feec": {
-    "id": "5d6e6a53a4b9361bd473feec",
-    "name": "20/70 \"Poleva-3\" slug",
-    "shortName": "Poleva-3",
-    "weight": 0.029,
-    "caliber": "Caliber20g",
-    "stackMaxSize": 20,
-    "tracer": false,
-    "tracerColor": "red",
-    "ammoType": "bullet",
-    "projectileCount": 1,
-    "ballistics": {
-      "damage": 120,
-      "armorDamage": 35,
-      "fragmentationChance": 0.2,
-      "ricochetChance": 0.1,
-      "penetrationChance": 0.15,
-      "penetrationPower": 14,
-      "accuracy": 110,
-      "recoil": -15,
-      "initialSpeed": 425
-    }
-  },
-  "5d6e6a42a4b9364f07165f52": {
-    "id": "5d6e6a42a4b9364f07165f52",
-    "name": "20/70 \"Poleva-6u\" slug",
-    "shortName": "Poleva-6u",
-    "weight": 0.032,
-    "caliber": "Caliber20g",
-    "stackMaxSize": 20,
-    "tracer": false,
-    "tracerColor": "red",
-    "ammoType": "bullet",
-    "projectileCount": 1,
-    "ballistics": {
-      "damage": 135,
-      "armorDamage": 40,
-      "fragmentationChance": 0.15,
-      "ricochetChance": 0.1,
-      "penetrationChance": 0.2,
-      "penetrationPower": 17,
-      "accuracy": 110,
-      "recoil": -10,
-      "initialSpeed": 445
+      "initialSpeed": 340,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
     }
   },
   "5cc80f38e4a949001152b560": {
@@ -2434,7 +2557,11 @@
       "penetrationPower": 37,
       "accuracy": 0,
       "recoil": 0,
-      "initialSpeed": 715
+      "initialSpeed": 715,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 20,
+      "heatFactor": 17
     }
   },
   "5e81f423763d9f754677bf2e": {
@@ -2449,7 +2576,7 @@
     "ammoType": "bullet",
     "projectileCount": 1,
     "ballistics": {
-      "damage": 76,
+      "damage": 72,
       "armorDamage": 36,
       "fragmentationChance": 0.01,
       "ricochetChance": 0.065,
@@ -2457,7 +2584,11 @@
       "penetrationPower": 25,
       "accuracy": 0,
       "recoil": 0,
-      "initialSpeed": 340
+      "initialSpeed": 340,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
     }
   },
   "5cc80f67e4a949035e43bbba": {
@@ -2472,15 +2603,19 @@
     "ammoType": "bullet",
     "projectileCount": 1,
     "ballistics": {
-      "damage": 54,
+      "damage": 59,
       "armorDamage": 37,
       "fragmentationChance": 0.2,
       "ricochetChance": 0.3,
       "penetrationChance": 0.5,
-      "penetrationPower": 35,
+      "penetrationPower": 27,
       "accuracy": 5,
-      "recoil": -24,
-      "initialSpeed": 299
+      "recoil": -15,
+      "initialSpeed": 299,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": -25,
+      "heatFactor": -6
     }
   },
   "5e023e53d4353e3302577c4c": {
@@ -2495,15 +2630,19 @@
     "ammoType": "bullet",
     "projectileCount": 1,
     "ballistics": {
-      "damage": 88,
-      "armorDamage": 33,
+      "damage": 83,
+      "armorDamage": 56,
       "fragmentationChance": 0.25,
       "ricochetChance": 0.2,
       "penetrationChance": 0.3,
-      "penetrationPower": 31,
+      "penetrationPower": 37,
       "accuracy": 0,
-      "recoil": -3,
-      "initialSpeed": 840
+      "recoil": 0,
+      "initialSpeed": 840,
+      "lightBleedingDelta": 12,
+      "heavyBleedingDelta": 12,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
     }
   },
   "5e023e6e34d52a55c3304f71": {
@@ -2518,15 +2657,19 @@
     "ammoType": "bullet",
     "projectileCount": 1,
     "ballistics": {
-      "damage": 60,
-      "armorDamage": 40,
+      "damage": 85,
+      "armorDamage": 25,
       "fragmentationChance": 0.2,
       "ricochetChance": 0.5,
       "penetrationChance": 0.5,
-      "penetrationPower": 36,
-      "accuracy": -8,
-      "recoil": -5,
-      "initialSpeed": 808
+      "penetrationPower": 30,
+      "accuracy": 20,
+      "recoil": -3,
+      "initialSpeed": 800,
+      "lightBleedingDelta": 15,
+      "heavyBleedingDelta": 15,
+      "durabilityBurnFactor": -2,
+      "heatFactor": -15
     }
   },
   "5e023d34e8a400319a28ed44": {
@@ -2543,13 +2686,17 @@
     "ballistics": {
       "damage": 78,
       "armorDamage": 87,
-      "fragmentationChance": 0.081,
+      "fragmentationChance": 0.5,
       "ricochetChance": 0.265,
       "penetrationChance": 0.82,
-      "penetrationPower": 59,
+      "penetrationPower": 55,
       "accuracy": -2,
       "recoil": -4,
-      "initialSpeed": 875
+      "initialSpeed": 875,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 50,
+      "heatFactor": 144
     }
   },
   "5e023d48186a883be655e551": {
@@ -2566,13 +2713,17 @@
     "ballistics": {
       "damage": 72,
       "armorDamage": 88,
-      "fragmentationChance": 0.083,
+      "fragmentationChance": 0.7,
       "ricochetChance": 0.34,
       "penetrationChance": 0.85,
       "penetrationPower": 70,
       "accuracy": 0,
       "recoil": 0,
-      "initialSpeed": 785
+      "initialSpeed": 785,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 70,
+      "heatFactor": 157
     }
   },
   "5e023cf8186a883be655e54f": {
@@ -2595,7 +2746,11 @@
       "penetrationPower": 41,
       "accuracy": -1,
       "recoil": -5,
-      "initialSpeed": 800
+      "initialSpeed": 800,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 105
     }
   },
   "5efb0d4f4bc50b58e81710f3": {
@@ -2610,15 +2765,19 @@
     "ammoType": "bullet",
     "projectileCount": 1,
     "ballistics": {
-      "damage": 80,
+      "damage": 76,
       "armorDamage": 37,
-      "fragmentationChance": 0.01,
+      "fragmentationChance": 0.2,
       "ricochetChance": 0.065,
       "penetrationChance": 0.16,
       "penetrationPower": 19,
       "accuracy": 10,
       "recoil": 0,
-      "initialSpeed": 290
+      "initialSpeed": 290,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 20,
+      "heatFactor": 10
     }
   },
   "5f0596629e22f464da6bbdd9": {
@@ -2635,13 +2794,17 @@
     "ballistics": {
       "damage": 90,
       "armorDamage": 60,
-      "fragmentationChance": 0.01,
+      "fragmentationChance": 0.9,
       "ricochetChance": 0.065,
       "penetrationChance": 0.3,
       "penetrationPower": 42,
-      "accuracy": -28,
+      "accuracy": -22,
       "recoil": 35,
-      "initialSpeed": 602
+      "initialSpeed": 602,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 10,
+      "durabilityBurnFactor": 90,
+      "heatFactor": 127
     }
   },
   "5efb0c1bd79ff02a1f5e68d9": {
@@ -2656,15 +2819,19 @@
     "ammoType": "bullet",
     "projectileCount": 1,
     "ballistics": {
-      "damage": 67,
+      "damage": 70,
       "armorDamage": 85,
-      "fragmentationChance": 0.13,
+      "fragmentationChance": 0.65,
       "ricochetChance": 0.28,
       "penetrationChance": 0.92,
-      "penetrationPower": 70,
-      "accuracy": 5,
-      "recoil": 8,
-      "initialSpeed": 910
+      "penetrationPower": 65,
+      "accuracy": 15,
+      "recoil": 6,
+      "initialSpeed": 930,
+      "lightBleedingDelta": 5,
+      "heavyBleedingDelta": 5,
+      "durabilityBurnFactor": 65,
+      "heatFactor": 50
     }
   },
   "5efb0da7a29a85116f6ea05f": {
@@ -2679,84 +2846,19 @@
     "ammoType": "bullet",
     "projectileCount": 1,
     "ballistics": {
-      "damage": 52,
+      "damage": 44,
       "armorDamage": 55,
-      "fragmentationChance": 0.05,
+      "fragmentationChance": 1.7,
       "ricochetChance": 0.2,
       "penetrationChance": 0.4,
       "penetrationPower": 39,
       "accuracy": 5,
-      "recoil": 15,
-      "initialSpeed": 560
-    }
-  },
-  "5e85aa1a988a8701445df1f5": {
-    "id": "5e85aa1a988a8701445df1f5",
-    "name": "23x75mm \"Barrikada\" slug",
-    "shortName": "Barrikada",
-    "weight": 0.08,
-    "caliber": "Caliber23x75",
-    "stackMaxSize": 15,
-    "tracer": false,
-    "tracerColor": "red",
-    "ammoType": "bullet",
-    "projectileCount": 1,
-    "ballistics": {
-      "damage": 192,
-      "armorDamage": 75,
-      "fragmentationChance": 0.2,
-      "ricochetChance": 0.4,
-      "penetrationChance": 0.6,
-      "penetrationPower": 39,
-      "accuracy": -5,
-      "recoil": 25,
-      "initialSpeed": 420
-    }
-  },
-  "5e85a9a6eacf8c039e4e2ac1": {
-    "id": "5e85a9a6eacf8c039e4e2ac1",
-    "name": "23x75mm \"Shrapnel-10\" buckshot",
-    "shortName": "Shrap-10",
-    "weight": 0.08,
-    "caliber": "Caliber23x75",
-    "stackMaxSize": 15,
-    "tracer": false,
-    "tracerColor": "red",
-    "ammoType": "buckshot",
-    "projectileCount": 8,
-    "ballistics": {
-      "damage": 87,
-      "armorDamage": 20,
-      "fragmentationChance": 0,
-      "ricochetChance": 0.2,
-      "penetrationChance": 0.12,
-      "penetrationPower": 11,
-      "accuracy": 0,
-      "recoil": 0,
-      "initialSpeed": 270
-    }
-  },
-  "5f647f31b6238e5dd066e196": {
-    "id": "5f647f31b6238e5dd066e196",
-    "name": "23x75mm \"Shrapnel-25\" buckshot",
-    "shortName": "Shrap-25",
-    "weight": 0.08,
-    "caliber": "Caliber23x75",
-    "stackMaxSize": 15,
-    "tracer": false,
-    "tracerColor": "red",
-    "ammoType": "buckshot",
-    "projectileCount": 8,
-    "ballistics": {
-      "damage": 78,
-      "armorDamage": 20,
-      "fragmentationChance": 0,
-      "ricochetChance": 0.2,
-      "penetrationChance": 0.1,
-      "penetrationPower": 10,
-      "accuracy": 20,
-      "recoil": 10,
-      "initialSpeed": 375
+      "recoil": 5,
+      "initialSpeed": 560,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 170,
+      "heatFactor": 19
     }
   },
   "5ede474b0c226a66f5402622": {
@@ -2773,13 +2875,17 @@
     "ballistics": {
       "damage": 199,
       "armorDamage": 95,
-      "fragmentationChance": 0,
+      "fragmentationChance": 0.7,
       "ricochetChance": 0,
       "penetrationChance": 0,
       "penetrationPower": 1,
       "accuracy": 0,
       "recoil": 0,
-      "initialSpeed": 185
+      "initialSpeed": 76,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
     }
   },
   "5ede475b549eed7c6d5c18fb": {
@@ -2796,13 +2902,17 @@
     "ballistics": {
       "damage": 199,
       "armorDamage": 95,
-      "fragmentationChance": 0,
+      "fragmentationChance": 0.7,
       "ricochetChance": 0,
       "penetrationChance": 0,
       "penetrationPower": 1,
       "accuracy": 0,
       "recoil": 0,
-      "initialSpeed": 185
+      "initialSpeed": 76,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
     }
   },
   "5ede4739e0350d05467f73e8": {
@@ -2819,13 +2929,17 @@
     "ballistics": {
       "damage": 199,
       "armorDamage": 95,
-      "fragmentationChance": 0,
+      "fragmentationChance": 0.7,
       "ricochetChance": 0,
       "penetrationChance": 0,
       "penetrationPower": 1,
       "accuracy": 15,
       "recoil": -10,
-      "initialSpeed": 185
+      "initialSpeed": 76,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
     }
   },
   "5f0c892565703e5c461894e9": {
@@ -2842,13 +2956,17 @@
     "ballistics": {
       "damage": 199,
       "armorDamage": 95,
-      "fragmentationChance": 0,
+      "fragmentationChance": 0.9,
       "ricochetChance": 0,
       "penetrationChance": 0,
       "penetrationPower": 1,
       "accuracy": 0,
       "recoil": 0,
-      "initialSpeed": 185
+      "initialSpeed": 76,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
     }
   },
   "5ede47405b097655935d7d16": {
@@ -2865,13 +2983,17 @@
     "ballistics": {
       "damage": 199,
       "armorDamage": 95,
-      "fragmentationChance": 0,
+      "fragmentationChance": 0.8,
       "ricochetChance": 0,
       "penetrationChance": 0,
       "penetrationPower": 1,
       "accuracy": 0,
       "recoil": 0,
-      "initialSpeed": 185
+      "initialSpeed": 76,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
     }
   },
   "5ede475339ee016e8c534742": {
@@ -2886,7 +3008,7 @@
     "ammoType": "buckshot",
     "projectileCount": 15,
     "ballistics": {
-      "damage": 160,
+      "damage": 15,
       "armorDamage": 95,
       "fragmentationChance": 0,
       "ricochetChance": 0,
@@ -2894,7 +3016,11 @@
       "penetrationPower": 5,
       "accuracy": 100,
       "recoil": 0,
-      "initialSpeed": 185
+      "initialSpeed": 269,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
     }
   },
   "5efb0cabfb3e451d70735af5": {
@@ -2909,15 +3035,19 @@
     "ammoType": "bullet",
     "projectileCount": 1,
     "ballistics": {
-      "damage": 70,
+      "damage": 66,
       "armorDamage": 48,
-      "fragmentationChance": 0.01,
+      "fragmentationChance": 0.7,
       "ricochetChance": 0.1,
       "penetrationChance": 0.29,
       "penetrationPower": 38,
       "accuracy": -5,
       "recoil": 7,
-      "initialSpeed": 299
+      "initialSpeed": 299,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 70,
+      "heatFactor": 23
     }
   },
   "5efb0fc6aeb21837e749c801": {
@@ -2932,15 +3062,19 @@
     "ammoType": "bullet",
     "projectileCount": 1,
     "ballistics": {
-      "damage": 105,
+      "damage": 100,
       "armorDamage": 30,
-      "fragmentationChance": 0.5,
+      "fragmentationChance": 0.1,
       "ricochetChance": 0.065,
       "penetrationChance": 0.13,
       "penetrationPower": 13,
       "accuracy": 0,
       "recoil": 0,
-      "initialSpeed": 274
+      "initialSpeed": 274,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 30,
+      "durabilityBurnFactor": 10,
+      "heatFactor": 13
     }
   },
   "5ea2a8e200685063ec28c05a": {
@@ -2955,15 +3089,19 @@
     "ammoType": "bullet",
     "projectileCount": 1,
     "ballistics": {
-      "damage": 137,
+      "damage": 130,
       "armorDamage": 12,
-      "fragmentationChance": 1,
+      "fragmentationChance": 0.5,
       "ricochetChance": 0.002,
       "penetrationChance": 0.02,
       "penetrationPower": 3,
       "accuracy": -5,
       "recoil": 0,
-      "initialSpeed": 293
+      "initialSpeed": 293,
+      "lightBleedingDelta": 30,
+      "heavyBleedingDelta": 20,
+      "durabilityBurnFactor": 50,
+      "heatFactor": 16
     }
   },
   "58820d1224597753c90aeb13": {
@@ -2980,13 +3118,17 @@
     "ballistics": {
       "damage": 167,
       "armorDamage": 55,
-      "fragmentationChance": 0.2,
+      "fragmentationChance": 0.5,
       "ricochetChance": 0.1,
       "penetrationChance": 0.2,
       "penetrationPower": 15,
       "accuracy": 120,
       "recoil": 0,
-      "initialSpeed": 370
+      "initialSpeed": 370,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
     }
   },
   "5d6e68b3a4b9361bca7e50b5": {
@@ -3003,13 +3145,17 @@
     "ballistics": {
       "damage": 206,
       "armorDamage": 46,
-      "fragmentationChance": 0.38,
+      "fragmentationChance": 0.5,
       "ricochetChance": 0.1,
       "penetrationChance": 0.22,
       "penetrationPower": 14,
       "accuracy": 150,
       "recoil": 10,
-      "initialSpeed": 442
+      "initialSpeed": 442,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
     }
   },
   "5d6e68d1a4b93622fe60e845": {
@@ -3026,36 +3172,17 @@
     "ballistics": {
       "damage": 220,
       "armorDamage": 12,
-      "fragmentationChance": 0.39,
+      "fragmentationChance": 0.2,
       "ricochetChance": 0.1,
       "penetrationChance": 0.05,
       "penetrationPower": 5,
       "accuracy": 170,
       "recoil": -15,
-      "initialSpeed": 594
-    }
-  },
-  "5e85a9f4add9fe03027d9bf1": {
-    "id": "5e85a9f4add9fe03027d9bf1",
-    "name": "23x75mm \"Zvezda\" flashbang round",
-    "shortName": "Zvezda",
-    "weight": 0.07,
-    "caliber": "Caliber23x75",
-    "stackMaxSize": 15,
-    "tracer": false,
-    "tracerColor": "red",
-    "ammoType": "bullet",
-    "projectileCount": 1,
-    "ballistics": {
-      "damage": 0,
-      "armorDamage": 0,
-      "fragmentationChance": 0.3,
-      "ricochetChance": 0.4,
-      "penetrationChance": 0.6,
-      "penetrationPower": 0,
-      "accuracy": 0,
-      "recoil": 20,
-      "initialSpeed": 80
+      "initialSpeed": 594,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
     }
   },
   "5cc86832d7f00c000d3a6e6c": {
@@ -3078,7 +3205,11 @@
       "penetrationPower": 8,
       "accuracy": 0,
       "recoil": 0,
-      "initialSpeed": 729
+      "initialSpeed": 729,
+      "lightBleedingDelta": 20,
+      "heavyBleedingDelta": 20,
+      "durabilityBurnFactor": 0,
+      "heatFactor": -2
     }
   },
   "5cc86840d7f00c002412c56c": {
@@ -3094,14 +3225,18 @@
     "projectileCount": 1,
     "ballistics": {
       "damage": 81,
-      "armorDamage": 14,
+      "armorDamage": 9,
       "fragmentationChance": 0.7,
       "ricochetChance": 0.1,
       "penetrationChance": 0.15,
       "penetrationPower": 11,
-      "accuracy": 0,
+      "accuracy": -5,
       "recoil": 0,
-      "initialSpeed": 724
+      "initialSpeed": 724,
+      "lightBleedingDelta": 10,
+      "heavyBleedingDelta": 10,
+      "durabilityBurnFactor": 0,
+      "heatFactor": -1
     }
   },
   "5fbe3ffdf8b6a877a729ea82": {
@@ -3121,10 +3256,14 @@
       "fragmentationChance": 0.3,
       "ricochetChance": 0.3,
       "penetrationChance": 0.34,
-      "penetrationPower": 29,
+      "penetrationPower": 30,
       "accuracy": 0,
       "recoil": 0,
-      "initialSpeed": 605
+      "initialSpeed": 605,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 59
     }
   },
   "5fd20ff893a8961fc660a954": {
@@ -3141,13 +3280,17 @@
     "ballistics": {
       "damage": 51,
       "armorDamage": 65,
-      "fragmentationChance": 0.1,
+      "fragmentationChance": 0.5,
       "ricochetChance": 0.3,
       "penetrationChance": 0.46,
-      "penetrationPower": 45,
+      "penetrationPower": 48,
       "accuracy": 0,
-      "recoil": 10,
-      "initialSpeed": 635
+      "recoil": 3,
+      "initialSpeed": 635,
+      "lightBleedingDelta": 15,
+      "heavyBleedingDelta": 15,
+      "durabilityBurnFactor": 50,
+      "heatFactor": 99
     }
   },
   "5e023e88277cce2b522ff2b1": {
@@ -3162,15 +3305,19 @@
     "ammoType": "bullet",
     "projectileCount": 1,
     "ballistics": {
-      "damage": 107,
-      "armorDamage": 20,
+      "damage": 105,
+      "armorDamage": 40,
       "fragmentationChance": 0.7,
       "ricochetChance": 0.2,
       "penetrationChance": 0.1,
       "penetrationPower": 15,
-      "accuracy": 10,
+      "accuracy": 35,
       "recoil": -5,
-      "initialSpeed": 822
+      "initialSpeed": 800,
+      "lightBleedingDelta": 20,
+      "heavyBleedingDelta": 20,
+      "durabilityBurnFactor": -5,
+      "heatFactor": -10
     }
   },
   "5fc382a9d724d907e2077dab": {
@@ -3187,13 +3334,17 @@
     "ballistics": {
       "damage": 115,
       "armorDamage": 89,
-      "fragmentationChance": 0.13,
+      "fragmentationChance": 1.4,
       "ricochetChance": 0.3,
       "penetrationChance": 0.9,
       "penetrationPower": 79,
       "accuracy": 0,
       "recoil": 10,
-      "initialSpeed": 849
+      "initialSpeed": 849,
+      "lightBleedingDelta": 20,
+      "heavyBleedingDelta": 55,
+      "durabilityBurnFactor": 140,
+      "heatFactor": 226
     }
   },
   "5fc275cf85fd526b824a571a": {
@@ -3210,13 +3361,17 @@
     "ballistics": {
       "damage": 122,
       "armorDamage": 83,
-      "fragmentationChance": 0.2,
+      "fragmentationChance": 0.8,
       "ricochetChance": 0.4,
       "penetrationChance": 0.7,
       "penetrationPower": 47,
       "accuracy": 0,
       "recoil": 0,
-      "initialSpeed": 900
+      "initialSpeed": 900,
+      "lightBleedingDelta": 35,
+      "heavyBleedingDelta": 50,
+      "durabilityBurnFactor": 80,
+      "heatFactor": 209
     }
   },
   "5fc382c1016cce60e8341b20": {
@@ -3239,7 +3394,11 @@
       "penetrationPower": 32,
       "accuracy": -5,
       "recoil": 0,
-      "initialSpeed": 849
+      "initialSpeed": 849,
+      "lightBleedingDelta": 50,
+      "heavyBleedingDelta": 40,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 160
     }
   },
   "5fc382b6d6fa9c00c571bbc3": {
@@ -3256,13 +3415,17 @@
     "ballistics": {
       "damage": 196,
       "armorDamage": 55,
-      "fragmentationChance": 0.5,
+      "fragmentationChance": 0.4,
       "ricochetChance": 0.4,
       "penetrationChance": 0.3,
       "penetrationPower": 18,
       "accuracy": 10,
-      "recoil": -5,
-      "initialSpeed": 880
+      "recoil": 5,
+      "initialSpeed": 880,
+      "lightBleedingDelta": 80,
+      "heavyBleedingDelta": 50,
+      "durabilityBurnFactor": 40,
+      "heatFactor": 193
     }
   },
   "5efb0e16aeb21837e749c7ff": {
@@ -3285,7 +3448,11 @@
       "penetrationPower": 8,
       "accuracy": 10,
       "recoil": 10,
-      "initialSpeed": 290
+      "initialSpeed": 290,
+      "lightBleedingDelta": 15,
+      "heavyBleedingDelta": 22,
+      "durabilityBurnFactor": 10,
+      "heatFactor": -1
     }
   },
   "60194943740c5d77f6705eea": {
@@ -3300,15 +3467,19 @@
     "ammoType": "bullet",
     "projectileCount": 1,
     "ballistics": {
-      "damage": 67,
-      "armorDamage": 35,
+      "damage": 53,
+      "armorDamage": 39,
       "fragmentationChance": 0.15,
       "ricochetChance": 0.1,
       "penetrationChance": 0.21,
-      "penetrationPower": 20,
-      "accuracy": 10,
-      "recoil": 0,
-      "initialSpeed": 902
+      "penetrationPower": 33,
+      "accuracy": 2,
+      "recoil": 3,
+      "initialSpeed": 902,
+      "lightBleedingDelta": 15,
+      "heavyBleedingDelta": 10,
+      "durabilityBurnFactor": 15,
+      "heatFactor": 52
     }
   },
   "601949593ae8f707c4608daa": {
@@ -3323,15 +3494,19 @@
     "ammoType": "bullet",
     "projectileCount": 1,
     "ballistics": {
-      "damage": 36,
-      "armorDamage": 64,
-      "fragmentationChance": 0.2,
+      "damage": 38,
+      "armorDamage": 58,
+      "fragmentationChance": 0.8,
       "ricochetChance": 0.48,
       "penetrationChance": 0.7,
-      "penetrationPower": 56,
-      "accuracy": -6,
+      "penetrationPower": 57,
+      "accuracy": -9,
       "recoil": 6,
-      "initialSpeed": 1013
+      "initialSpeed": 1013,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 80,
+      "heatFactor": 90
     }
   },
   "601aa3d2b2bcb34913271e6d": {
@@ -3346,36 +3521,19 @@
     "ammoType": "bullet",
     "projectileCount": 1,
     "ballistics": {
-      "damage": 47,
+      "damage": 53,
       "armorDamage": 76,
-      "fragmentationChance": 0.05,
+      "fragmentationChance": 0.7,
       "ricochetChance": 0.435,
       "penetrationChance": 0.65,
       "penetrationPower": 58,
       "accuracy": -5,
       "recoil": 10,
-      "initialSpeed": 730
-    }
-  },
-  "5485a8684bdc2da71d8b4567": {
-    "id": "5485a8684bdc2da71d8b4567",
-    "name": "Ammo",
-    "shortName": "Ammo",
-    "caliber": "Caliber9x18PM",
-    "tracer": false,
-    "tracerColor": "red",
-    "ammoType": "bullet",
-    "projectileCount": 1,
-    "ballistics": {
-      "damage": 0,
-      "armorDamage": 50,
-      "fragmentationChance": 0,
-      "ricochetChance": 0,
-      "penetrationChance": 0,
-      "penetrationPower": 0,
-      "accuracy": 0,
-      "recoil": 0,
-      "initialSpeed": 0
+      "initialSpeed": 875,
+      "lightBleedingDelta": 10,
+      "heavyBleedingDelta": 10,
+      "durabilityBurnFactor": 70,
+      "heatFactor": 102
     }
   },
   "61962b617c6c7b169525f168": {
@@ -3390,15 +3548,19 @@
     "ammoType": "bullet",
     "projectileCount": 1,
     "ballistics": {
-      "damage": 52,
-      "armorDamage": 50,
-      "fragmentationChance": 0.02,
+      "damage": 55,
+      "armorDamage": 45,
+      "fragmentationChance": 0.35,
       "ricochetChance": 0.3,
       "penetrationChance": 0.65,
-      "penetrationPower": 44,
+      "penetrationPower": 42,
       "accuracy": 50,
-      "recoil": -20,
-      "initialSpeed": 915
+      "recoil": -10,
+      "initialSpeed": 915,
+      "lightBleedingDelta": 20,
+      "heavyBleedingDelta": 15,
+      "durabilityBurnFactor": 35,
+      "heatFactor": 75
     }
   },
   "61962d879bb3d20b0946d385": {
@@ -3414,14 +3576,18 @@
     "projectileCount": 1,
     "ballistics": {
       "damage": 62,
-      "armorDamage": 72,
-      "fragmentationChance": 0.1,
+      "armorDamage": 57,
+      "fragmentationChance": 0.55,
       "ricochetChance": 0.48,
       "penetrationChance": 0.78,
-      "penetrationPower": 48,
+      "penetrationPower": 43,
       "accuracy": -15,
       "recoil": 10,
-      "initialSpeed": 320
+      "initialSpeed": 320,
+      "lightBleedingDelta": 10,
+      "heavyBleedingDelta": 12,
+      "durabilityBurnFactor": 55,
+      "heatFactor": 56
     }
   },
   "6196364158ef8c428c287d9f": {
@@ -3438,36 +3604,17 @@
     "ballistics": {
       "damage": 72,
       "armorDamage": 25,
-      "fragmentationChance": 0.25,
+      "fragmentationChance": 0.1,
       "ricochetChance": 0.1,
       "penetrationChance": 0.2,
       "penetrationPower": 20,
       "accuracy": 30,
       "recoil": -10,
-      "initialSpeed": 723
-    }
-  },
-  "6196365d58ef8c428c287da1": {
-    "id": "6196365d58ef8c428c287da1",
-    "name": ".300 Blackout Whisper",
-    "shortName": "Whisper",
-    "weight": 0.015,
-    "caliber": "Caliber762x35",
-    "stackMaxSize": 60,
-    "tracer": false,
-    "tracerColor": "red",
-    "ammoType": "bullet",
-    "projectileCount": 1,
-    "ballistics": {
-      "damage": 90,
-      "armorDamage": 18,
-      "fragmentationChance": 0.35,
-      "ricochetChance": 0.1,
-      "penetrationChance": 0.1,
-      "penetrationPower": 14,
-      "accuracy": 5,
-      "recoil": -5,
-      "initialSpeed": 853
+      "initialSpeed": 723,
+      "lightBleedingDelta": 22,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 10,
+      "heatFactor": 80
     }
   },
   "619636be6db0f2477964e710": {
@@ -3484,13 +3631,17 @@
     "ballistics": {
       "damage": 54,
       "armorDamage": 40,
-      "fragmentationChance": 0.2,
+      "fragmentationChance": 0.25,
       "ricochetChance": 0.37,
       "penetrationChance": 0.4,
-      "penetrationPower": 34,
+      "penetrationPower": 36,
       "accuracy": 0,
-      "recoil": 5,
-      "initialSpeed": 442
+      "recoil": 1,
+      "initialSpeed": 442,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 25,
+      "heatFactor": 70
     }
   },
   "62330b3ed4dc74626d570b95": {
@@ -3507,36 +3658,17 @@
     "ballistics": {
       "damage": 70,
       "armorDamage": 43,
-      "fragmentationChance": 0.01,
+      "fragmentationChance": 0.5,
       "ricochetChance": 0.065,
       "penetrationChance": 0.35,
       "penetrationPower": 35,
       "accuracy": 0,
       "recoil": 12,
-      "initialSpeed": 385
-    }
-  },
-  "62330bfadc5883093563729b": {
-    "id": "62330bfadc5883093563729b",
-    "name": ".357 Magnum Hollow Point",
-    "shortName": ".357 HP",
-    "weight": 0.016,
-    "caliber": "Caliber9x33R",
-    "stackMaxSize": 30,
-    "tracer": false,
-    "tracerColor": "red",
-    "ammoType": "bullet",
-    "projectileCount": 1,
-    "ballistics": {
-      "damage": 99,
-      "armorDamage": 20,
-      "fragmentationChance": 0.6,
-      "ricochetChance": 0.025,
-      "penetrationChance": 0.15,
-      "penetrationPower": 18,
-      "accuracy": 15,
-      "recoil": 15,
-      "initialSpeed": 481
+      "initialSpeed": 385,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 10,
+      "durabilityBurnFactor": 50,
+      "heatFactor": 28
     }
   },
   "62330c18744e5e31df12f516": {
@@ -3553,22 +3685,269 @@
     "ballistics": {
       "damage": 88,
       "armorDamage": 28,
-      "fragmentationChance": 0.6,
+      "fragmentationChance": 0.4,
       "ricochetChance": 0.055,
       "penetrationChance": 0.3,
       "penetrationPower": 24,
       "accuracy": 15,
       "recoil": 8,
-      "initialSpeed": 425
+      "initialSpeed": 425,
+      "lightBleedingDelta": 25,
+      "heavyBleedingDelta": 25,
+      "durabilityBurnFactor": 40,
+      "heatFactor": 28
     }
   },
-  "62330c40bdd19b369e1e53d1": {
-    "id": "62330c40bdd19b369e1e53d1",
-    "name": ".357 Magnum Soft Point",
-    "shortName": ".357 SP",
-    "weight": 0.015,
+  "Caliber762x25TT_7_62x25mm_tt_m855a1": {
+    "id": "Caliber762x25TT_7_62x25mm_tt_m855a1",
+    "name": "7.62x25mm TT M855A1",
+    "shortName": "M855A1",
+    "weight": 0.012,
+    "caliber": "Caliber762x25TT",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 34,
+      "armorDamage": 33,
+      "fragmentationChance": 0.7,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 31,
+      "accuracy": 0,
+      "recoil": 0,
+      "initialSpeed": 900,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber762x25TT_7_62x25mm_tt_m856a1": {
+    "id": "Caliber762x25TT_7_62x25mm_tt_m856a1",
+    "name": "7.62x25mm TT M856A1",
+    "shortName": "M856A1",
+    "weight": 0.012,
+    "caliber": "Caliber762x25TT",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 36,
+      "armorDamage": 31,
+      "fragmentationChance": 0.06,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 27,
+      "accuracy": 0,
+      "recoil": 0,
+      "initialSpeed": 900,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber762x25TT_7_62x25mm_tt_m995": {
+    "id": "Caliber762x25TT_7_62x25mm_tt_m995",
+    "name": "7.62x25mm TT M995",
+    "shortName": "M995",
+    "weight": 0.012,
+    "caliber": "Caliber762x25TT",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 32,
+      "armorDamage": 36,
+      "fragmentationChance": 1,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 37,
+      "accuracy": 0,
+      "recoil": 0,
+      "initialSpeed": 940,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber9x18PM_9x18mm_pm_ppe_gzh": {
+    "id": "Caliber9x18PM_9x18mm_pm_ppe_gzh",
+    "name": "9x18mm PM PPe gzh",
+    "shortName": "gzh",
+    "weight": 0.012,
+    "caliber": "Caliber9x18PM",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 61,
+      "armorDamage": 15,
+      "fragmentationChance": 0,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 7,
+      "accuracy": 0,
+      "recoil": 0,
+      "initialSpeed": 297,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber9x19PARA_9x19mm_fmj_m882": {
+    "id": "Caliber9x19PARA_9x19mm_fmj_m882",
+    "name": "9x19mm FMJ M882",
+    "shortName": "M882",
+    "weight": 0.012,
+    "caliber": "Caliber9x19PARA",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 56,
+      "armorDamage": 35,
+      "fragmentationChance": 0.05,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 18,
+      "accuracy": 0,
+      "recoil": 0,
+      "initialSpeed": 385,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber9x19PARA_9x19mm_green_tracer": {
+    "id": "Caliber9x19PARA_9x19mm_green_tracer",
+    "name": "9x19mm Green Tracer",
+    "shortName": "Tracer",
+    "weight": 0.012,
+    "caliber": "Caliber9x19PARA",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 58,
+      "armorDamage": 33,
+      "fragmentationChance": 0.15,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 14,
+      "accuracy": -5,
+      "recoil": -6,
+      "initialSpeed": 365,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber9x21_9x21mm_7n42_zubilo": {
+    "id": "Caliber9x21_9x21mm_7n42_zubilo",
+    "name": "9x21mm 7N42 Zubilo",
+    "shortName": "Zubilo",
+    "weight": 0.012,
+    "caliber": "Caliber9x21",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 49,
+      "armorDamage": 47,
+      "fragmentationChance": 0.5,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 38,
+      "accuracy": -3,
+      "recoil": 10,
+      "initialSpeed": 400,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber9x21_9x21mm_7u4": {
+    "id": "Caliber9x21_9x21mm_7u4",
+    "name": "9x21mm 7U4",
+    "shortName": "7U4",
+    "weight": 0.012,
+    "caliber": "Caliber9x21",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 53,
+      "armorDamage": 44,
+      "fragmentationChance": -0.1,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 27,
+      "accuracy": 0,
+      "recoil": 0,
+      "initialSpeed": 300,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber9x33R__357_magnum_hp": {
+    "id": "Caliber9x33R__357_magnum_hp",
+    "name": ".357 Magnum HP",
+    "shortName": "HP",
+    "weight": 0.012,
     "caliber": "Caliber9x33R",
-    "stackMaxSize": 30,
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 99,
+      "armorDamage": 20,
+      "fragmentationChance": 0.6,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 18,
+      "accuracy": 15,
+      "recoil": 15,
+      "initialSpeed": 481,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber9x33R__357_magnum_sp": {
+    "id": "Caliber9x33R__357_magnum_sp",
+    "name": ".357 Magnum SP",
+    "shortName": "SP",
+    "weight": 0.012,
+    "caliber": "Caliber9x33R",
+    "stackMaxSize": 50,
     "tracer": false,
     "tracerColor": "red",
     "ammoType": "bullet",
@@ -3576,13 +3955,1340 @@
     "ballistics": {
       "damage": 108,
       "armorDamage": 15,
-      "fragmentationChance": 0.2,
-      "ricochetChance": 0.03,
+      "fragmentationChance": 0.3,
+      "ricochetChance": 0.1,
       "penetrationChance": 0.2,
       "penetrationPower": 12,
       "accuracy": 27,
       "recoil": -29,
-      "initialSpeed": 455
+      "initialSpeed": 455,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber50AE__50_ae_copper_solid": {
+    "id": "Caliber50AE__50_ae_copper_solid",
+    "name": ".50 AE Copper Solid",
+    "shortName": "Solid",
+    "weight": 0.012,
+    "caliber": "Caliber50AE",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 94,
+      "armorDamage": 56,
+      "fragmentationChance": 0.4,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 33,
+      "accuracy": 5,
+      "recoil": 8,
+      "initialSpeed": 460,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber50AE__50_ae_fmj": {
+    "id": "Caliber50AE__50_ae_fmj",
+    "name": ".50 AE FMJ",
+    "shortName": "FMJ",
+    "weight": 0.012,
+    "caliber": "Caliber50AE",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 85,
+      "armorDamage": 50,
+      "fragmentationChance": 0.7,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 40,
+      "accuracy": 0,
+      "recoil": 10,
+      "initialSpeed": 440,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber50AE__50_ae_hawk_jsp": {
+    "id": "Caliber50AE__50_ae_hawk_jsp",
+    "name": ".50 AE Hawk JSP",
+    "shortName": "JSP",
+    "weight": 0.012,
+    "caliber": "Caliber50AE",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 122,
+      "armorDamage": 28,
+      "fragmentationChance": 0,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 26,
+      "accuracy": -5,
+      "recoil": 2,
+      "initialSpeed": 465,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber50AE__50_ae_jhp": {
+    "id": "Caliber50AE__50_ae_jhp",
+    "name": ".50 AE JHP",
+    "shortName": "JHP",
+    "weight": 0.012,
+    "caliber": "Caliber50AE",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 147,
+      "armorDamage": 23,
+      "fragmentationChance": 0.2,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 12,
+      "accuracy": -10,
+      "recoil": 5,
+      "initialSpeed": 440,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber20x1mm_20x1mm_disk": {
+    "id": "Caliber20x1mm_20x1mm_disk",
+    "name": "20x1mm disk",
+    "shortName": "disk",
+    "weight": 0.012,
+    "caliber": "Caliber20x1mm",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 1,
+      "armorDamage": 0,
+      "fragmentationChance": 0,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 0,
+      "accuracy": 0,
+      "recoil": 1,
+      "initialSpeed": 20,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber46x30_4_6x30mm_jsp_sx": {
+    "id": "Caliber46x30_4_6x30mm_jsp_sx",
+    "name": "4.6x30mm JSP SX",
+    "shortName": "SX",
+    "weight": 0.012,
+    "caliber": "Caliber46x30",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 46,
+      "armorDamage": 37,
+      "fragmentationChance": -0.1,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 32,
+      "accuracy": 0,
+      "recoil": 0,
+      "initialSpeed": 579,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber545x39_5_45x39mm_ppbs_gs_igolnik": {
+    "id": "Caliber545x39_5_45x39mm_ppbs_gs_igolnik",
+    "name": "5.45x39mm PPBS gs Igolnik",
+    "shortName": "Igolnik",
+    "weight": 0.012,
+    "caliber": "Caliber545x39",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 37,
+      "armorDamage": 59,
+      "fragmentationChance": 0.7,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 62,
+      "accuracy": -5,
+      "recoil": 15,
+      "initialSpeed": 905,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber68x51_6_8x51mm_sig_fmj": {
+    "id": "Caliber68x51_6_8x51mm_sig_fmj",
+    "name": "6.8x51mm SIG FMJ",
+    "shortName": "FMJ",
+    "weight": 0.012,
+    "caliber": "Caliber68x51",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 80,
+      "armorDamage": 49,
+      "fragmentationChance": 0,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 36,
+      "accuracy": 0,
+      "recoil": 0,
+      "initialSpeed": 899,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber68x51_6_8x51mm_sig_hybrid": {
+    "id": "Caliber68x51_6_8x51mm_sig_hybrid",
+    "name": "6.8x51mm SIG Hybrid",
+    "shortName": "Hybrid",
+    "weight": 0.012,
+    "caliber": "Caliber68x51",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 72,
+      "armorDamage": 58,
+      "fragmentationChance": 0.5,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 47,
+      "accuracy": 3,
+      "recoil": 10,
+      "initialSpeed": 914,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber762x35__300_blackout_cbj": {
+    "id": "Caliber762x35__300_blackout_cbj",
+    "name": ".300 Blackout CBJ",
+    "shortName": "CBJ",
+    "weight": 0.012,
+    "caliber": "Caliber762x35",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 58,
+      "armorDamage": 57,
+      "fragmentationChance": 0.34,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 43,
+      "accuracy": 0,
+      "recoil": 5,
+      "initialSpeed": 725,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber762x35__300_whisper": {
+    "id": "Caliber762x35__300_whisper",
+    "name": ".300 Whisper",
+    "shortName": "Whisper",
+    "weight": 0.012,
+    "caliber": "Caliber762x35",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 90,
+      "armorDamage": 19,
+      "fragmentationChance": 0.05,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 14,
+      "accuracy": 5,
+      "recoil": -5,
+      "initialSpeed": 853,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber762x39_7_62x39mm_fmj": {
+    "id": "Caliber762x39_7_62x39mm_fmj",
+    "name": "7.62x39mm FMJ",
+    "shortName": "FMJ",
+    "weight": 0.012,
+    "caliber": "Caliber762x39",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 63,
+      "armorDamage": 33,
+      "fragmentationChance": 0,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 26,
+      "accuracy": 2,
+      "recoil": -2,
+      "initialSpeed": 775,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber762x39_7_62x39mm_pp_gzh": {
+    "id": "Caliber762x39_7_62x39mm_pp_gzh",
+    "name": "7.62x39mm PP gzh",
+    "shortName": "gzh",
+    "weight": 0.012,
+    "caliber": "Caliber762x39",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 59,
+      "armorDamage": 57,
+      "fragmentationChance": 0.35,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 41,
+      "accuracy": -1,
+      "recoil": 5,
+      "initialSpeed": 732,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber762x39_7_62x39mm_sp": {
+    "id": "Caliber762x39_7_62x39mm_sp",
+    "name": "7.62x39mm SP",
+    "shortName": "SP",
+    "weight": 0.012,
+    "caliber": "Caliber762x39",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 68,
+      "armorDamage": 27,
+      "fragmentationChance": 0,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 20,
+      "accuracy": 5,
+      "recoil": -5,
+      "initialSpeed": 772,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber762x51_7_62x51mm_ball_11_long_range": {
+    "id": "Caliber762x51_7_62x51mm_ball_11_long_range",
+    "name": "7.62x51mm Ball 11 Long Range",
+    "shortName": "Range",
+    "weight": 0.012,
+    "caliber": "Caliber762x51",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 95,
+      "armorDamage": 88,
+      "fragmentationChance": 0.7,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 59,
+      "accuracy": 15,
+      "recoil": 15,
+      "initialSpeed": 805,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber762x51_7_62x51mm_m80a1": {
+    "id": "Caliber762x51_7_62x51mm_m80a1",
+    "name": "7.62x51mm M80A1",
+    "shortName": "M80A1",
+    "weight": 0.012,
+    "caliber": "Caliber762x51",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 75,
+      "armorDamage": 74,
+      "fragmentationChance": 0.5,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 55,
+      "accuracy": -5,
+      "recoil": 4,
+      "initialSpeed": 929,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber308Marlin__308_me": {
+    "id": "Caliber308Marlin__308_me",
+    "name": ".308 ME",
+    "shortName": "ME",
+    "weight": 0.012,
+    "caliber": "Caliber308Marlin",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 80,
+      "armorDamage": 78,
+      "fragmentationChance": 0.12,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 42,
+      "accuracy": -2,
+      "recoil": 3,
+      "initialSpeed": 838,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber308Marlin__308_me_lokt": {
+    "id": "Caliber308Marlin__308_me_lokt",
+    "name": ".308 ME LOKT",
+    "shortName": "LOKT",
+    "weight": 0.012,
+    "caliber": "Caliber308Marlin",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 96,
+      "armorDamage": 55,
+      "fragmentationChance": 0.05,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 24,
+      "accuracy": -2,
+      "recoil": -3,
+      "initialSpeed": 838,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber762x54R_7_62x54mm_r_fmj": {
+    "id": "Caliber762x54R_7_62x54mm_r_fmj",
+    "name": "7.62x54mm R FMJ",
+    "shortName": "FMJ",
+    "weight": 0.012,
+    "caliber": "Caliber762x54R",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 84,
+      "armorDamage": 63,
+      "fragmentationChance": 0,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 36,
+      "accuracy": 0,
+      "recoil": 0,
+      "initialSpeed": 760,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber762x54R_7_62x54mm_r_hp_bt": {
+    "id": "Caliber762x54R_7_62x54mm_r_hp_bt",
+    "name": "7.62x54mm R HP BT",
+    "shortName": "BT",
+    "weight": 0.012,
+    "caliber": "Caliber762x54R",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 102,
+      "armorDamage": 37,
+      "fragmentationChance": -0.15,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 26,
+      "accuracy": 10,
+      "recoil": 0,
+      "initialSpeed": 807,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber762x54R_7_62x54mm_r_sp_bt": {
+    "id": "Caliber762x54R_7_62x54mm_r_sp_bt",
+    "name": "7.62x54mm R SP BT",
+    "shortName": "BT",
+    "weight": 0.012,
+    "caliber": "Caliber762x54R",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 92,
+      "armorDamage": 56,
+      "fragmentationChance": -0.1,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 31,
+      "accuracy": 7,
+      "recoil": 0,
+      "initialSpeed": 706,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber762x54R_7_62x54mm_r_tungsten_carbide_ap": {
+    "id": "Caliber762x54R_7_62x54mm_r_tungsten_carbide_ap",
+    "name": "7.62x54mm R Tungsten Carbide AP",
+    "shortName": "AP",
+    "weight": 0.012,
+    "caliber": "Caliber762x54R",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 98,
+      "armorDamage": 94,
+      "fragmentationChance": 0.7,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 61,
+      "accuracy": 10,
+      "recoil": 10,
+      "initialSpeed": 984,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber9x39_9x39mm_fmj": {
+    "id": "Caliber9x39_9x39mm_fmj",
+    "name": "9x39mm FMJ",
+    "shortName": "FMJ",
+    "weight": 0.012,
+    "caliber": "Caliber9x39",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 75,
+      "armorDamage": 28,
+      "fragmentationChance": 0,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 17,
+      "accuracy": 5,
+      "recoil": -5,
+      "initialSpeed": 330,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber93x64_9_3x64mm_7n33": {
+    "id": "Caliber93x64_9_3x64mm_7n33",
+    "name": "9.3x64mm 7N33",
+    "shortName": "7N33",
+    "weight": 0.012,
+    "caliber": "Caliber93x64",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 108,
+      "armorDamage": 55,
+      "fragmentationChance": 0.4,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 56,
+      "accuracy": -5,
+      "recoil": 20,
+      "initialSpeed": 790,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber93x64_9_3x64mm_fmj": {
+    "id": "Caliber93x64_9_3x64mm_fmj",
+    "name": "9.3x64mm FMJ",
+    "shortName": "FMJ",
+    "weight": 0.012,
+    "caliber": "Caliber93x64",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 115,
+      "armorDamage": 55,
+      "fragmentationChance": 0.4,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 44,
+      "accuracy": 15,
+      "recoil": 0,
+      "initialSpeed": 793,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber93x64_9_3x64mm_sp": {
+    "id": "Caliber93x64_9_3x64mm_sp",
+    "name": "9.3x64mm SP",
+    "shortName": "SP",
+    "weight": 0.012,
+    "caliber": "Caliber93x64",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 129,
+      "armorDamage": 55,
+      "fragmentationChance": 0.4,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 37,
+      "accuracy": 0,
+      "recoil": -20,
+      "initialSpeed": 697,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber50BMG__50_bmg_hp": {
+    "id": "Caliber50BMG__50_bmg_hp",
+    "name": ".50 BMG HP",
+    "shortName": "HP",
+    "weight": 0.012,
+    "caliber": "Caliber50BMG",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 260,
+      "armorDamage": 22,
+      "fragmentationChance": 0,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 34,
+      "accuracy": 15,
+      "recoil": 15,
+      "initialSpeed": 880,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber50BMG__50_bmg_m21": {
+    "id": "Caliber50BMG__50_bmg_m21",
+    "name": ".50 BMG M21",
+    "shortName": "M21",
+    "weight": 0.012,
+    "caliber": "Caliber50BMG",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 220,
+      "armorDamage": 55,
+      "fragmentationChance": 0,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 45,
+      "accuracy": 0,
+      "recoil": 20,
+      "initialSpeed": 867,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber50BMG__50_bmg_m33": {
+    "id": "Caliber50BMG__50_bmg_m33",
+    "name": ".50 BMG M33",
+    "shortName": "M33",
+    "weight": 0.012,
+    "caliber": "Caliber50BMG",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 190,
+      "armorDamage": 85,
+      "fragmentationChance": 0,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 56,
+      "accuracy": -5,
+      "recoil": 25,
+      "initialSpeed": 887,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber50BMG__50_bmg_m903_slap": {
+    "id": "Caliber50BMG__50_bmg_m903_slap",
+    "name": ".50 BMG M903 SLAP",
+    "shortName": "SLAP",
+    "weight": 0.012,
+    "caliber": "Caliber50BMG",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 160,
+      "armorDamage": 90,
+      "fragmentationChance": 0,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 115,
+      "accuracy": -10,
+      "recoil": 28,
+      "initialSpeed": 1220,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber127x108_12_7x108mm_b_32": {
+    "id": "Caliber127x108_12_7x108mm_b_32",
+    "name": "12.7x108mm B-32",
+    "shortName": "B-32",
+    "weight": 0.012,
+    "caliber": "Caliber127x108",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 182,
+      "armorDamage": 88,
+      "fragmentationChance": 8.18,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 88,
+      "accuracy": 0,
+      "recoil": 0,
+      "initialSpeed": 0,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber127x108_12_7x108mm_bzt_44m": {
+    "id": "Caliber127x108_12_7x108mm_bzt_44m",
+    "name": "12.7x108mm BZT-44M",
+    "shortName": "BZT-44M",
+    "weight": 0.012,
+    "caliber": "Caliber127x108",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 199,
+      "armorDamage": 95,
+      "fragmentationChance": 8.18,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 80,
+      "accuracy": 0,
+      "recoil": 0,
+      "initialSpeed": 0,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber12g_12_70_poleva_3_slug": {
+    "id": "Caliber12g_12_70_poleva_3_slug",
+    "name": "12/70 Poleva-3 slug",
+    "shortName": "slug",
+    "weight": 0.012,
+    "caliber": "Caliber12g",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 140,
+      "armorDamage": 40,
+      "fragmentationChance": 0.5,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 17,
+      "accuracy": 110,
+      "recoil": -15,
+      "initialSpeed": 410,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber12g_12_70_poleva_6u_slug": {
+    "id": "Caliber12g_12_70_poleva_6u_slug",
+    "name": "12/70 Poleva-6u slug",
+    "shortName": "slug",
+    "weight": 0.012,
+    "caliber": "Caliber12g",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 150,
+      "armorDamage": 50,
+      "fragmentationChance": 0.6,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 20,
+      "accuracy": 115,
+      "recoil": -10,
+      "initialSpeed": 430,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber12g_12_70_piranha": {
+    "id": "Caliber12g_12_70_piranha",
+    "name": "12/70 Piranha",
+    "shortName": "Piranha",
+    "weight": 0.012,
+    "caliber": "Caliber12g",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 10,
+      "armorDamage": 22,
+      "fragmentationChance": 0.5,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 24,
+      "accuracy": -5,
+      "recoil": 0,
+      "initialSpeed": 310,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber20g_20_70_dangerous_game_slug": {
+    "id": "Caliber20g_20_70_dangerous_game_slug",
+    "name": "20/70 Dangerous Game Slug",
+    "shortName": "Slug",
+    "weight": 0.012,
+    "caliber": "Caliber20g",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 143,
+      "armorDamage": 47,
+      "fragmentationChance": 1.04,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 25,
+      "accuracy": 60,
+      "recoil": 40,
+      "initialSpeed": 476,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber20g_20_70_flechette": {
+    "id": "Caliber20g_20_70_flechette",
+    "name": "20/70 flechette",
+    "shortName": "flechette",
+    "weight": 0.012,
+    "caliber": "Caliber20g",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 8,
+      "armorDamage": 24,
+      "fragmentationChance": 0.55,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 24,
+      "accuracy": -10,
+      "recoil": 0,
+      "initialSpeed": 400,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber20g_20_70_poleva_3_slug": {
+    "id": "Caliber20g_20_70_poleva_3_slug",
+    "name": "20/70 Poleva-3 slug",
+    "shortName": "slug",
+    "weight": 0.012,
+    "caliber": "Caliber20g",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 120,
+      "armorDamage": 35,
+      "fragmentationChance": 0.5,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 14,
+      "accuracy": 110,
+      "recoil": -15,
+      "initialSpeed": 425,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber20g_20_70_poleva_6u_slug": {
+    "id": "Caliber20g_20_70_poleva_6u_slug",
+    "name": "20/70 Poleva-6u slug",
+    "shortName": "slug",
+    "weight": 0.012,
+    "caliber": "Caliber20g",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 135,
+      "armorDamage": 40,
+      "fragmentationChance": 0.8,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 17,
+      "accuracy": 110,
+      "recoil": -10,
+      "initialSpeed": 445,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber20g_20_70_tss_armor_piercing_slug": {
+    "id": "Caliber20g_20_70_tss_armor_piercing_slug",
+    "name": "20/70 TSS Armor Piercing Slug",
+    "shortName": "Slug",
+    "weight": 0.012,
+    "caliber": "Caliber20g",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 155,
+      "armorDamage": 54,
+      "fragmentationChance": 1.21,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 30,
+      "accuracy": 64,
+      "recoil": 48,
+      "initialSpeed": 482,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber23x75_23x75mm_barrikada_slug": {
+    "id": "Caliber23x75_23x75mm_barrikada_slug",
+    "name": "23x75mm Barrikada slug",
+    "shortName": "slug",
+    "weight": 0.012,
+    "caliber": "Caliber23x75",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 192,
+      "armorDamage": 75,
+      "fragmentationChance": 1.7,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 39,
+      "accuracy": -5,
+      "recoil": 25,
+      "initialSpeed": 420,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber23x75_23x75mm_shrapnel_10_buckshot": {
+    "id": "Caliber23x75_23x75mm_shrapnel_10_buckshot",
+    "name": "23x75mm Shrapnel-10 buckshot",
+    "shortName": "buckshot",
+    "weight": 0.012,
+    "caliber": "Caliber23x75",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 8,
+      "armorDamage": 20,
+      "fragmentationChance": 0,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 11,
+      "accuracy": 0,
+      "recoil": 0,
+      "initialSpeed": 270,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber23x75_23x75mm_shrapnel_25_buckshot": {
+    "id": "Caliber23x75_23x75mm_shrapnel_25_buckshot",
+    "name": "23x75mm Shrapnel-25 buckshot",
+    "shortName": "buckshot",
+    "weight": 0.012,
+    "caliber": "Caliber23x75",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 8,
+      "armorDamage": 20,
+      "fragmentationChance": 0.8,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 10,
+      "accuracy": 20,
+      "recoil": 10,
+      "initialSpeed": 375,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber40mmRU_40mm_vog_25_grenade": {
+    "id": "Caliber40mmRU_40mm_vog_25_grenade",
+    "name": "40mm VOG-25 grenade",
+    "shortName": "grenade",
+    "weight": 0.012,
+    "caliber": "Caliber40mmRU",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 199,
+      "armorDamage": 68,
+      "fragmentationChance": 0.76,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 0,
+      "accuracy": 0.05,
+      "recoil": 1,
+      "initialSpeed": 0,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber26x75_26x75mm_flare_cartridge__acid_green_": {
+    "id": "Caliber26x75_26x75mm_flare_cartridge__acid_green_",
+    "name": "26x75mm flare cartridge (Acid Green)",
+    "shortName": "Green)",
+    "weight": 0.012,
+    "caliber": "Caliber26x75",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 37,
+      "armorDamage": 60,
+      "fragmentationChance": 0.8,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 0,
+      "accuracy": 0,
+      "recoil": 0,
+      "initialSpeed": 0,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber26x75_26x75mm_flare_cartridge__green_": {
+    "id": "Caliber26x75_26x75mm_flare_cartridge__green_",
+    "name": "26x75mm flare cartridge (Green)",
+    "shortName": "(Green)",
+    "weight": 0.012,
+    "caliber": "Caliber26x75",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 37,
+      "armorDamage": 60,
+      "fragmentationChance": 0.8,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 0,
+      "accuracy": 0,
+      "recoil": 0,
+      "initialSpeed": 0,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber26x75_26x75mm_flare_cartridge__red_": {
+    "id": "Caliber26x75_26x75mm_flare_cartridge__red_",
+    "name": "26x75mm flare cartridge (Red)",
+    "shortName": "(Red)",
+    "weight": 0.012,
+    "caliber": "Caliber26x75",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 37,
+      "armorDamage": 60,
+      "fragmentationChance": 0.8,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 0,
+      "accuracy": 0,
+      "recoil": 0,
+      "initialSpeed": 0,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber26x75_26x75mm_flare_cartridge__white_": {
+    "id": "Caliber26x75_26x75mm_flare_cartridge__white_",
+    "name": "26x75mm flare cartridge (White)",
+    "shortName": "(White)",
+    "weight": 0.012,
+    "caliber": "Caliber26x75",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 37,
+      "armorDamage": 60,
+      "fragmentationChance": 0.8,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 0,
+      "accuracy": 0,
+      "recoil": 0,
+      "initialSpeed": 0,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
+    }
+  },
+  "Caliber26x75_26x75mm_flare_cartridge__yellow_": {
+    "id": "Caliber26x75_26x75mm_flare_cartridge__yellow_",
+    "name": "26x75mm flare cartridge (Yellow)",
+    "shortName": "(Yellow)",
+    "weight": 0.012,
+    "caliber": "Caliber26x75",
+    "stackMaxSize": 50,
+    "tracer": false,
+    "tracerColor": "red",
+    "ammoType": "bullet",
+    "projectileCount": 1,
+    "ballistics": {
+      "damage": 37,
+      "armorDamage": 60,
+      "fragmentationChance": 0.8,
+      "ricochetChance": 0.1,
+      "penetrationChance": 0.2,
+      "penetrationPower": 0,
+      "accuracy": 0,
+      "recoil": 0,
+      "initialSpeed": 0,
+      "lightBleedingDelta": 0,
+      "heavyBleedingDelta": 0,
+      "durabilityBurnFactor": 0,
+      "heatFactor": 0
     }
   }
 }
