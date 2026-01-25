@@ -4,7 +4,7 @@ import { fetchCaliberList } from './fetchCalibers.js';
 import { fetchCaliberAmmoData, parseModifier, parsePercentage } from './fetchAmmoData.js';
 import { Ammunition, AmmoDatabase, WikiAmmoRow, CaliberInfo } from './types.js';
 
-const AMMO_FILE = './ammunition.json';
+const AMMO_FILE = './data/ammunition.json';
 
 /**
  * Prompts the user for confirmation
@@ -42,7 +42,7 @@ async function loadAmmoDatabase(): Promise<AmmoDatabase> {
 async function saveAmmoDatabase(database: AmmoDatabase): Promise<void> {
   const json = JSON.stringify(database, null, 2);
   await writeFile(AMMO_FILE, json, 'utf-8');
-  console.log(`✓ Saved to ${AMMO_FILE}`);
+  console.log(`Saved to ${AMMO_FILE}`);
 }
 
 /**
@@ -153,7 +153,7 @@ async function syncAmmunition(): Promise<void> {
   console.log('Loading ammunition.json...');
   const database = await loadAmmoDatabase();
   const totalAmmo = Object.keys(database).length;
-  console.log(`✓ Loaded ${totalAmmo} ammunition entries\n`);
+  console.log(`Loaded ${totalAmmo} ammunition entries\n`);
   
   // Fetch caliber list
   const calibers = await fetchCaliberList();
@@ -189,7 +189,7 @@ async function syncAmmunition(): Promise<void> {
           }
         } else {
           newAmmo.push({wiki: ammo, caliber});
-          console.log(`  ⚠ New ammunition found: ${ammo.name}`);
+          console.log(`  New ammunition found: ${ammo.name}`);
         }
       }
       
@@ -197,7 +197,7 @@ async function syncAmmunition(): Promise<void> {
       await new Promise(resolve => setTimeout(resolve, 1000));
       
     } catch (error) {
-      console.error(`✗ Error processing ${caliber.name}:`, error);
+      console.error(`Error processing ${caliber.name}:`, error);
       if (!await confirm('Continue with other calibers?')) {
         return;
       }
@@ -234,7 +234,7 @@ async function syncAmmunition(): Promise<void> {
   
   // Confirm updates
   if (Object.keys(updates).length === 0 && toDelete.length === 0 && newAmmo.length === 0) {
-    console.log('\n✓ No updates needed. Database is up to date!');
+    console.log('\nNo updates needed. Database is up to date!');
     return;
   }
   
@@ -280,7 +280,7 @@ async function syncAmmunition(): Promise<void> {
         heatFactor: 0
       }
     };
-    console.log(`  ✓ Added new ammunition: ${wiki.name} (${newId})`);
+    console.log(`  Added new ammunition: ${wiki.name} (${newId})`);
   }
   
   // Delete ammunition not on wiki
@@ -290,12 +290,12 @@ async function syncAmmunition(): Promise<void> {
   
   // Save
   await saveAmmoDatabase(database);
-  console.log('\n✓ Synchronization complete!');
+  console.log('\nSynchronization complete!');
   if (newAmmo.length > 0) {
-    console.log(`✓ Added ${newAmmo.length} new ammunition entries`);
+    console.log(`Added ${newAmmo.length} new ammunition entries`);
   }
   if (toDelete.length > 0) {
-    console.log(`✓ Deleted ${toDelete.length} ammunition entries`);
+    console.log(`Deleted ${toDelete.length} ammunition entries`);
   }
 }
 
@@ -303,7 +303,7 @@ async function syncAmmunition(): Promise<void> {
 if (import.meta.url === `file://${process.argv[1]}`) {
   syncAmmunition()
     .catch(error => {
-      console.error('\n✗ Fatal error:', error);
+      console.error('\nFatal error:', error);
       process.exit(1);
     });
 }

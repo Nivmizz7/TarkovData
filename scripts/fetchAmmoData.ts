@@ -22,7 +22,7 @@ export async function fetchCaliberAmmoData(caliber: CaliberInfo): Promise<WikiAm
   const firstTable = $('table').first();
   
   if (!firstTable.length) {
-    console.log('  ⚠ No table found on page');
+    console.log('  Warning: No table found on page');
     return ammoData;
   }
   

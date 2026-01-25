@@ -38,23 +38,6 @@ The `levels.json` file contains a JSON object where each key represents a player
 }
 ```
 
-## Level Milestones
-
-### Early Game (Levels 1-20)
-- **Level 1**: Starting level (0 total XP)
-- **Level 10**: 63,723 total XP
-- **Level 20**: 437,465 total XP
-
-### Mid Game (Levels 21-50)
-- **Level 30**: 1,499,338 total XP
-- **Level 40**: 4,010,401 total XP
-- **Level 50**: 9,055,144 total XP
-
-### Late Game (Levels 51-79)
-- **Level 60**: 17,816,442 total XP
-- **Level 70**: 44,260,543 total XP
-- **Level 79**: 172,016,256 total XP (maximum level)
-
 ## Calculation Formula
 
 The cumulative total for any level can be calculated as:

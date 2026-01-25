@@ -1,30 +1,111 @@
 # TarkovData
-tarkovdata is game information for [Escape From Tarkov](https://www.escapefromtarkov.com/) in easy to use formats to enable developing tools for assisting players. Everything here is contributed by the community (like you!) and maintained by developers of community tools like [Tarkov Tracker](https://tarkovtracker.io/), [Tarkov Guru](https://tarkov.guru/), [Tarkov.dev](https://tarkov.dev/), and [Tarkov Tools](https://tarkov-tools.com/) (defunct)
 
-This repository is still growing, with plans for new sets of data including SVG maps, item properties, localization, and more. Some schemas of data will change over time as the data matures, but breaking schemas will be avoided except when needed for added value.
+Community-maintained game data for [Escape From Tarkov](https://www.escapefromtarkov.com/) in easy-to-use formats. Everything here is contributed by the community and maintained by developers of community tools like [Tarkov Tracker](https://tarkovtracker.io/), [Tarkov Guru](https://tarkov.guru/), [Tarkov.dev](https://tarkov.dev/), and [Tarkov Tools](https://tarkov-tools.com/).
 
-See [quests.json](quests.json) for Quest Data, including requirements, unlocks, and objectives
+## Repository Structure
 
-See [hideout.json](hideout.json) for Hideout Data, including station information, and requirements
+```
+tarkovdata/
+├── data/              # Game data files
+│   ├── ammunition.json
+│   ├── hideout.json
+│   ├── items.en.json
+│   ├── quests.json
+│   ├── traders.json
+│   ├── maps.json
+│   ├── levels.json
+│   └── item_presets.json
+├── scripts/           # Maintenance and update scripts
+├── docs/              # Documentation
+└── maps/              # Map data and resources
+```
 
-See [items.en.json](items.en.json) for Item Names, in English, both short and long, with BSG UIDs
+## Data Files
 
-See [traders.json](traders.json) for Trader metadata
+### [data/ammunition.json](data/ammunition.json)
+Ammunition metadata including ballistics, damage, penetration, and other stats for all ammunition types in the game.
 
-See [maps.json](maps.json) for Map metadata
+### [data/hideout.json](data/hideout.json)
+Hideout station information and upgrade requirements, including all modules, construction times, and item requirements.
 
-See [item_presets.json](item_presets.json) for Weapon Preset configurations
+### [data/items.en.json](data/items.en.json)
+Item names in English with both short and long forms, indexed by BSG UIDs.
 
-See [ammunition.json](ammunition.json) for Ammunition metadata
+### [data/quests.json](data/quests.json)
+Quest data including requirements, unlocks, objectives, and rewards.
+
+### [data/traders.json](data/traders.json)
+Trader metadata and information.
+
+### [data/maps.json](data/maps.json)
+Map metadata and properties.
+
+### [data/item_presets.json](data/item_presets.json)
+Weapon preset configurations as they appear in the game.
+
+### [data/levels.json](data/levels.json)
+Player level progression and experience requirements.
+
+## Automated Scripts
+
+This repository includes TypeScript scripts for synchronizing data with the Escape From Tarkov wiki.
+
+See [docs/SCRIPTS.md](docs/SCRIPTS.md) for documentation on available maintenance scripts.
+
+### Available Commands
+
+```bash
+# Ammunition synchronization
+npm run sync:ammo          # Sync ammunition data from wiki
+npm run fetch:calibers     # Fetch caliber list from wiki
+npm run fetch:ammo         # Fetch ammunition data from wiki
+npm run report:missing     # Report missing ammunition entries
+
+# Data verification
+npm run verify-quest-data  # Verify quest data integrity
+```
 
 ## Contributing
 
-For any contribution, please create a pull request with your changes. If your changes include schema changes, please open an issue in advance to discuss with current maintainers (we don't want you wasting work if the schema change doesn't fit). Our current policy is one approval by a maintainer then feel free to merge.
+Contributions are welcome! Please follow these guidelines:
+
+1. **Create a Pull Request** with your changes
+2. **Schema Changes**: Open an issue first to discuss with maintainers
+3. **Data Verification**: Run verification scripts before submitting
+4. **Approval Process**: One approval by a maintainer, then merge
+
+### Data Integrity
+
+Before submitting changes to data files, please run the verification commands:
+
+```bash
+npm run verify-quest-data
+```
+
+This helps ensure no critical mistakes were made when modifying the data.
 
 ## CLI Tool
 
-To help with some basic data management functions and eventually integrity checks on PRs, a CLI tool is included with the repository.
+The repository includes a CLI tool for data management:
 
-Provided you have node/npm installed, you can run `npm cli.js help` to list available commands. Commands like `node cli.js verify-quest-data` and `node cli.js verify-hideout-data` are important to check that no important mistakes were made when modifying the data. Commands like `node cli.js new-quest-id` can find the next consecutive quest ID to utilize for new quests, there are similar commmands for hideout & objectives.
+```bash
+node cli.js help                 # List available commands
+node cli.js verify-quest-data    # Verify quest data
+node cli.js new-quest-id         # Find next available quest ID
+```
 
-If you would like to help keep the quest data up to date with changes, please submit a pull request to the master branch. Feel free to utilize the Github discussions feature to talk about data format and potential additions.
+## Documentation
+
+Additional documentation is available in the [docs/](docs/) directory:
+
+- [LEVELS.md](docs/LEVELS.md) - Level progression documentation
+- [TRADERS.md](docs/TRADERS.md) - Trader information
+- [SCRIPTS.md](docs/SCRIPTS.md) - Script documentation
+
+## License
+
+ISC License - See repository for details.
+
+## Community
+
+This data is actively used by several community tools. Join the discussion on GitHub to suggest improvements or report issues.
