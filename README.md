@@ -94,6 +94,10 @@ node cli.js verify-quest-data    # Verify quest data
 node cli.js new-quest-id         # Find next available quest ID
 ```
 
+## Update tool and branches
+
+update-ammo branch : PR for update ammo with  ``` bash .update ammo ```
+
 ## Documentation
 
 Additional documentation is available in the [docs/](docs/) directory:
