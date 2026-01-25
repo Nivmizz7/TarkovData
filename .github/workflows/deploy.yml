@@ -1,0 +1,26 @@
+name: Syncro TarkovData
+
+on:
+  push:
+    branches: [ "master" ]
+
+jobs:
+  sync-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Sync data to prod
+        uses: appleboy/ssh-action@v0.1.10
+        with:
+          host: ${{ secrets.SSH_HOST_PROD }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_KEY }}
+          port: ${{ secrets.SSH_HOST_PORT }}
+          script: |
+            set -e
+            cd ${{ secrets.SSH_PATH }}
+            git pull
+            sudo systemctl restart api.service
