@@ -48,6 +48,45 @@ Fetches ammunition data for testing purposes.
 npm run fetch:ammo
 ```
 
+### Level Scripts
+
+#### syncLevels.ts
+Synchronizes character level data from the wiki with the local database.
+
+```bash
+npm run sync:levels
+```
+
+**Process:**
+1. Loads current levels.json
+2. Fetches level data from the wiki Experience page
+3. Parses level, exp, total exp, and group information
+4. Compares with local data
+5. Displays changes and requests confirmation
+6. Updates levels.json with approved changes
+
+**Features:**
+- Detects new levels
+- Updates experience requirements
+- Updates cumulative totals
+- Updates level groups
+- Interactive confirmation before applying changes
+
+**Data Structure:**
+Each level contains:
+- `exp`: Experience required for this level
+- `total`: Cumulative total experience
+- `group`: Group number (based on level ranges: 1-4=group 1, 5-9=group 2, etc.)
+
+#### fetchLevels.ts
+Fetches level data for testing purposes.
+
+```bash
+npm run fetch:levels
+```
+
+Returns all level data from the wiki and displays the first and last 5 levels.
+
 Useful for debugging the wiki parsing logic without modifying local data.
 
 #### reportMissing.ts

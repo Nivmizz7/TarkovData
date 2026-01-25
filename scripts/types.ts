@@ -48,4 +48,19 @@ export interface CaliberInfo {
   caliberId: string;
 }
 
+export interface LevelData {
+  level: number;
+  exp: number;
+  total: number;
+  group: string;
+}
+
+export interface LevelEntry {
+  exp: number;
+  total: number;
+  group: string;
+}
+
+export type LevelsDatabase = Record<string, LevelEntry>;
+
 export type AmmoDatabase = Record<string, Ammunition>;
