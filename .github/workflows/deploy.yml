@@ -18,6 +18,7 @@ jobs:
           host: ${{ secrets.SSH_HOST_PROD }}
           username: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_KEY }}
+          port: ${{ secrets.SSH_HOST_PORT }}
           script: |
             set -e
             cd ${{ secrets.SSH_PATH }}
