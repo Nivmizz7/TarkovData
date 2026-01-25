@@ -9,14 +9,21 @@ jobs:
     if: |
       github.event.issue.pull_request &&
       contains(github.event.comment.body, '.update ammo')
+
     runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+    permissions:
+      contents: write
+      pull-requests: write
 
-      - name: Run npm sync:ammo on remote server
-        id: ssh
+    steps:
+      - name: Checkout PR branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+
+      - name: Run sync script on remote server
         uses: appleboy/ssh-action@v1.0.3
         with:
           host: ${{ secrets.SSH_HOST_PROD }}
@@ -26,22 +33,23 @@ jobs:
           script: |
             set -e
             cd ${{ secrets.SSH_PATH }}
+            npm ci
             npm run sync:ammo
 
-      - name: Comment success on PR
-        if: success()
-        uses: actions/github-script@v7
-        with:
-          script: |
-            github.rest.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: "Sync completed successfully.\n\nCommand executed: `npm run sync:ammo`"
-            })
+      - name: Commit updated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Comment failure on PR
-        if: failure()
+          if git status --porcelain | grep .; then
+            git add .
+            git commit -m "chore: update ammo data"
+            git push
+          else
+            echo "No changes to commit"
+          fi
+
+      - name: Comment result on PR
         uses: actions/github-script@v7
         with:
           script: |
@@ -49,5 +57,5 @@ jobs:
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: "Sync failed.\n\nThe command `npm run sync:ammo` returned an error. Please check the GitHub Actions logs for details."
+              body: "Ammo data sync completed. Changes have been committed to this PR (if any)."
             })
