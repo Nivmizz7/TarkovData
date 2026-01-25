@@ -1,0 +1,471 @@
+{
+  "storylines": [
+    "Tour",
+    "Falling Skies",
+    "Batya",
+    "Accidental Witness",
+    "They Are Already Here",
+    "Blue Fire",
+    "The Ticket",
+    "The Unheard",
+    "The Labyrinth"
+  ],
+  "chapters": {
+    "Tour": {
+      "name": "Tour",
+      "id": "tour",
+      "require": 1,
+      "wiki": "https://escapefromtarkov.fandom.com/wiki/Tour",
+      "description": "During the assault on the TerraGroup office, a massive explosion erupted on top of one of the nearby high-rises. I got left on my own, with no contact with command. Looks like I'll have to handle the evacuation myself. But first things first, I have to get out of this Ground Zero.",
+      "objectives": [
+        {
+          "id": "tour_obj_1",
+          "type": "extract",
+          "description": "Escape Ground Zero",
+          "location": "Ground Zero",
+          "optional": false
+        },
+        {
+          "id": "tour_obj_2",
+          "type": "talk",
+          "description": "Talk to Therapist",
+          "trader": "Therapist",
+          "optional": false
+        },
+        {
+          "id": "tour_obj_3",
+          "type": "choice",
+          "description": "Ensure access to the Streets of Tarkov",
+          "optional": false,
+          "options": [
+            {
+              "type": "handover",
+              "description": "Hand over the cash to Therapist",
+              "trader": "Therapist",
+              "items": [
+                {
+                  "item": "Roubles",
+                  "amount": 250000,
+                  "findInRaid": false
+                }
+              ]
+            },
+            {
+              "type": "collect",
+              "description": "Collect the required 250,000 Roubles",
+              "optional": true,
+              "items": [
+                {
+                  "item": "Roubles",
+                  "amount": 250000,
+                  "findInRaid": false
+                }
+              ]
+            }
+          ],
+          "rewards": [
+            {
+              "type": "unlock_location",
+              "location": "Streets of Tarkov"
+            }
+          ]
+        },
+        {
+          "id": "tour_obj_4",
+          "type": "talk",
+          "description": "Talk to Ragman",
+          "trader": "Ragman",
+          "optional": false
+        },
+        {
+          "id": "tour_obj_5",
+          "type": "extract",
+          "description": "Survive and extract from Interchange",
+          "location": "Interchange",
+          "optional": false,
+          "rewards": [
+            {
+              "type": "unlock_trader",
+              "trader": "Skier"
+            },
+            {
+              "type": "unlock_location",
+              "location": "Customs"
+            }
+          ]
+        },
+        {
+          "id": "tour_obj_6",
+          "type": "talk",
+          "description": "Tell Ragman what you found during the recon",
+          "trader": "Ragman",
+          "optional": false
+        },
+        {
+          "id": "tour_obj_7",
+          "type": "talk",
+          "description": "Talk to Skier",
+          "trader": "Skier",
+          "optional": false
+        },
+        {
+          "id": "tour_obj_8",
+          "type": "extract",
+          "description": "Survive and extract from Customs",
+          "location": "Customs",
+          "optional": false
+        },
+        {
+          "id": "tour_obj_9",
+          "type": "choice",
+          "description": "Hand over any 5 found in raid building materials items to Skier",
+          "optional": false,
+          "options": [
+            {
+              "type": "handover",
+              "description": "Hand over building materials to Skier",
+              "trader": "Skier",
+              "items": [
+                {
+                  "item": "Any building materials or tools",
+                  "amount": 5,
+                  "findInRaid": true
+                }
+              ]
+            },
+            {
+              "type": "collect",
+              "description": "Find any 5 items in raid from the building materials category",
+              "optional": true,
+              "items": [
+                {
+                  "item": "Any building materials or tools",
+                  "amount": 5,
+                  "findInRaid": true
+                }
+              ]
+            }
+          ],
+          "rewards": [
+            {
+              "type": "unlock_trader",
+              "trader": "Mechanic"
+            },
+            {
+              "type": "unlock_location",
+              "location": "Factory"
+            }
+          ]
+        },
+        {
+          "id": "tour_obj_10",
+          "type": "talk",
+          "description": "Talk to Mechanic",
+          "trader": "Mechanic",
+          "optional": false
+        },
+        {
+          "id": "tour_obj_11",
+          "type": "extract",
+          "description": "Survive and extract from Factory",
+          "location": "Factory",
+          "optional": false
+        },
+        {
+          "id": "tour_obj_12",
+          "type": "choice",
+          "description": "Hand over any 2 found in raid weapons to Mechanic",
+          "optional": false,
+          "options": [
+            {
+              "type": "handover",
+              "description": "Hand over weapons to Mechanic",
+              "trader": "Mechanic",
+              "items": [
+                {
+                  "item": "Any weapons",
+                  "amount": 2,
+                  "findInRaid": true
+                }
+              ]
+            },
+            {
+              "type": "collect",
+              "description": "Find any 2 weapons in raid",
+              "optional": true,
+              "items": [
+                {
+                  "item": "Any weapons",
+                  "amount": 2,
+                  "findInRaid": true
+                }
+              ]
+            }
+          ],
+          "rewards": [
+            {
+              "type": "unlock_trader",
+              "trader": "Prapor"
+            },
+            {
+              "type": "unlock_location",
+              "location": "Woods"
+            }
+          ]
+        },
+        {
+          "id": "tour_obj_13",
+          "type": "talk",
+          "description": "Talk to Skier",
+          "trader": "Skier",
+          "optional": false
+        },
+        {
+          "id": "tour_obj_14",
+          "type": "elimination",
+          "description": "Eliminate any 3 targets on Woods",
+          "location": "Woods",
+          "count": 3,
+          "optional": false
+        },
+        {
+          "id": "tour_obj_15",
+          "type": "extract",
+          "description": "Survive and extract from Woods",
+          "location": "Woods",
+          "optional": false,
+          "rewards": [
+            {
+              "type": "unlock_trader",
+              "trader": "Peacekeeper"
+            },
+            {
+              "type": "unlock_location",
+              "location": "Shoreline"
+            }
+          ]
+        },
+        {
+          "id": "tour_obj_16",
+          "type": "locate",
+          "description": "Locate the entrance to the port Terminal",
+          "location": "Shoreline",
+          "optional": false
+        },
+        {
+          "id": "tour_obj_17",
+          "type": "locate",
+          "description": "Find a way to contact the soldiers at the Terminal",
+          "location": "Shoreline",
+          "optional": false
+        },
+        {
+          "id": "tour_obj_18",
+          "type": "interact",
+          "description": "Use the intercom to contact the port garrison",
+          "location": "Shoreline",
+          "optional": false
+        },
+        {
+          "id": "tour_obj_19",
+          "type": "learn",
+          "description": "Learn how to escape Tarkov",
+          "optional": false
+        },
+        {
+          "id": "tour_obj_20",
+          "type": "choice",
+          "description": "Ensure access to Lighthouse",
+          "optional": false,
+          "options": [
+            {
+              "type": "handover",
+              "description": "Hand over 20,000 USD to Mechanic",
+              "trader": "Mechanic",
+              "items": [
+                {
+                  "item": "Dollars",
+                  "amount": 20000,
+                  "findInRaid": false
+                }
+              ]
+            },
+            {
+              "type": "collect",
+              "description": "Collect the required 20,000 USD",
+              "optional": true,
+              "items": [
+                {
+                  "item": "Dollars",
+                  "amount": 20000,
+                  "findInRaid": false
+                }
+              ]
+            }
+          ],
+          "rewards": [
+            {
+              "type": "unlock_location",
+              "location": "Lighthouse"
+            }
+          ]
+        },
+        {
+          "id": "tour_obj_21",
+          "type": "choice",
+          "description": "Ensure access to Reserve",
+          "optional": false,
+          "options": [
+            {
+              "type": "handover",
+              "description": "Hand over 5 found in raid PMC dogtags to Prapor",
+              "trader": "Prapor",
+              "items": [
+                {
+                  "item": "PMC Dogtag",
+                  "amount": 5,
+                  "findInRaid": true
+                }
+              ]
+            },
+            {
+              "type": "collect",
+              "description": "Find 5 PMC dogtags in raid",
+              "optional": true,
+              "items": [
+                {
+                  "item": "PMC Dogtag",
+                  "amount": 5,
+                  "findInRaid": true
+                }
+              ]
+            },
+            {
+              "type": "extract",
+              "description": "Survive and extract from Shoreline",
+              "location": "Shoreline"
+            }
+          ],
+          "rewards": [
+            {
+              "type": "unlock_location",
+              "location": "Reserve"
+            }
+          ]
+        },
+        {
+          "id": "tour_obj_22",
+          "type": "choice",
+          "description": "Ensure access to The Lab",
+          "optional": false,
+          "options": [
+            {
+              "type": "access",
+              "description": "Access the secret TerraGroup facility",
+              "location": "The Lab"
+            },
+            {
+              "type": "obtain",
+              "description": "Obtain a keycard or access codes to enter the facility",
+              "optional": true,
+              "items": [
+                {
+                  "item": "TerraGroup Labs access keycard",
+                  "amount": 1,
+                  "findInRaid": false
+                }
+              ]
+            },
+            {
+              "type": "locate",
+              "description": "Locate the entrance to the facility on Factory",
+              "location": "Factory",
+              "optional": true
+            },
+            {
+              "type": "locate",
+              "description": "Locate the entrance to the facility on Streets of Tarkov",
+              "location": "Streets of Tarkov",
+              "optional": true
+            },
+            {
+              "type": "search",
+              "description": "Search the top management offices in The Lab",
+              "location": "The Lab"
+            },
+            {
+              "type": "search",
+              "description": "Search the server room in The Lab",
+              "location": "The Lab"
+            },
+            {
+              "type": "locate",
+              "description": "Locate the escape path through the drainage system in The Lab",
+              "location": "The Lab"
+            }
+          ],
+          "rewards": [
+            {
+              "type": "unlock_location",
+              "location": "The Lab"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "unlock_trader",
+          "trader": "Skier"
+        },
+        {
+          "type": "unlock_trader",
+          "trader": "Mechanic"
+        },
+        {
+          "type": "unlock_trader",
+          "trader": "Prapor"
+        },
+        {
+          "type": "unlock_trader",
+          "trader": "Peacekeeper"
+        },
+        {
+          "type": "unlock_location",
+          "location": "Streets of Tarkov"
+        },
+        {
+          "type": "unlock_location",
+          "location": "Customs"
+        },
+        {
+          "type": "unlock_location",
+          "location": "Factory"
+        },
+        {
+          "type": "unlock_location",
+          "location": "Woods"
+        },
+        {
+          "type": "unlock_location",
+          "location": "Shoreline"
+        },
+        {
+          "type": "unlock_location",
+          "location": "Lighthouse"
+        },
+        {
+          "type": "unlock_location",
+          "location": "Reserve"
+        },
+        {
+          "type": "unlock_location",
+          "location": "The Lab"
+        },
+        {
+          "type": "achievement",
+          "name": "Pathfinder"
+        }
+      ]
+    }
+  }
+}

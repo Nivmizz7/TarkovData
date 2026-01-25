@@ -3,7 +3,8 @@
     "id": 0,
     "require": {
       "level": 1,
-      "quests": []
+      "quests": [],
+      "storylineObjective": "tour_obj_12"
     },
     "giver": 0,
     "turnin": 0,
@@ -15,7 +16,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Debut",
     "exp": 1700,
-    "unlocks": ["57dc2fa62459775949412633"],
+    "unlocks": [
+      "57dc2fa62459775949412633"
+    ],
     "reputation": [
       {
         "trader": 0,
@@ -44,7 +47,10 @@
     "id": 1,
     "require": {
       "level": 2,
-      "quests": [0]
+      "quests": [
+        0
+      ],
+      "storylineObjective": "tour_obj_12"
     },
     "giver": 0,
     "turnin": 0,
@@ -90,7 +96,10 @@
     "id": 2,
     "require": {
       "level": 3,
-      "quests": [1]
+      "quests": [
+        1
+      ],
+      "storylineObjective": "tour_obj_12"
     },
     "giver": 0,
     "turnin": 0,
@@ -124,7 +133,10 @@
     "id": 3,
     "require": {
       "level": 5,
-      "quests": [1]
+      "quests": [
+        1
+      ],
+      "storylineObjective": "tour_obj_12"
     },
     "giver": 0,
     "turnin": 0,
@@ -136,7 +148,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Delivery_from_the_past",
     "exp": 4000,
-    "unlocks": ["56dff3afd2720bba668b4567"],
+    "unlocks": [
+      "56dff3afd2720bba668b4567"
+    ],
     "reputation": [
       {
         "trader": 0,
@@ -182,7 +196,10 @@
     "id": 4,
     "require": {
       "level": 5,
-      "quests": [3]
+      "quests": [
+        3
+      ],
+      "storylineObjective": "tour_obj_12"
     },
     "giver": 0,
     "turnin": 0,
@@ -269,7 +286,10 @@
     "id": 5,
     "require": {
       "level": 6,
-      "quests": [4]
+      "quests": [
+        4
+      ],
+      "storylineObjective": "tour_obj_12"
     },
     "giver": 0,
     "turnin": 0,
@@ -281,7 +301,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Bad_rep_evidence",
     "exp": 4100,
-    "unlocks": ["576fd4ec2459777f0b518431"],
+    "unlocks": [
+      "576fd4ec2459777f0b518431"
+    ],
     "reputation": [
       {
         "trader": 0,
@@ -315,7 +337,10 @@
     "id": 6,
     "require": {
       "level": 9,
-      "quests": [5]
+      "quests": [
+        5
+      ],
+      "storylineObjective": "tour_obj_12"
     },
     "giver": 0,
     "turnin": 0,
@@ -327,7 +352,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Ice_cream_cones",
     "exp": 5200,
-    "unlocks": ["55d482194bdc2d1d4e8b456b"],
+    "unlocks": [
+      "55d482194bdc2d1d4e8b456b"
+    ],
     "reputation": [
       {
         "trader": 0,
@@ -350,7 +377,10 @@
     "id": 7,
     "require": {
       "level": 10,
-      "quests": [6]
+      "quests": [
+        6
+      ],
+      "storylineObjective": "tour_obj_12"
     },
     "giver": 0,
     "turnin": 1,
@@ -389,13 +419,16 @@
     "id": 8,
     "require": {
       "level": 10,
-      "quests": [6],
+      "quests": [
+        6
+      ],
       "loyalty": [
         {
           "trader": 0,
           "stage": 2
         }
-      ]
+      ],
+      "storylineObjective": "tour_obj_12"
     },
     "giver": 0,
     "turnin": 0,
@@ -407,7 +440,10 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Shaking_up_the_Teller",
     "exp": 5900,
-    "unlocks": ["57ffb0e42459777d047111c5", "59c0ec5b86f77435b128bfca"],
+    "unlocks": [
+      "57ffb0e42459777d047111c5",
+      "59c0ec5b86f77435b128bfca"
+    ],
     "reputation": [
       {
         "trader": 0,
@@ -445,7 +481,10 @@
     "id": 9,
     "require": {
       "level": 35,
-      "quests": [8]
+      "quests": [
+        8
+      ],
+      "storylineObjective": "tour_obj_12"
     },
     "giver": 0,
     "turnin": 0,
@@ -514,7 +553,10 @@
     "id": 10,
     "require": {
       "level": 30,
-      "quests": [8]
+      "quests": [
+        8
+      ],
+      "storylineObjective": "tour_obj_12"
     },
     "giver": 0,
     "turnin": 0,
@@ -525,7 +567,10 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Grenadier",
     "exp": 18000,
-    "unlocks": ["5c1260dc86f7746b106e8748", "5cadf6eeae921500134b2799"],
+    "unlocks": [
+      "5c1260dc86f7746b106e8748",
+      "5cadf6eeae921500134b2799"
+    ],
     "reputation": [],
     "objectives": [
       {
@@ -533,7 +578,9 @@
         "target": "PMCs",
         "number": 12,
         "location": -1,
-        "with": ["Grenade"],
+        "with": [
+          "Grenade"
+        ],
         "id": 22
       }
     ],
@@ -543,7 +590,10 @@
     "id": 11,
     "require": {
       "level": 30,
-      "quests": [10]
+      "quests": [
+        10
+      ],
+      "storylineObjective": "tour_obj_12"
     },
     "giver": 0,
     "turnin": 0,
@@ -568,7 +618,9 @@
         "target": "PMCs",
         "number": 30,
         "location": -1,
-        "with": ["Nighttime (22 - 05 hours)"],
+        "with": [
+          "Nighttime (22 - 05 hours)"
+        ],
         "id": 23
       }
     ],
@@ -578,7 +630,10 @@
     "id": 12,
     "require": {
       "level": 30,
-      "quests": [10]
+      "quests": [
+        10
+      ],
+      "storylineObjective": "tour_obj_12"
     },
     "giver": 0,
     "turnin": 0,
@@ -590,7 +645,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Test_drive_-_Part_1",
     "exp": 18200,
-    "unlocks": ["5c0d668f86f7747ccb7f13b2"],
+    "unlocks": [
+      "5c0d668f86f7747ccb7f13b2"
+    ],
     "reputation": [
       {
         "trader": 0,
@@ -603,7 +660,11 @@
         "target": "PMCs",
         "number": 5,
         "location": -1,
-        "with": ["M1A", "Hybrid 46 silencer", "Trijicon REAP-IR thermal scope"],
+        "with": [
+          "M1A",
+          "Hybrid 46 silencer",
+          "Trijicon REAP-IR thermal scope"
+        ],
         "id": 24
       }
     ],
@@ -613,7 +674,10 @@
     "id": 13,
     "require": {
       "level": 17,
-      "quests": [8]
+      "quests": [
+        8
+      ],
+      "storylineObjective": "tour_obj_12"
     },
     "giver": 0,
     "turnin": 0,
@@ -625,7 +689,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/The_Punisher_-_Part_1",
     "exp": 10200,
-    "unlocks": ["55801eed4bdc2d89578b4588"],
+    "unlocks": [
+      "55801eed4bdc2d89578b4588"
+    ],
     "reputation": [
       {
         "trader": 0,
@@ -638,7 +704,9 @@
         "target": "Scavs",
         "number": 15,
         "location": 3,
-        "with": ["AKM"],
+        "with": [
+          "AKM"
+        ],
         "id": 25
       }
     ],
@@ -648,7 +716,10 @@
     "id": 14,
     "require": {
       "level": 18,
-      "quests": [13]
+      "quests": [
+        13
+      ],
+      "storylineObjective": "tour_obj_12"
     },
     "giver": 0,
     "turnin": 0,
@@ -673,7 +744,9 @@
         "target": "Scavs",
         "number": 12,
         "location": 3,
-        "with": ["Supressed weapon"],
+        "with": [
+          "Supressed weapon"
+        ],
         "id": 26
       },
       {
@@ -690,7 +763,10 @@
     "id": 15,
     "require": {
       "level": 19,
-      "quests": [14]
+      "quests": [
+        14
+      ],
+      "storylineObjective": "tour_obj_12"
     },
     "giver": 0,
     "turnin": 0,
@@ -702,7 +778,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/The_Punisher_-_Part_3",
     "exp": 11700,
-    "unlocks": ["5e023d34e8a400319a28ed44"],
+    "unlocks": [
+      "5e023d34e8a400319a28ed44"
+    ],
     "reputation": [
       {
         "trader": 0,
@@ -719,7 +797,9 @@
         "target": "Scavs",
         "number": 25,
         "location": 1,
-        "with": ["AKS-74U"],
+        "with": [
+          "AKS-74U"
+        ],
         "id": 28
       }
     ],
@@ -729,7 +809,10 @@
     "id": 16,
     "require": {
       "level": 20,
-      "quests": [15]
+      "quests": [
+        15
+      ],
+      "storylineObjective": "tour_obj_12"
     },
     "giver": 0,
     "turnin": 0,
@@ -741,7 +824,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/The_Punisher_-_Part_4",
     "exp": 18000,
-    "unlocks": ["56dff061d2720bb5668b4567"],
+    "unlocks": [
+      "56dff061d2720bb5668b4567"
+    ],
     "reputation": [
       {
         "trader": 0,
@@ -758,7 +843,9 @@
         "target": "Scavs",
         "number": 10,
         "location": 2,
-        "with": ["12 gauge shotgun"],
+        "with": [
+          "12 gauge shotgun"
+        ],
         "id": 29
       },
       {
@@ -766,7 +853,10 @@
         "target": "PMCs",
         "number": 10,
         "location": 3,
-        "with": ["balaclava", "scav vest"],
+        "with": [
+          "balaclava",
+          "scav vest"
+        ],
         "id": 30
       },
       {
@@ -783,7 +873,10 @@
     "id": 17,
     "require": {
       "level": 20,
-      "quests": [16]
+      "quests": [
+        16
+      ],
+      "storylineObjective": "tour_obj_12"
     },
     "giver": 0,
     "turnin": 0,
@@ -795,7 +888,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/The_Punisher_-_Part_5",
     "exp": 18200,
-    "unlocks": ["59e0d99486f7744a32234762"],
+    "unlocks": [
+      "59e0d99486f7744a32234762"
+    ],
     "reputation": [
       {
         "trader": 0,
@@ -808,7 +903,10 @@
         "target": "PMCs",
         "number": 10,
         "location": -1,
-        "with": ["PACA vest", "6b47 helmet"],
+        "with": [
+          "PACA vest",
+          "6b47 helmet"
+        ],
         "id": 32
       },
       {
@@ -839,7 +937,10 @@
     "id": 18,
     "require": {
       "level": 21,
-      "quests": [17]
+      "quests": [
+        17
+      ],
+      "storylineObjective": "tour_obj_12"
     },
     "giver": 0,
     "turnin": 0,
@@ -872,7 +973,9 @@
         "target": "PMCs",
         "number": 15,
         "location": -1,
-        "with": ["SVDS 7.62x54 Sniper rifle"],
+        "with": [
+          "SVDS 7.62x54 Sniper rifle"
+        ],
         "id": 36
       },
       {
@@ -896,7 +999,8 @@
     "id": 19,
     "require": {
       "level": 1,
-      "quests": []
+      "quests": [],
+      "storylineObjective": "tour_obj_2"
     },
     "giver": 1,
     "turnin": 1,
@@ -930,7 +1034,10 @@
     "id": 20,
     "require": {
       "level": 4,
-      "quests": [19]
+      "quests": [
+        19
+      ],
+      "storylineObjective": "tour_obj_2"
     },
     "giver": 1,
     "turnin": 1,
@@ -942,7 +1049,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Sanitary_Standards_-_Part_1",
     "exp": 2200,
-    "unlocks": ["590c661e86f7741e566b646a"],
+    "unlocks": [
+      "590c661e86f7741e566b646a"
+    ],
     "reputation": [
       {
         "trader": 1,
@@ -964,7 +1073,10 @@
     "id": 21,
     "require": {
       "level": 8,
-      "quests": [20]
+      "quests": [
+        20
+      ],
+      "storylineObjective": "tour_obj_2"
     },
     "giver": 1,
     "turnin": 1,
@@ -998,7 +1110,10 @@
     "id": 22,
     "require": {
       "level": 8,
-      "quests": [21]
+      "quests": [
+        21
+      ],
+      "storylineObjective": "tour_obj_2"
     },
     "giver": 1,
     "turnin": 1,
@@ -1033,7 +1148,10 @@
     "id": 23,
     "require": {
       "level": 10,
-      "quests": [22]
+      "quests": [
+        22
+      ],
+      "storylineObjective": "tour_obj_2"
     },
     "giver": 1,
     "turnin": 1,
@@ -1045,7 +1163,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Pharmacist",
     "exp": 5700,
-    "unlocks": ["5aa7cfc0e5b5b00015693143"],
+    "unlocks": [
+      "5aa7cfc0e5b5b00015693143"
+    ],
     "reputation": [
       {
         "trader": 1,
@@ -1079,7 +1199,10 @@
     "id": 24,
     "require": {
       "level": 13,
-      "quests": [23]
+      "quests": [
+        23
+      ],
+      "storylineObjective": "tour_obj_2"
     },
     "giver": 1,
     "turnin": 1,
@@ -1118,14 +1241,19 @@
         "id": 45
       }
     ],
-    "alternatives": [25],
+    "alternatives": [
+      25
+    ],
     "gameId": "596a0e1686f7741ddf17dbee"
   },
   {
     "id": 25,
     "require": {
       "level": 13,
-      "quests": [23]
+      "quests": [
+        23
+      ],
+      "storylineObjective": "tour_obj_5"
     },
     "giver": 2,
     "turnin": 2,
@@ -1164,14 +1292,19 @@
         "id": 46
       }
     ],
-    "alternatives": [24],
+    "alternatives": [
+      24
+    ],
     "gameId": "596a101f86f7741ddb481582"
   },
   {
     "id": 26,
     "require": {
       "level": 10,
-      "quests": [23]
+      "quests": [
+        23
+      ],
+      "storylineObjective": "tour_obj_2"
     },
     "giver": 1,
     "turnin": 1,
@@ -1205,7 +1338,10 @@
     "id": 27,
     "require": {
       "level": 10,
-      "quests": [23]
+      "quests": [
+        23
+      ],
+      "storylineObjective": "tour_obj_2"
     },
     "giver": 1,
     "turnin": 1,
@@ -1248,7 +1384,10 @@
     "id": 28,
     "require": {
       "level": 10,
-      "quests": [23]
+      "quests": [
+        23
+      ],
+      "storylineObjective": "tour_obj_2"
     },
     "giver": 1,
     "turnin": 1,
@@ -1260,7 +1399,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Health_Care_Privacy_-_Part_1",
     "exp": 4800,
-    "unlocks": ["590c678286f77426c9660122"],
+    "unlocks": [
+      "590c678286f77426c9660122"
+    ],
     "reputation": [
       {
         "trader": 1,
@@ -1317,7 +1458,10 @@
     "id": 29,
     "require": {
       "level": 10,
-      "quests": [28]
+      "quests": [
+        28
+      ],
+      "storylineObjective": "tour_obj_2"
     },
     "giver": 1,
     "turnin": 1,
@@ -1363,7 +1507,10 @@
     "id": 30,
     "require": {
       "level": 10,
-      "quests": [29]
+      "quests": [
+        29
+      ],
+      "storylineObjective": "tour_obj_2"
     },
     "giver": 1,
     "turnin": 1,
@@ -1375,7 +1522,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Health_Care_Privacy_-_Part_3",
     "exp": 6000,
-    "unlocks": ["544fb3f34bdc2d03748b456a"],
+    "unlocks": [
+      "544fb3f34bdc2d03748b456a"
+    ],
     "reputation": [
       {
         "trader": 1,
@@ -1402,7 +1551,10 @@
     "id": 31,
     "require": {
       "level": 10,
-      "quests": [30]
+      "quests": [
+        30
+      ],
+      "storylineObjective": "tour_obj_2"
     },
     "giver": 1,
     "turnin": 1,
@@ -1436,7 +1588,10 @@
     "id": 32,
     "require": {
       "level": 10,
-      "quests": [31]
+      "quests": [
+        31
+      ],
+      "storylineObjective": "tour_obj_2"
     },
     "giver": 1,
     "turnin": 1,
@@ -1475,7 +1630,11 @@
     "id": 33,
     "require": {
       "level": 30,
-      "quests": [32, 34]
+      "quests": [
+        32,
+        34
+      ],
+      "storylineObjective": "tour_obj_2"
     },
     "giver": 1,
     "turnin": 1,
@@ -1500,7 +1659,10 @@
         "target": "Scavs",
         "number": 40,
         "location": 4,
-        "with": ["Respirator OR Gasmask", "Close range"],
+        "with": [
+          "Respirator OR Gasmask",
+          "Close range"
+        ],
         "id": 58
       }
     ],
@@ -1510,7 +1672,10 @@
     "id": 34,
     "require": {
       "level": 35,
-      "quests": [31]
+      "quests": [
+        31
+      ],
+      "storylineObjective": "tour_obj_2"
     },
     "giver": 1,
     "turnin": 1,
@@ -1551,7 +1716,10 @@
     "id": 35,
     "require": {
       "level": 30,
-      "quests": [31]
+      "quests": [
+        31
+      ],
+      "storylineObjective": "tour_obj_2"
     },
     "giver": 1,
     "turnin": 1,
@@ -1563,7 +1731,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Athlete",
     "exp": 19600,
-    "unlocks": ["5c10c8fd86f7743d7d706df3"],
+    "unlocks": [
+      "5c10c8fd86f7743d7d706df3"
+    ],
     "reputation": [
       {
         "trader": 1,
@@ -1585,7 +1755,8 @@
     "id": 36,
     "require": {
       "level": 5,
-      "quests": []
+      "quests": [],
+      "storylineObjective": "tour_obj_5"
     },
     "giver": 2,
     "turnin": 2,
@@ -1597,7 +1768,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Supplier",
     "exp": 3300,
-    "unlocks": ["59f9cabd86f7743a10721f46"],
+    "unlocks": [
+      "59f9cabd86f7743a10721f46"
+    ],
     "reputation": [
       {
         "trader": 2,
@@ -1626,7 +1799,10 @@
     "id": 37,
     "require": {
       "level": 7,
-      "quests": [36]
+      "quests": [
+        36
+      ],
+      "storylineObjective": "tour_obj_5"
     },
     "giver": 2,
     "turnin": 2,
@@ -1672,7 +1848,10 @@
     "id": 38,
     "require": {
       "level": 8,
-      "quests": [37]
+      "quests": [
+        37
+      ],
+      "storylineObjective": "tour_obj_5"
     },
     "giver": 2,
     "turnin": 2,
@@ -1710,7 +1889,10 @@
     "id": 39,
     "require": {
       "level": 8,
-      "quests": [38]
+      "quests": [
+        38
+      ],
+      "storylineObjective": "tour_obj_5"
     },
     "giver": 2,
     "turnin": 2,
@@ -1722,7 +1904,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Golden_Swag",
     "exp": 4500,
-    "unlocks": ["584984812459776a704a82a6"],
+    "unlocks": [
+      "584984812459776a704a82a6"
+    ],
     "reputation": [
       {
         "trader": 2,
@@ -1775,7 +1959,10 @@
     "id": 40,
     "require": {
       "level": 10,
-      "quests": [39]
+      "quests": [
+        39
+      ],
+      "storylineObjective": "tour_obj_5"
     },
     "giver": 2,
     "turnin": 2,
@@ -1821,7 +2008,10 @@
     "id": 41,
     "require": {
       "level": 10,
-      "quests": [40]
+      "quests": [
+        40
+      ],
+      "storylineObjective": "tour_obj_5"
     },
     "giver": 2,
     "turnin": 2,
@@ -1833,7 +2023,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Chemical_-_Part_2",
     "exp": 4800,
-    "unlocks": ["5a966f51a2750c00156aacf6"],
+    "unlocks": [
+      "5a966f51a2750c00156aacf6"
+    ],
     "reputation": [
       {
         "trader": 2,
@@ -1879,7 +2071,10 @@
     "id": 42,
     "require": {
       "level": 11,
-      "quests": [41]
+      "quests": [
+        41
+      ],
+      "storylineObjective": "tour_obj_5"
     },
     "giver": 2,
     "turnin": 2,
@@ -1922,7 +2117,10 @@
     "id": 43,
     "require": {
       "level": 11,
-      "quests": [42]
+      "quests": [
+        42
+      ],
+      "storylineObjective": "tour_obj_5"
     },
     "giver": 2,
     "turnin": 2,
@@ -1934,7 +2132,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Chemical_-_Part_4",
     "exp": 6500,
-    "unlocks": ["5aa7e4a4e5b5b000137b76f2"],
+    "unlocks": [
+      "5aa7e4a4e5b5b000137b76f2"
+    ],
     "reputation": [
       {
         "trader": 2,
@@ -1966,14 +2166,20 @@
         "id": 77
       }
     ],
-    "alternatives": [179, 180],
+    "alternatives": [
+      179,
+      180
+    ],
     "gameId": "597a0f5686f774273b74f676"
   },
   {
     "id": 44,
     "require": {
       "level": 22,
-      "quests": [42]
+      "quests": [
+        42
+      ],
+      "storylineObjective": "tour_obj_5"
     },
     "giver": 2,
     "turnin": 2,
@@ -2057,7 +2263,10 @@
     "id": 45,
     "require": {
       "level": 22,
-      "quests": [44]
+      "quests": [
+        44
+      ],
+      "storylineObjective": "tour_obj_5"
     },
     "giver": 2,
     "turnin": 2,
@@ -2069,7 +2278,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Vitamins_-_Part_2",
     "exp": 15800,
-    "unlocks": ["5fc3f2d5900b1d5091531e57"],
+    "unlocks": [
+      "5fc3f2d5900b1d5091531e57"
+    ],
     "reputation": [
       {
         "trader": 2,
@@ -2098,7 +2309,10 @@
     "id": 46,
     "require": {
       "level": 9,
-      "quests": [39]
+      "quests": [
+        39
+      ],
+      "storylineObjective": "tour_obj_5"
     },
     "giver": 2,
     "turnin": 2,
@@ -2123,7 +2337,9 @@
         "target": "PMCs",
         "number": 7,
         "location": -1,
-        "with": ["USEC faction"],
+        "with": [
+          "USEC faction"
+        ],
         "id": 303
       },
       {
@@ -2140,7 +2356,10 @@
     "id": 47,
     "require": {
       "level": 9,
-      "quests": [46]
+      "quests": [
+        46
+      ],
+      "storylineObjective": "tour_obj_5"
     },
     "giver": 2,
     "turnin": 2,
@@ -2174,7 +2393,10 @@
     "id": 48,
     "require": {
       "level": 25,
-      "quests": [47]
+      "quests": [
+        47
+      ],
+      "storylineObjective": "tour_obj_5"
     },
     "giver": 2,
     "turnin": 2,
@@ -2186,7 +2408,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Lend_lease_-_Part_1",
     "exp": 17500,
-    "unlocks": ["5df24cf80dee1b22f862e9bc"],
+    "unlocks": [
+      "5df24cf80dee1b22f862e9bc"
+    ],
     "reputation": [
       {
         "trader": 2,
@@ -2203,7 +2427,10 @@
       },
       {
         "type": "key",
-        "target": ["5a145d4786f7744cbb6f4a12", "5a145d7b86f7744cbb6f4a13"],
+        "target": [
+          "5a145d4786f7744cbb6f4a12",
+          "5a145d7b86f7744cbb6f4a13"
+        ],
         "number": 1,
         "location": 3,
         "id": 89
@@ -2280,7 +2507,10 @@
     "id": 49,
     "require": {
       "level": 30,
-      "quests": [48]
+      "quests": [
+        48
+      ],
+      "storylineObjective": "tour_obj_15"
     },
     "giver": 3,
     "turnin": 3,
@@ -2292,7 +2522,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Lend_lease_-_Part_2",
     "exp": 21000,
-    "unlocks": ["5c17a7ed2e2216152142459c"],
+    "unlocks": [
+      "5c17a7ed2e2216152142459c"
+    ],
     "reputation": [
       {
         "trader": 3,
@@ -2321,7 +2553,10 @@
     "id": 50,
     "require": {
       "level": 30,
-      "quests": [49]
+      "quests": [
+        49
+      ],
+      "storylineObjective": "tour_obj_15"
     },
     "giver": 3,
     "turnin": 3,
@@ -2334,7 +2569,9 @@
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Peacekeeping_mission",
     "exp": 25500,
     "nokappa": true,
-    "unlocks": ["60a3c68c37ea821725773ef5"],
+    "unlocks": [
+      "60a3c68c37ea821725773ef5"
+    ],
     "reputation": [
       {
         "trader": 3,
@@ -2347,7 +2584,11 @@
         "target": "Scavs",
         "number": 12,
         "location": 1,
-        "with": ["UNTAR helmet", "MF-UNTAR armor vest", "Colt M4A1"],
+        "with": [
+          "UNTAR helmet",
+          "MF-UNTAR armor vest",
+          "Colt M4A1"
+        ],
         "id": 97
       },
       {
@@ -2355,7 +2596,11 @@
         "target": "Scavs",
         "number": 12,
         "location": 4,
-        "with": ["UNTAR helmet", "MF-UNTAR armor vest", "Colt M4A1"],
+        "with": [
+          "UNTAR helmet",
+          "MF-UNTAR armor vest",
+          "Colt M4A1"
+        ],
         "id": 98
       },
       {
@@ -2363,7 +2608,11 @@
         "target": "Scavs",
         "number": 12,
         "location": 3,
-        "with": ["UNTAR helmet", "MF-UNTAR armor vest", "Colt M4A1"],
+        "with": [
+          "UNTAR helmet",
+          "MF-UNTAR armor vest",
+          "Colt M4A1"
+        ],
         "id": 99
       },
       {
@@ -2371,7 +2620,11 @@
         "target": "Scavs",
         "number": 12,
         "location": 2,
-        "with": ["UNTAR helmet", "MF-UNTAR armor vest", "Colt M4A1"],
+        "with": [
+          "UNTAR helmet",
+          "MF-UNTAR armor vest",
+          "Colt M4A1"
+        ],
         "id": 100
       }
     ],
@@ -2381,7 +2634,10 @@
     "id": 51,
     "require": {
       "level": 24,
-      "quests": [47]
+      "quests": [
+        47
+      ],
+      "storylineObjective": "tour_obj_5"
     },
     "giver": 2,
     "turnin": 2,
@@ -2393,7 +2649,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Informed_means_armed",
     "exp": 14000,
-    "unlocks": ["5b4391a586f7745321235ab2"],
+    "unlocks": [
+      "5b4391a586f7745321235ab2"
+    ],
     "reputation": [
       {
         "trader": 2,
@@ -2447,7 +2705,10 @@
     "id": 52,
     "require": {
       "level": 27,
-      "quests": [51]
+      "quests": [
+        51
+      ],
+      "storylineObjective": "tour_obj_5"
     },
     "giver": 2,
     "turnin": 2,
@@ -2507,7 +2768,9 @@
         "type": "kill",
         "target": "PMCs",
         "number": 5,
-        "with": ["Between 22 and 10 hours"],
+        "with": [
+          "Between 22 and 10 hours"
+        ],
         "location": 4,
         "id": 304
       }
@@ -2518,7 +2781,10 @@
     "id": 53,
     "require": {
       "level": 27,
-      "quests": [52]
+      "quests": [
+        52
+      ],
+      "storylineObjective": "tour_obj_5"
     },
     "giver": 2,
     "turnin": 2,
@@ -2543,7 +2809,9 @@
         "target": "Scavs",
         "number": 20,
         "location": -1,
-        "with": ["supressed 12 gauge shotgun"],
+        "with": [
+          "supressed 12 gauge shotgun"
+        ],
         "id": 107
       },
       {
@@ -2551,7 +2819,9 @@
         "target": "PMCs",
         "number": 10,
         "location": -1,
-        "with": ["supressed 12 gauge shotgun"],
+        "with": [
+          "supressed 12 gauge shotgun"
+        ],
         "id": 108
       }
     ],
@@ -2561,7 +2831,10 @@
     "id": 54,
     "require": {
       "level": 35,
-      "quests": [52]
+      "quests": [
+        52
+      ],
+      "storylineObjective": "tour_obj_5"
     },
     "giver": 2,
     "turnin": 2,
@@ -2573,7 +2846,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Flint",
     "exp": 25100,
-    "unlocks": ["5bffdd7e0db834001b734a1a"],
+    "unlocks": [
+      "5bffdd7e0db834001b734a1a"
+    ],
     "reputation": [
       {
         "trader": 2,
@@ -2595,7 +2870,10 @@
     "id": 55,
     "require": {
       "level": 27,
-      "quests": [52]
+      "quests": [
+        52
+      ],
+      "storylineObjective": "tour_obj_5"
     },
     "giver": 2,
     "turnin": 2,
@@ -2607,7 +2885,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Bullshit",
     "exp": 29900,
-    "unlocks": ["606587252535c57a13424cfd"],
+    "unlocks": [
+      "606587252535c57a13424cfd"
+    ],
     "reputation": [
       {
         "trader": 2,
@@ -2677,7 +2957,10 @@
     "id": 56,
     "require": {
       "level": 27,
-      "quests": [55]
+      "quests": [
+        55
+      ],
+      "storylineObjective": "tour_obj_5"
     },
     "giver": 2,
     "turnin": 2,
@@ -2689,7 +2972,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Setup",
     "exp": 21900,
-    "unlocks": ["5c1127bdd174af44217ab8b9"],
+    "unlocks": [
+      "5c1127bdd174af44217ab8b9"
+    ],
     "reputation": [
       {
         "trader": 2,
@@ -2702,7 +2987,11 @@
         "target": "PMCs",
         "number": 15,
         "location": 1,
-        "with": ["MP Series shotgun", "Ushanka ear-flap cap", "Scav vest"],
+        "with": [
+          "MP Series shotgun",
+          "Ushanka ear-flap cap",
+          "Scav vest"
+        ],
         "id": 115
       }
     ],
@@ -2712,7 +3001,10 @@
     "id": 57,
     "require": {
       "level": 10,
-      "quests": [47]
+      "quests": [
+        47
+      ],
+      "storylineObjective": "tour_obj_15"
     },
     "giver": 3,
     "turnin": 3,
@@ -2724,7 +3016,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Fishing_Gear",
     "exp": 4800,
-    "unlocks": ["5b3116595acfc40019476364"],
+    "unlocks": [
+      "5b3116595acfc40019476364"
+    ],
     "reputation": [
       {
         "trader": 3,
@@ -2763,7 +3057,10 @@
     "id": 58,
     "require": {
       "level": 10,
-      "quests": [57]
+      "quests": [
+        57
+      ],
+      "storylineObjective": "tour_obj_15"
     },
     "giver": 3,
     "turnin": 3,
@@ -2836,7 +3133,10 @@
     "id": 59,
     "require": {
       "level": 10,
-      "quests": [58]
+      "quests": [
+        58
+      ],
+      "storylineObjective": "tour_obj_15"
     },
     "giver": 3,
     "turnin": 3,
@@ -2848,7 +3148,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Scrap_Metal",
     "exp": 5900,
-    "unlocks": ["59411abb86f77478f702b5d2"],
+    "unlocks": [
+      "59411abb86f77478f702b5d2"
+    ],
     "reputation": [
       {
         "trader": 3,
@@ -2909,7 +3211,10 @@
     "id": 60,
     "require": {
       "level": 11,
-      "quests": [59]
+      "quests": [
+        59
+      ],
+      "storylineObjective": "tour_obj_15"
     },
     "giver": 3,
     "turnin": 3,
@@ -2962,7 +3267,10 @@
     "id": 61,
     "require": {
       "level": 11,
-      "quests": [60]
+      "quests": [
+        60
+      ],
+      "storylineObjective": "tour_obj_15"
     },
     "giver": 3,
     "turnin": 3,
@@ -2974,7 +3282,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Humanitarian_Supplies",
     "exp": 6700,
-    "unlocks": ["593d493f86f7745e6b2ceb22"],
+    "unlocks": [
+      "593d493f86f7745e6b2ceb22"
+    ],
     "reputation": [
       {
         "trader": 3,
@@ -3020,7 +3330,10 @@
         "target": "Scavs",
         "number": 10,
         "location": 3,
-        "with": ["MF-UNTAR armor vest", "UNTAR helmet"],
+        "with": [
+          "MF-UNTAR armor vest",
+          "UNTAR helmet"
+        ],
         "id": 129
       }
     ],
@@ -3030,7 +3343,10 @@
     "id": 62,
     "require": {
       "level": 12,
-      "quests": [61]
+      "quests": [
+        61
+      ],
+      "storylineObjective": "tour_obj_15"
     },
     "giver": 3,
     "turnin": 3,
@@ -3042,7 +3358,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/The_Cult_-_Part_1",
     "exp": 6200,
-    "unlocks": ["59e6906286f7746c9f75e847"],
+    "unlocks": [
+      "59e6906286f7746c9f75e847"
+    ],
     "reputation": [
       {
         "trader": 3,
@@ -3069,7 +3387,10 @@
     "id": 63,
     "require": {
       "level": 12,
-      "quests": [62]
+      "quests": [
+        62
+      ],
+      "storylineObjective": "tour_obj_15"
     },
     "giver": 3,
     "turnin": 3,
@@ -3157,7 +3478,10 @@
     "id": 64,
     "require": {
       "level": 12,
-      "quests": [61]
+      "quests": [
+        61
+      ],
+      "storylineObjective": "tour_obj_15"
     },
     "giver": 3,
     "turnin": 3,
@@ -3182,7 +3506,9 @@
         "target": "Scavs",
         "number": 7,
         "location": 3,
-        "with": ["12 gauge shotgun headshots"],
+        "with": [
+          "12 gauge shotgun headshots"
+        ],
         "id": 135
       }
     ],
@@ -3192,7 +3518,10 @@
     "id": 65,
     "require": {
       "level": 12,
-      "quests": [64]
+      "quests": [
+        64
+      ],
+      "storylineObjective": "tour_obj_15"
     },
     "giver": 3,
     "turnin": 3,
@@ -3204,7 +3533,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Spa_Tour_-_Part_2",
     "exp": 6300,
-    "unlocks": ["58d3db5386f77426186285a0"],
+    "unlocks": [
+      "58d3db5386f77426186285a0"
+    ],
     "reputation": [
       {
         "trader": 3,
@@ -3245,7 +3576,10 @@
     "id": 66,
     "require": {
       "level": 12,
-      "quests": [65]
+      "quests": [
+        65
+      ],
+      "storylineObjective": "tour_obj_15"
     },
     "giver": 3,
     "turnin": 3,
@@ -3300,7 +3634,10 @@
     "id": 67,
     "require": {
       "level": 12,
-      "quests": [66]
+      "quests": [
+        66
+      ],
+      "storylineObjective": "tour_obj_15"
     },
     "giver": 3,
     "turnin": 3,
@@ -3322,7 +3659,10 @@
     "objectives": [
       {
         "type": "key",
-        "target": ["5a13ef0686f7746e5a411744", "5a0ee34586f774023b6ee092"],
+        "target": [
+          "5a13ef0686f7746e5a411744",
+          "5a0ee34586f774023b6ee092"
+        ],
         "number": 1,
         "location": 3,
         "id": 142
@@ -3358,7 +3698,10 @@
     "id": 68,
     "require": {
       "level": 12,
-      "quests": [67]
+      "quests": [
+        67
+      ],
+      "storylineObjective": "tour_obj_15"
     },
     "giver": 3,
     "turnin": 3,
@@ -3397,7 +3740,10 @@
     "id": 69,
     "require": {
       "level": 12,
-      "quests": [68]
+      "quests": [
+        68
+      ],
+      "storylineObjective": "tour_obj_15"
     },
     "giver": 3,
     "turnin": 3,
@@ -3409,7 +3755,9 @@
       "cs": "Lázně - Část 6"
     },
     "exp": 9500,
-    "unlocks": ["5a608bf24f39f98ffc77720e"],
+    "unlocks": [
+      "5a608bf24f39f98ffc77720e"
+    ],
     "reputation": [
       {
         "trader": 3,
@@ -3431,7 +3779,10 @@
     "id": 70,
     "require": {
       "level": 12,
-      "quests": [69]
+      "quests": [
+        69
+      ],
+      "storylineObjective": "tour_obj_15"
     },
     "giver": 3,
     "turnin": 3,
@@ -3490,7 +3841,10 @@
     "id": 71,
     "require": {
       "level": 12,
-      "quests": [70]
+      "quests": [
+        70
+      ],
+      "storylineObjective": "tour_obj_15"
     },
     "giver": 3,
     "turnin": 3,
@@ -3512,7 +3866,10 @@
     "objectives": [
       {
         "type": "key",
-        "target": ["5a145d4786f7744cbb6f4a12", "5a145d7b86f7744cbb6f4a13"],
+        "target": [
+          "5a145d4786f7744cbb6f4a12",
+          "5a145d7b86f7744cbb6f4a13"
+        ],
         "number": 1,
         "location": 3,
         "id": 151
@@ -3536,7 +3893,10 @@
     "id": 72,
     "require": {
       "level": 12,
-      "quests": [71]
+      "quests": [
+        71
+      ],
+      "storylineObjective": "tour_obj_15"
     },
     "giver": 3,
     "turnin": 3,
@@ -3548,7 +3908,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Cargo_X_-_Part_2",
     "exp": 8300,
-    "unlocks": ["57da93632459771cb65bf83f"],
+    "unlocks": [
+      "57da93632459771cb65bf83f"
+    ],
     "reputation": [
       {
         "trader": 3,
@@ -3576,7 +3938,10 @@
     "id": 73,
     "require": {
       "level": 12,
-      "quests": [72]
+      "quests": [
+        72
+      ],
+      "storylineObjective": "tour_obj_15"
     },
     "giver": 3,
     "turnin": 3,
@@ -3602,7 +3967,7 @@
         "number": 1,
         "location": 3,
         "gps": {
-          "leftPercent": 41.30,
+          "leftPercent": 41.3,
           "topPercent": 32.01,
           "floor": "Ground_Level"
         },
@@ -3615,7 +3980,10 @@
     "id": 74,
     "require": {
       "level": 14,
-      "quests": [70]
+      "quests": [
+        70
+      ],
+      "storylineObjective": "tour_obj_15"
     },
     "giver": 3,
     "turnin": 3,
@@ -3644,7 +4012,9 @@
         "target": "Scavs",
         "number": 10,
         "location": 3,
-        "with": ["Supressed M4 or ADAR"],
+        "with": [
+          "Supressed M4 or ADAR"
+        ],
         "id": 155
       }
     ],
@@ -3654,7 +4024,10 @@
     "id": 75,
     "require": {
       "level": 14,
-      "quests": [74]
+      "quests": [
+        74
+      ],
+      "storylineObjective": "tour_obj_15"
     },
     "giver": 3,
     "turnin": 3,
@@ -3666,7 +4039,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Wet_Job_-_Part_2",
     "exp": 9700,
-    "unlocks": ["59c1383d86f774290a37e0ca"],
+    "unlocks": [
+      "59c1383d86f774290a37e0ca"
+    ],
     "reputation": [
       {
         "trader": 3,
@@ -3694,7 +4069,10 @@
     "id": 76,
     "require": {
       "level": 14,
-      "quests": [75]
+      "quests": [
+        75
+      ],
+      "storylineObjective": "tour_obj_15"
     },
     "giver": 3,
     "turnin": 3,
@@ -3706,7 +4084,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Wet_Job_-_Part_3",
     "exp": 8200,
-    "unlocks": ["5bb2475ed4351e00853264e3"],
+    "unlocks": [
+      "5bb2475ed4351e00853264e3"
+    ],
     "reputation": [
       {
         "trader": 3,
@@ -3733,7 +4113,10 @@
     "id": 77,
     "require": {
       "level": 14,
-      "quests": [76]
+      "quests": [
+        76
+      ],
+      "storylineObjective": "tour_obj_15"
     },
     "giver": 3,
     "turnin": 3,
@@ -3745,7 +4128,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Wet_Job_-_Part_4",
     "exp": 8300,
-    "unlocks": ["5dcbd56fdbd3d91b3e5468d5"],
+    "unlocks": [
+      "5dcbd56fdbd3d91b3e5468d5"
+    ],
     "reputation": [
       {
         "trader": 3,
@@ -3772,7 +4157,10 @@
     "id": 78,
     "require": {
       "level": 14,
-      "quests": [77]
+      "quests": [
+        77
+      ],
+      "storylineObjective": "tour_obj_15"
     },
     "giver": 3,
     "turnin": 3,
@@ -3784,7 +4172,10 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Wet_Job_-_Part_5",
     "exp": 8400,
-    "unlocks": ["5a367e5dc4a282000e49738f", "60098ad7c2240c0fe85c570a"],
+    "unlocks": [
+      "5a367e5dc4a282000e49738f",
+      "60098ad7c2240c0fe85c570a"
+    ],
     "reputation": [
       {
         "trader": 3,
@@ -3794,7 +4185,10 @@
     "objectives": [
       {
         "type": "key",
-        "target": ["5a0eee1486f77402aa773226", "5a0ea79b86f7741d4a35298e"],
+        "target": [
+          "5a0eee1486f77402aa773226",
+          "5a0ea79b86f7741d4a35298e"
+        ],
         "number": 1,
         "location": 3,
         "id": 159
@@ -3818,7 +4212,10 @@
     "id": 79,
     "require": {
       "level": 14,
-      "quests": [78]
+      "quests": [
+        78
+      ],
+      "storylineObjective": "tour_obj_15"
     },
     "giver": 3,
     "turnin": 3,
@@ -3830,7 +4227,10 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Wet_Job_-_Part_6",
     "exp": 10400,
-    "unlocks": ["5a6086ea4f39f99cd479502f", "5e81ebcd8e146c7080625e15"],
+    "unlocks": [
+      "5a6086ea4f39f99cd479502f",
+      "5e81ebcd8e146c7080625e15"
+    ],
     "reputation": [
       {
         "trader": 3,
@@ -3856,7 +4256,10 @@
     "id": 80,
     "require": {
       "level": 40,
-      "quests": [79]
+      "quests": [
+        79
+      ],
+      "storylineObjective": "tour_obj_9"
     },
     "giver": 4,
     "turnin": 4,
@@ -3885,7 +4288,10 @@
     "id": 81,
     "require": {
       "level": 14,
-      "quests": [79]
+      "quests": [
+        79
+      ],
+      "storylineObjective": "tour_obj_15"
     },
     "giver": 3,
     "turnin": 3,
@@ -3915,7 +4321,8 @@
     "id": 82,
     "require": {
       "level": 2,
-      "quests": []
+      "quests": [],
+      "storylineObjective": "tour_obj_9"
     },
     "giver": 4,
     "turnin": 4,
@@ -3978,7 +4385,10 @@
     "id": 83,
     "require": {
       "level": 11,
-      "quests": [82]
+      "quests": [
+        82
+      ],
+      "storylineObjective": "tour_obj_9"
     },
     "giver": 4,
     "turnin": 4,
@@ -4051,7 +4461,10 @@
     "id": 84,
     "require": {
       "level": 12,
-      "quests": [82]
+      "quests": [
+        82
+      ],
+      "storylineObjective": "tour_obj_9"
     },
     "giver": 4,
     "turnin": 4,
@@ -4124,7 +4537,10 @@
     "id": 85,
     "require": {
       "level": 15,
-      "quests": [84]
+      "quests": [
+        84
+      ],
+      "storylineObjective": "tour_obj_9"
     },
     "giver": 4,
     "turnin": 4,
@@ -4193,7 +4609,10 @@
     "id": 86,
     "require": {
       "level": 17,
-      "quests": [85]
+      "quests": [
+        85
+      ],
+      "storylineObjective": "tour_obj_9"
     },
     "giver": 4,
     "turnin": 4,
@@ -4257,7 +4676,10 @@
     "id": 87,
     "require": {
       "level": 18,
-      "quests": [86]
+      "quests": [
+        86
+      ],
+      "storylineObjective": "tour_obj_9"
     },
     "giver": 4,
     "turnin": 4,
@@ -4321,7 +4743,10 @@
     "id": 88,
     "require": {
       "level": 19,
-      "quests": [87]
+      "quests": [
+        87
+      ],
+      "storylineObjective": "tour_obj_9"
     },
     "giver": 4,
     "turnin": 4,
@@ -4383,7 +4808,10 @@
     "id": 89,
     "require": {
       "level": 19,
-      "quests": [88]
+      "quests": [
+        88
+      ],
+      "storylineObjective": "tour_obj_9"
     },
     "giver": 4,
     "turnin": 4,
@@ -4450,7 +4878,10 @@
     "id": 90,
     "require": {
       "level": 20,
-      "quests": [89]
+      "quests": [
+        89
+      ],
+      "storylineObjective": "tour_obj_9"
     },
     "giver": 4,
     "turnin": 4,
@@ -4524,7 +4955,10 @@
     "id": 91,
     "require": {
       "level": 20,
-      "quests": [90]
+      "quests": [
+        90
+      ],
+      "storylineObjective": "tour_obj_9"
     },
     "giver": 4,
     "turnin": 4,
@@ -4536,7 +4970,10 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_-_Part_10",
     "exp": 17300,
-    "unlocks": ["5af08cc686f77424a61595f2", "5cc86832d7f00c000d3a6e6c"],
+    "unlocks": [
+      "5af08cc686f77424a61595f2",
+      "5cc86832d7f00c000d3a6e6c"
+    ],
     "reputation": [
       {
         "trader": 4,
@@ -4597,7 +5034,10 @@
     "id": 92,
     "require": {
       "level": 20,
-      "quests": [91]
+      "quests": [
+        91
+      ],
+      "storylineObjective": "tour_obj_9"
     },
     "giver": 4,
     "turnin": 4,
@@ -4664,7 +5104,10 @@
     "id": 93,
     "require": {
       "level": 23,
-      "quests": [92]
+      "quests": [
+        92
+      ],
+      "storylineObjective": "tour_obj_9"
     },
     "giver": 4,
     "turnin": 4,
@@ -4676,7 +5119,10 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_-_Part_12",
     "exp": 14200,
-    "unlocks": ["588226ef24597767af46e39c", "5a33e75ac4a2826c6e06d759"],
+    "unlocks": [
+      "588226ef24597767af46e39c",
+      "5a33e75ac4a2826c6e06d759"
+    ],
     "reputation": [
       {
         "trader": 4,
@@ -4735,7 +5181,10 @@
     "id": 94,
     "require": {
       "level": 25,
-      "quests": [93]
+      "quests": [
+        93
+      ],
+      "storylineObjective": "tour_obj_9"
     },
     "giver": 4,
     "turnin": 4,
@@ -4747,7 +5196,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_-_Part_13",
     "exp": 18700,
-    "unlocks": ["5b07db875acfc40dc528a5f6"],
+    "unlocks": [
+      "5b07db875acfc40dc528a5f6"
+    ],
     "reputation": [
       {
         "trader": 4,
@@ -4807,7 +5258,10 @@
     "id": 95,
     "require": {
       "level": 27,
-      "quests": [94]
+      "quests": [
+        94
+      ],
+      "storylineObjective": "tour_obj_9"
     },
     "giver": 4,
     "turnin": 4,
@@ -4819,7 +5273,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_-_Part_14",
     "exp": 20500,
-    "unlocks": ["5b07dd285acfc4001754240d"],
+    "unlocks": [
+      "5b07dd285acfc4001754240d"
+    ],
     "reputation": [
       {
         "trader": 4,
@@ -4891,7 +5347,10 @@
     "id": 96,
     "require": {
       "level": 29,
-      "quests": [95]
+      "quests": [
+        95
+      ],
+      "storylineObjective": "tour_obj_9"
     },
     "giver": 4,
     "turnin": 4,
@@ -4962,7 +5421,10 @@
     "id": 97,
     "require": {
       "level": 35,
-      "quests": [96]
+      "quests": [
+        96
+      ],
+      "storylineObjective": "tour_obj_9"
     },
     "giver": 4,
     "turnin": 4,
@@ -4974,7 +5436,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_-_Part_16",
     "exp": 32800,
-    "unlocks": ["5a1eaa87fcdbcb001865f75e"],
+    "unlocks": [
+      "5a1eaa87fcdbcb001865f75e"
+    ],
     "reputation": [
       {
         "trader": 4,
@@ -5041,7 +5505,10 @@
     "id": 98,
     "require": {
       "level": 12,
-      "quests": [83]
+      "quests": [
+        83
+      ],
+      "storylineObjective": "tour_obj_9"
     },
     "giver": 4,
     "turnin": 4,
@@ -5092,7 +5559,10 @@
     "id": 99,
     "require": {
       "level": 12,
-      "quests": [98]
+      "quests": [
+        98
+      ],
+      "storylineObjective": "tour_obj_9"
     },
     "giver": 4,
     "turnin": 4,
@@ -5147,7 +5617,10 @@
     "id": 100,
     "require": {
       "level": 15,
-      "quests": [99]
+      "quests": [
+        99
+      ],
+      "storylineObjective": "tour_obj_9"
     },
     "giver": 4,
     "turnin": 4,
@@ -5159,7 +5632,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Signal_-_Part_3",
     "exp": 8500,
-    "unlocks": ["5ac78a9b86f7741cca0bbd8d"],
+    "unlocks": [
+      "5ac78a9b86f7741cca0bbd8d"
+    ],
     "reputation": [
       {
         "trader": 4,
@@ -5216,7 +5691,10 @@
     "id": 101,
     "require": {
       "level": 15,
-      "quests": [100]
+      "quests": [
+        100
+      ],
+      "storylineObjective": "tour_obj_9"
     },
     "giver": 4,
     "turnin": 4,
@@ -5250,7 +5728,10 @@
     "id": 102,
     "require": {
       "level": 12,
-      "quests": [99]
+      "quests": [
+        99
+      ],
+      "storylineObjective": "tour_obj_9"
     },
     "giver": 4,
     "turnin": 4,
@@ -5316,7 +5797,11 @@
     "id": 103,
     "require": {
       "level": 12,
-      "quests": [98, 84]
+      "quests": [
+        98,
+        84
+      ],
+      "storylineObjective": "tour_obj_9"
     },
     "giver": 4,
     "turnin": 4,
@@ -5350,7 +5835,10 @@
     "id": 104,
     "require": {
       "level": 12,
-      "quests": [82]
+      "quests": [
+        82
+      ],
+      "storylineObjective": "tour_obj_9"
     },
     "giver": 4,
     "turnin": 4,
@@ -5403,7 +5891,10 @@
     "id": 105,
     "require": {
       "level": 12,
-      "quests": [104]
+      "quests": [
+        104
+      ],
+      "storylineObjective": "tour_obj_9"
     },
     "giver": 4,
     "turnin": 4,
@@ -5451,7 +5942,10 @@
     "id": 106,
     "require": {
       "level": 14,
-      "quests": [105]
+      "quests": [
+        105
+      ],
+      "storylineObjective": "tour_obj_9"
     },
     "giver": 4,
     "turnin": 4,
@@ -5497,7 +5991,10 @@
     "id": 107,
     "require": {
       "level": 14,
-      "quests": [106]
+      "quests": [
+        106
+      ],
+      "storylineObjective": "tour_obj_9"
     },
     "giver": 4,
     "turnin": 4,
@@ -5538,7 +6035,10 @@
     "id": 108,
     "require": {
       "level": 35,
-      "quests": [107]
+      "quests": [
+        107
+      ],
+      "storylineObjective": "tour_obj_9"
     },
     "giver": 4,
     "turnin": 4,
@@ -5551,7 +6051,9 @@
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Import",
     "exp": 29000,
     "nokappa": true,
-    "unlocks": ["5fc382b6d6fa9c00c571bbc3"],
+    "unlocks": [
+      "5fc382b6d6fa9c00c571bbc3"
+    ],
     "reputation": [
       {
         "trader": 4,
@@ -5584,7 +6086,10 @@
     "id": 109,
     "require": {
       "level": 30,
-      "quests": [107]
+      "quests": [
+        107
+      ],
+      "storylineObjective": "tour_obj_9"
     },
     "giver": 4,
     "turnin": 4,
@@ -5625,7 +6130,10 @@
     "id": 110,
     "require": {
       "level": 14,
-      "quests": [106]
+      "quests": [
+        106
+      ],
+      "storylineObjective": "tour_obj_9"
     },
     "giver": 4,
     "turnin": 4,
@@ -5637,7 +6145,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/A_Shooter_Born_in_Heaven",
     "exp": 11600,
-    "unlocks": ["5c127c4486f7745625356c13"],
+    "unlocks": [
+      "5c127c4486f7745625356c13"
+    ],
     "reputation": [
       {
         "trader": 4,
@@ -5650,7 +6160,9 @@
         "target": "PMCs",
         "number": 3,
         "location": 2,
-        "with": ["Headshot from more than 125 meters"],
+        "with": [
+          "Headshot from more than 125 meters"
+        ],
         "id": 190
       },
       {
@@ -5658,7 +6170,9 @@
         "target": "PMCs",
         "number": 3,
         "location": 6,
-        "with": ["Headshot from more than 125 meters"],
+        "with": [
+          "Headshot from more than 125 meters"
+        ],
         "id": 191
       },
       {
@@ -5666,7 +6180,9 @@
         "target": "PMCs",
         "number": 3,
         "location": 3,
-        "with": ["Headshot from more than 125 meters"],
+        "with": [
+          "Headshot from more than 125 meters"
+        ],
         "id": 192
       },
       {
@@ -5674,7 +6190,9 @@
         "target": "PMCs",
         "number": 3,
         "location": 1,
-        "with": ["Headshot from more than 125 meters"],
+        "with": [
+          "Headshot from more than 125 meters"
+        ],
         "id": 193
       },
       {
@@ -5682,7 +6200,9 @@
         "target": "PMCs",
         "number": 3,
         "location": 7,
-        "with": ["Headshot from more than 125 meters"],
+        "with": [
+          "Headshot from more than 125 meters"
+        ],
         "id": 505
       }
     ],
@@ -5692,7 +6212,8 @@
     "id": 111,
     "require": {
       "level": 15,
-      "quests": []
+      "quests": [],
+      "storylineObjective": "tour_obj_4"
     },
     "giver": 5,
     "turnin": 5,
@@ -5726,7 +6247,10 @@
     "id": 112,
     "require": {
       "level": 15,
-      "quests": [111]
+      "quests": [
+        111
+      ],
+      "storylineObjective": "tour_obj_4"
     },
     "giver": 5,
     "turnin": 5,
@@ -5813,7 +6337,10 @@
     "id": 113,
     "require": {
       "level": 15,
-      "quests": [112]
+      "quests": [
+        112
+      ],
+      "storylineObjective": "tour_obj_4"
     },
     "giver": 5,
     "turnin": 5,
@@ -5882,7 +6409,10 @@
     "id": 114,
     "require": {
       "level": 15,
-      "quests": [113]
+      "quests": [
+        113
+      ],
+      "storylineObjective": "tour_obj_4"
     },
     "giver": 5,
     "turnin": 5,
@@ -5923,7 +6453,10 @@
     "id": 115,
     "require": {
       "level": 15,
-      "quests": [112]
+      "quests": [
+        112
+      ],
+      "storylineObjective": "tour_obj_4"
     },
     "giver": 5,
     "turnin": 5,
@@ -5986,7 +6519,10 @@
     "id": 116,
     "require": {
       "level": 15,
-      "quests": [115]
+      "quests": [
+        115
+      ],
+      "storylineObjective": "tour_obj_4"
     },
     "giver": 5,
     "turnin": 5,
@@ -6032,7 +6568,11 @@
     "id": 117,
     "require": {
       "level": 15,
-      "quests": [116, 114]
+      "quests": [
+        116,
+        114
+      ],
+      "storylineObjective": "tour_obj_4"
     },
     "giver": 5,
     "turnin": 5,
@@ -6107,7 +6647,10 @@
     "id": 118,
     "require": {
       "level": 30,
-      "quests": [117]
+      "quests": [
+        117
+      ],
+      "storylineObjective": "tour_obj_4"
     },
     "giver": 5,
     "turnin": 5,
@@ -6119,7 +6662,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Sales_Night",
     "exp": 17500,
-    "unlocks": ["5b40e2bc5acfc40016388216"],
+    "unlocks": [
+      "5b40e2bc5acfc40016388216"
+    ],
     "reputation": [
       {
         "trader": 5,
@@ -6141,7 +6686,10 @@
     "id": 119,
     "require": {
       "level": 40,
-      "quests": [118]
+      "quests": [
+        118
+      ],
+      "storylineObjective": "tour_obj_4"
     },
     "giver": 5,
     "turnin": 5,
@@ -6153,7 +6701,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Supervisor",
     "exp": 24100,
-    "unlocks": ["5ab8e79e86f7742d8b372e78"],
+    "unlocks": [
+      "5ab8e79e86f7742d8b372e78"
+    ],
     "reputation": [
       {
         "trader": 5,
@@ -6175,7 +6725,10 @@
     "id": 120,
     "require": {
       "level": 29,
-      "quests": [117]
+      "quests": [
+        117
+      ],
+      "storylineObjective": "tour_obj_4"
     },
     "giver": 5,
     "turnin": 5,
@@ -6187,7 +6740,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Hot_delivery",
     "exp": 20300,
-    "unlocks": ["5b44cd8b86f774503d30cba2"],
+    "unlocks": [
+      "5b44cd8b86f774503d30cba2"
+    ],
     "reputation": [
       {
         "trader": 5,
@@ -6241,7 +6796,10 @@
     "id": 121,
     "require": {
       "level": 29,
-      "quests": [120]
+      "quests": [
+        120
+      ],
+      "storylineObjective": "tour_obj_4"
     },
     "giver": 5,
     "turnin": 5,
@@ -6253,7 +6811,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Scavenger",
     "exp": 17700,
-    "unlocks": ["5bffe7930db834001b734a39"],
+    "unlocks": [
+      "5bffe7930db834001b734a39"
+    ],
     "reputation": [
       {
         "trader": 5,
@@ -6275,7 +6835,10 @@
     "id": 122,
     "require": {
       "level": 15,
-      "quests": [111]
+      "quests": [
+        111
+      ],
+      "storylineObjective": "tour_obj_4"
     },
     "giver": 5,
     "turnin": 5,
@@ -6309,7 +6872,10 @@
     "id": 123,
     "require": {
       "level": 24,
-      "quests": [116]
+      "quests": [
+        116
+      ],
+      "storylineObjective": "tour_obj_4"
     },
     "giver": 5,
     "turnin": 5,
@@ -6378,7 +6944,10 @@
     "id": 124,
     "require": {
       "level": 25,
-      "quests": [116]
+      "quests": [
+        116
+      ],
+      "storylineObjective": "tour_obj_4"
     },
     "giver": 5,
     "turnin": 5,
@@ -6419,7 +6988,10 @@
     "id": 125,
     "require": {
       "level": 25,
-      "quests": [124]
+      "quests": [
+        124
+      ],
+      "storylineObjective": "tour_obj_4"
     },
     "giver": 5,
     "turnin": 5,
@@ -6462,7 +7034,10 @@
     "id": 126,
     "require": {
       "level": 25,
-      "quests": [125]
+      "quests": [
+        125
+      ],
+      "storylineObjective": "tour_obj_4"
     },
     "giver": 5,
     "turnin": 5,
@@ -6505,7 +7080,10 @@
     "id": 127,
     "require": {
       "level": 25,
-      "quests": [126]
+      "quests": [
+        126
+      ],
+      "storylineObjective": "tour_obj_4"
     },
     "giver": 5,
     "turnin": 5,
@@ -6546,7 +7124,10 @@
     "id": 128,
     "require": {
       "level": 25,
-      "quests": [127]
+      "quests": [
+        127
+      ],
+      "storylineObjective": "tour_obj_4"
     },
     "giver": 5,
     "turnin": 5,
@@ -6581,7 +7162,10 @@
     "id": 129,
     "require": {
       "level": 25,
-      "quests": [176]
+      "quests": [
+        176
+      ],
+      "storylineObjective": "tour_obj_4"
     },
     "giver": 5,
     "turnin": 5,
@@ -6593,7 +7177,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/No_fuss_needed",
     "exp": 15800,
-    "unlocks": ["5b40e1525acfc4771e1c6611"],
+    "unlocks": [
+      "5b40e1525acfc4771e1c6611"
+    ],
     "reputation": [
       {
         "trader": 5,
@@ -6615,7 +7201,10 @@
     "id": 130,
     "require": {
       "level": 23,
-      "quests": [124]
+      "quests": [
+        124
+      ],
+      "storylineObjective": "tour_obj_4"
     },
     "giver": 5,
     "turnin": 5,
@@ -6649,7 +7238,10 @@
     "id": 131,
     "require": {
       "level": 30,
-      "quests": [130]
+      "quests": [
+        130
+      ],
+      "storylineObjective": "tour_obj_4"
     },
     "giver": 5,
     "turnin": 5,
@@ -6661,7 +7253,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/The_Blood_of_War_-_Part_3",
     "exp": 21300,
-    "unlocks": ["60a283193cb70855c43a381d"],
+    "unlocks": [
+      "60a283193cb70855c43a381d"
+    ],
     "reputation": [
       {
         "trader": 5,
@@ -6718,7 +7312,10 @@
     "id": 132,
     "require": {
       "level": 27,
-      "quests": [126]
+      "quests": [
+        126
+      ],
+      "storylineObjective": "tour_obj_4"
     },
     "giver": 5,
     "turnin": 5,
@@ -6781,7 +7378,10 @@
     "id": 133,
     "require": {
       "level": 27,
-      "quests": [131]
+      "quests": [
+        131
+      ],
+      "storylineObjective": "tour_obj_4"
     },
     "giver": 5,
     "turnin": 5,
@@ -6793,7 +7393,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Living_High_is_Not_a_Crime_-_Part_2",
     "exp": 25900,
-    "unlocks": ["5d5d87f786f77427997cfaef"],
+    "unlocks": [
+      "5d5d87f786f77427997cfaef"
+    ],
     "reputation": [
       {
         "trader": 5,
@@ -6822,7 +7424,8 @@
     "id": 134,
     "require": {
       "level": 2,
-      "quests": []
+      "quests": [],
+      "storylineObjective": "tour_obj_9"
     },
     "giver": 4,
     "turnin": 4,
@@ -6861,7 +7464,9 @@
     "id": 135,
     "require": {
       "level": 2,
-      "quests": [134]
+      "quests": [
+        134
+      ]
     },
     "giver": 6,
     "turnin": 6,
@@ -6909,7 +7514,9 @@
     "id": 136,
     "require": {
       "level": 2,
-      "quests": [135]
+      "quests": [
+        135
+      ]
     },
     "giver": 6,
     "turnin": 6,
@@ -6934,7 +7541,9 @@
         "target": "Scavs",
         "number": 5,
         "location": 2,
-        "with": ["No body armor"],
+        "with": [
+          "No body armor"
+        ],
         "id": 247
       }
     ],
@@ -6944,7 +7553,9 @@
     "id": 137,
     "require": {
       "level": 2,
-      "quests": [135]
+      "quests": [
+        135
+      ]
     },
     "giver": 6,
     "turnin": 6,
@@ -7023,7 +7634,9 @@
     "id": 138,
     "require": {
       "level": 9,
-      "quests": [137]
+      "quests": [
+        137
+      ]
     },
     "giver": 6,
     "turnin": 6,
@@ -7057,7 +7670,9 @@
     "id": 139,
     "require": {
       "level": 10,
-      "quests": [138]
+      "quests": [
+        138
+      ]
     },
     "giver": 6,
     "turnin": 6,
@@ -7082,7 +7697,9 @@
         "target": "Scavs",
         "number": 3,
         "location": -1,
-        "with": ["Suffering from pain effect"],
+        "with": [
+          "Suffering from pain effect"
+        ],
         "id": 252
       }
     ],
@@ -7092,7 +7709,9 @@
     "id": 140,
     "require": {
       "level": 10,
-      "quests": [139]
+      "quests": [
+        139
+      ]
     },
     "giver": 6,
     "turnin": 6,
@@ -7117,7 +7736,10 @@
         "target": "Scavs",
         "number": 3,
         "location": 2,
-        "with": ["In one raid", "No healing used"],
+        "with": [
+          "In one raid",
+          "No healing used"
+        ],
         "id": 253
       }
     ],
@@ -7127,7 +7749,9 @@
     "id": 141,
     "require": {
       "level": 20,
-      "quests": [140]
+      "quests": [
+        140
+      ]
     },
     "giver": 6,
     "turnin": 6,
@@ -7190,7 +7814,9 @@
     "id": 142,
     "require": {
       "level": 28,
-      "quests": [141]
+      "quests": [
+        141
+      ]
     },
     "giver": 6,
     "turnin": 6,
@@ -7230,7 +7856,9 @@
     "id": 143,
     "require": {
       "level": 2,
-      "quests": [136]
+      "quests": [
+        136
+      ]
     },
     "giver": 6,
     "turnin": 6,
@@ -7268,7 +7896,9 @@
     "id": 144,
     "require": {
       "level": 2,
-      "quests": [143]
+      "quests": [
+        143
+      ]
     },
     "giver": 6,
     "turnin": 6,
@@ -7280,7 +7910,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/The_Tarkov_shooter_-_Part_2",
     "exp": 12400,
-    "unlocks": ["5bc5a372d4351e44f824d17f"],
+    "unlocks": [
+      "5bc5a372d4351e44f824d17f"
+    ],
     "reputation": [
       {
         "trader": 6,
@@ -7319,7 +7951,9 @@
     "id": 145,
     "require": {
       "level": 2,
-      "quests": [144]
+      "quests": [
+        144
+      ]
     },
     "giver": 6,
     "turnin": 6,
@@ -7331,7 +7965,10 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/The_Tarkov_shooter_-_Part_3",
     "exp": 10500,
-    "unlocks": ["5bbdb83fd4351e44f824c44b", "5bbde409d4351e003562b036"],
+    "unlocks": [
+      "5bbdb83fd4351e44f824c44b",
+      "5bbde409d4351e003562b036"
+    ],
     "reputation": [
       {
         "trader": 6,
@@ -7344,7 +7981,10 @@
         "target": "PMCs",
         "number": 3,
         "location": -1,
-        "with": ["A bolt-action sniper rifle", "Less than 25 meters away"],
+        "with": [
+          "A bolt-action sniper rifle",
+          "Less than 25 meters away"
+        ],
         "id": 261
       }
     ],
@@ -7354,7 +7994,9 @@
     "id": 146,
     "require": {
       "level": 2,
-      "quests": [145]
+      "quests": [
+        145
+      ]
     },
     "giver": 6,
     "turnin": 6,
@@ -7366,7 +8008,10 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/The_Tarkov_shooter_-_Part_4",
     "exp": 11800,
-    "unlocks": ["5bbdb811d4351e45020113c7", "5bbde41ed4351e003562b038"],
+    "unlocks": [
+      "5bbdb811d4351e45020113c7",
+      "5bbde41ed4351e003562b038"
+    ],
     "reputation": [
       {
         "trader": 6,
@@ -7388,7 +8033,9 @@
     "id": 147,
     "require": {
       "level": 2,
-      "quests": [146]
+      "quests": [
+        146
+      ]
     },
     "giver": 6,
     "turnin": 6,
@@ -7400,7 +8047,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/The_Tarkov_shooter_-_Part_5",
     "exp": 13000,
-    "unlocks": ["5bc5a351d4351e003477a414"],
+    "unlocks": [
+      "5bc5a351d4351e003477a414"
+    ],
     "reputation": [
       {
         "trader": 6,
@@ -7413,7 +8062,10 @@
         "target": "Scavs",
         "number": 8,
         "location": 1,
-        "with": ["A bolt-action sniper rifle", "Between 21 and 05 hours"],
+        "with": [
+          "A bolt-action sniper rifle",
+          "Between 21 and 05 hours"
+        ],
         "id": 263
       }
     ],
@@ -7423,7 +8075,9 @@
     "id": 148,
     "require": {
       "level": 2,
-      "quests": [147]
+      "quests": [
+        147
+      ]
     },
     "giver": 6,
     "turnin": 6,
@@ -7435,7 +8089,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/The_Tarkov_shooter_-_Part_6",
     "exp": 13100,
-    "unlocks": ["5bbdb870d4351e00367fb67d"],
+    "unlocks": [
+      "5bbdb870d4351e00367fb67d"
+    ],
     "reputation": [
       {
         "trader": 6,
@@ -7448,7 +8104,10 @@
         "target": "Scavs",
         "number": 5,
         "location": -1,
-        "with": ["A bolt-action sniper rifle", "Must be sniper scavs"],
+        "with": [
+          "A bolt-action sniper rifle",
+          "Must be sniper scavs"
+        ],
         "id": 264
       }
     ],
@@ -7458,7 +8117,9 @@
     "id": 149,
     "require": {
       "level": 2,
-      "quests": [148]
+      "quests": [
+        148
+      ]
     },
     "giver": 6,
     "turnin": 6,
@@ -7470,7 +8131,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/The_Tarkov_shooter_-_Part_7",
     "exp": 13300,
-    "unlocks": ["5bc5a35cd4351e450201232f"],
+    "unlocks": [
+      "5bc5a35cd4351e450201232f"
+    ],
     "reputation": [
       {
         "trader": 6,
@@ -7496,7 +8159,9 @@
     "id": 150,
     "require": {
       "level": 2,
-      "quests": [149]
+      "quests": [
+        149
+      ]
     },
     "giver": 6,
     "turnin": 6,
@@ -7508,7 +8173,10 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/The_Tarkov_shooter_-_Part_8",
     "exp": 25200,
-    "unlocks": ["5bae13bad4351e00320204af", "5bae13ded4351e44f824bf38"],
+    "unlocks": [
+      "5bae13bad4351e00320204af",
+      "5bae13ded4351e44f824bf38"
+    ],
     "reputation": [
       {
         "trader": 6,
@@ -7521,7 +8189,10 @@
         "target": "PMCs",
         "number": 3,
         "location": 2,
-        "with": ["A bolt-action sniper rifle", "In a single raid"],
+        "with": [
+          "A bolt-action sniper rifle",
+          "In a single raid"
+        ],
         "id": 266
       }
     ],
@@ -7531,7 +8202,9 @@
     "id": 151,
     "require": {
       "level": 15,
-      "quests": [139]
+      "quests": [
+        139
+      ]
     },
     "giver": 6,
     "turnin": 6,
@@ -7556,7 +8229,10 @@
         "target": "PMCs",
         "number": 2,
         "location": -1,
-        "with": ["Headshot", "While you have tremor effect"],
+        "with": [
+          "Headshot",
+          "While you have tremor effect"
+        ],
         "id": 267
       }
     ],
@@ -7566,7 +8242,10 @@
     "id": 152,
     "require": {
       "level": 21,
-      "quests": [185]
+      "quests": [
+        185
+      ],
+      "storylineObjective": "tour_obj_2"
     },
     "giver": 1,
     "turnin": 1,
@@ -7625,7 +8304,12 @@
     "id": 153,
     "require": {
       "level": 21,
-      "quests": [152, 186, 187]
+      "quests": [
+        152,
+        186,
+        187
+      ],
+      "storylineObjective": "tour_obj_2"
     },
     "giver": 1,
     "turnin": 1,
@@ -7686,14 +8370,18 @@
         "id": 325
       }
     ],
-    "alternatives": [190],
+    "alternatives": [
+      190
+    ],
     "gameId": "5edac34d0bb72a50635c2bfa"
   },
   {
     "id": 154,
     "require": {
       "level": 17,
-      "quests": [151]
+      "quests": [
+        151
+      ]
     },
     "giver": 6,
     "turnin": 6,
@@ -7727,7 +8415,9 @@
     "id": 155,
     "require": {
       "level": 25,
-      "quests": [151]
+      "quests": [
+        151
+      ]
     },
     "giver": 6,
     "turnin": 6,
@@ -7739,7 +8429,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Ambulance",
     "exp": 14800,
-    "unlocks": ["5d02797c86f774203f38e30a"],
+    "unlocks": [
+      "5d02797c86f774203f38e30a"
+    ],
     "reputation": [
       {
         "trader": 6,
@@ -7768,7 +8460,9 @@
     "id": 156,
     "require": {
       "level": 15,
-      "quests": [139]
+      "quests": [
+        139
+      ]
     },
     "giver": 6,
     "turnin": 6,
@@ -7793,7 +8487,9 @@
         "target": "PMCs",
         "number": 6,
         "location": 0,
-        "with": ["In the office area"],
+        "with": [
+          "In the office area"
+        ],
         "id": 273
       }
     ],
@@ -7803,7 +8499,9 @@
     "id": 157,
     "require": {
       "level": 17,
-      "quests": [156]
+      "quests": [
+        156
+      ]
     },
     "giver": 6,
     "turnin": 6,
@@ -7842,7 +8540,9 @@
     "id": 158,
     "require": {
       "level": 17,
-      "quests": [156]
+      "quests": [
+        156
+      ]
     },
     "giver": 6,
     "turnin": 6,
@@ -7876,7 +8576,9 @@
     "id": 159,
     "require": {
       "level": 17,
-      "quests": [158]
+      "quests": [
+        158
+      ]
     },
     "giver": 6,
     "turnin": 6,
@@ -7902,7 +8604,9 @@
         "target": "PMCs",
         "number": 2,
         "location": -1,
-        "with": ["While they are flashed"],
+        "with": [
+          "While they are flashed"
+        ],
         "id": 276
       }
     ],
@@ -7912,7 +8616,9 @@
     "id": 160,
     "require": {
       "level": 17,
-      "quests": [158]
+      "quests": [
+        158
+      ]
     },
     "giver": 6,
     "turnin": 6,
@@ -7938,7 +8644,9 @@
         "target": "PMCs",
         "number": 5,
         "location": 1,
-        "with": ["In the dorms area"],
+        "with": [
+          "In the dorms area"
+        ],
         "id": 277
       }
     ],
@@ -7948,7 +8656,9 @@
     "id": 161,
     "require": {
       "level": 25,
-      "quests": [158]
+      "quests": [
+        158
+      ]
     },
     "giver": 6,
     "turnin": 6,
@@ -7982,7 +8692,9 @@
     "id": 162,
     "require": {
       "level": 17,
-      "quests": [156]
+      "quests": [
+        156
+      ]
     },
     "giver": 6,
     "turnin": 6,
@@ -8023,7 +8735,9 @@
     "id": 163,
     "require": {
       "level": 17,
-      "quests": [162]
+      "quests": [
+        162
+      ]
     },
     "giver": 6,
     "turnin": 6,
@@ -8049,7 +8763,9 @@
         "target": "Scavs",
         "number": 3,
         "location": 1,
-        "with": ["Reshala bodyguards"],
+        "with": [
+          "Reshala bodyguards"
+        ],
         "id": 281
       }
     ],
@@ -8059,7 +8775,9 @@
     "id": 164,
     "require": {
       "level": 17,
-      "quests": [162]
+      "quests": [
+        162
+      ]
     },
     "giver": 6,
     "turnin": 6,
@@ -8100,7 +8818,9 @@
     "id": 165,
     "require": {
       "level": 17,
-      "quests": [156]
+      "quests": [
+        156
+      ]
     },
     "giver": 6,
     "turnin": 6,
@@ -8141,7 +8861,9 @@
     "id": 166,
     "require": {
       "level": 17,
-      "quests": [213]
+      "quests": [
+        213
+      ]
     },
     "giver": 6,
     "turnin": 6,
@@ -8175,7 +8897,9 @@
     "id": 167,
     "require": {
       "level": 17,
-      "quests": [166]
+      "quests": [
+        166
+      ]
     },
     "giver": 6,
     "turnin": 6,
@@ -8209,7 +8933,9 @@
     "id": 168,
     "require": {
       "level": 17,
-      "quests": [165]
+      "quests": [
+        165
+      ]
     },
     "giver": 6,
     "turnin": 6,
@@ -8240,7 +8966,10 @@
         "target": "Shturman",
         "number": 1,
         "location": 2,
-        "with": ["Remington M700", "March Tactical 3-24x42 FPP scope"],
+        "with": [
+          "Remington M700",
+          "March Tactical 3-24x42 FPP scope"
+        ],
         "id": 269
       }
     ],
@@ -8250,7 +8979,10 @@
     "id": 169,
     "require": {
       "level": 6,
-      "quests": [19]
+      "quests": [
+        19
+      ],
+      "storylineObjective": "tour_obj_2"
     },
     "giver": 1,
     "turnin": 1,
@@ -8300,7 +9032,10 @@
     "id": 170,
     "require": {
       "level": 6,
-      "quests": [169]
+      "quests": [
+        169
+      ],
+      "storylineObjective": "tour_obj_2"
     },
     "giver": 1,
     "turnin": 1,
@@ -8312,7 +9047,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Operation_Aquarius_-_Part_2",
     "exp": 3400,
-    "unlocks": ["5751a25924597722c463c472"],
+    "unlocks": [
+      "5751a25924597722c463c472"
+    ],
     "reputation": [
       {
         "trader": 1,
@@ -8338,7 +9075,10 @@
     "id": 171,
     "require": {
       "level": 10,
-      "quests": [39]
+      "quests": [
+        39
+      ],
+      "storylineObjective": "tour_obj_12"
     },
     "giver": 0,
     "turnin": 0,
@@ -8372,7 +9112,10 @@
     "id": 172,
     "require": {
       "level": 25,
-      "quests": [171]
+      "quests": [
+        171
+      ],
+      "storylineObjective": "tour_obj_12"
     },
     "giver": 0,
     "turnin": 0,
@@ -8385,7 +9128,9 @@
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Regulated_materials",
     "exp": 14800,
     "nokappa": true,
-    "unlocks": ["5cadfbf7ae92152ac412eeef"],
+    "unlocks": [
+      "5cadfbf7ae92152ac412eeef"
+    ],
     "reputation": [
       {
         "trader": 0,
@@ -8414,7 +9159,10 @@
     "id": 173,
     "require": {
       "level": 8,
-      "quests": [37]
+      "quests": [
+        37
+      ],
+      "storylineObjective": "tour_obj_5"
     },
     "giver": 2,
     "turnin": 2,
@@ -8427,7 +9175,9 @@
     "nokappa": true,
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Stirrup",
     "exp": 5300,
-    "unlocks": ["59e6687d86f77411d949b251"],
+    "unlocks": [
+      "59e6687d86f77411d949b251"
+    ],
     "reputation": [
       {
         "trader": 2,
@@ -8448,7 +9198,9 @@
         "target": "PMCs",
         "number": 3,
         "location": -1,
-        "with": ["pistol"],
+        "with": [
+          "pistol"
+        ],
         "id": 295
       }
     ],
@@ -8458,7 +9210,10 @@
     "id": 174,
     "require": {
       "level": 14,
-      "quests": [77]
+      "quests": [
+        77
+      ],
+      "storylineObjective": "tour_obj_15"
     },
     "giver": 3,
     "turnin": 3,
@@ -8488,7 +9243,10 @@
     "id": 175,
     "require": {
       "level": 12,
-      "quests": [105]
+      "quests": [
+        105
+      ],
+      "storylineObjective": "tour_obj_9"
     },
     "giver": 4,
     "turnin": 4,
@@ -8536,7 +9294,10 @@
     "id": 176,
     "require": {
       "level": 26,
-      "quests": [125]
+      "quests": [
+        125
+      ],
+      "storylineObjective": "tour_obj_4"
     },
     "giver": 5,
     "turnin": 5,
@@ -8548,7 +9309,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/The_key_to_success",
     "exp": 15600,
-    "unlocks": ["6034d2d697633951dc245ea6"],
+    "unlocks": [
+      "6034d2d697633951dc245ea6"
+    ],
     "reputation": [
       {
         "trader": 5,
@@ -8589,7 +9352,9 @@
     "id": 177,
     "require": {
       "level": 20,
-      "quests": [38]
+      "quests": [
+        38
+      ]
     },
     "giver": 6,
     "turnin": 6,
@@ -8623,7 +9388,10 @@
     "id": 178,
     "require": {
       "level": 10,
-      "quests": [6]
+      "quests": [
+        6
+      ],
+      "storylineObjective": "tour_obj_2"
     },
     "giver": 1,
     "turnin": 1,
@@ -8635,7 +9403,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Postman_Pat_-_Part_2",
     "exp": 3500,
-    "unlocks": ["544fb45d4bdc2dee738b4568"],
+    "unlocks": [
+      "544fb45d4bdc2dee738b4568"
+    ],
     "reputation": [
       {
         "trader": 1,
@@ -8662,7 +9432,10 @@
     "id": 179,
     "require": {
       "level": 11,
-      "quests": [42]
+      "quests": [
+        42
+      ],
+      "storylineObjective": "tour_obj_2"
     },
     "giver": 1,
     "turnin": 1,
@@ -8702,14 +9475,20 @@
         "id": 77
       }
     ],
-    "alternatives": [43, 180],
+    "alternatives": [
+      43,
+      180
+    ],
     "gameId": "597a160786f77477531d39d2"
   },
   {
     "id": 180,
     "require": {
       "level": 11,
-      "quests": [42]
+      "quests": [
+        42
+      ],
+      "storylineObjective": "tour_obj_12"
     },
     "giver": 0,
     "turnin": 0,
@@ -8753,13 +9532,18 @@
         "id": 77
       }
     ],
-    "alternatives": [43, 179],
+    "alternatives": [
+      43,
+      179
+    ],
     "gameId": "597a171586f77405ba6887d3"
   },
   {
     "id": 181,
     "require": {
-      "quests": [151]
+      "quests": [
+        151
+      ]
     },
     "giver": 6,
     "turnin": 6,
@@ -8784,7 +9568,9 @@
         "target": "Scavs",
         "number": 15,
         "location": 2,
-        "with": ["Stimulants active"],
+        "with": [
+          "Stimulants active"
+        ],
         "id": 305
       }
     ],
@@ -8794,7 +9580,10 @@
     "id": 182,
     "require": {
       "level": 42,
-      "quests": [127]
+      "quests": [
+        127
+      ],
+      "storylineObjective": "tour_obj_4"
     },
     "giver": 5,
     "turnin": 5,
@@ -8838,7 +9627,10 @@
     "id": 183,
     "require": {
       "level": 42,
-      "quests": [182]
+      "quests": [
+        182
+      ],
+      "storylineObjective": "tour_obj_4"
     },
     "giver": 5,
     "turnin": 5,
@@ -8882,7 +9674,10 @@
     "id": 184,
     "require": {
       "level": 21,
-      "quests": [8]
+      "quests": [
+        8
+      ],
+      "storylineObjective": "tour_obj_12"
     },
     "giver": 0,
     "turnin": 0,
@@ -8952,7 +9747,10 @@
     "id": 185,
     "require": {
       "level": 21,
-      "quests": [26]
+      "quests": [
+        26
+      ],
+      "storylineObjective": "tour_obj_2"
     },
     "giver": 1,
     "turnin": 1,
@@ -9016,7 +9814,10 @@
     "id": 186,
     "require": {
       "level": 21,
-      "quests": [184]
+      "quests": [
+        184
+      ],
+      "storylineObjective": "tour_obj_5"
     },
     "giver": 2,
     "turnin": 2,
@@ -9083,7 +9884,11 @@
     "id": 187,
     "require": {
       "level": 21,
-      "quests": [184, 185]
+      "quests": [
+        184,
+        185
+      ],
+      "storylineObjective": "tour_obj_9"
     },
     "giver": 4,
     "turnin": 4,
@@ -9096,7 +9901,9 @@
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Chemistry_closet",
     "exp": 13400,
     "nokappa": true,
-    "unlocks": ["5b6d9ce188a4501afc1b2b25"],
+    "unlocks": [
+      "5b6d9ce188a4501afc1b2b25"
+    ],
     "reputation": [
       {
         "trader": 4,
@@ -9131,7 +9938,10 @@
     "id": 188,
     "require": {
       "level": 21,
-      "quests": [184]
+      "quests": [
+        184
+      ],
+      "storylineObjective": "tour_obj_15"
     },
     "giver": 3,
     "turnin": 3,
@@ -9144,7 +9954,10 @@
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Samples",
     "exp": 15300,
     "nokappa": true,
-    "unlocks": ["5e00c1ad86f774747333222c", "5a16b7e1fcdbcb00165aa6c9"],
+    "unlocks": [
+      "5e00c1ad86f774747333222c",
+      "5a16b7e1fcdbcb00165aa6c9"
+    ],
     "reputation": [
       {
         "trader": 3,
@@ -9208,7 +10021,11 @@
     "id": 189,
     "require": {
       "level": 21,
-      "quests": [188, 190]
+      "quests": [
+        188,
+        190
+      ],
+      "storylineObjective": "tour_obj_15"
     },
     "giver": 3,
     "turnin": 3,
@@ -9221,7 +10038,10 @@
     "wiki": "https://escapefromtarkov.fandom.com/wiki/TerraGroup_employee",
     "exp": 17000,
     "nokappa": true,
-    "unlocks": ["5e01ef6886f77445f643baa4", "5ef1ba28c64c5d0dfc0571a5"],
+    "unlocks": [
+      "5e01ef6886f77445f643baa4",
+      "5ef1ba28c64c5d0dfc0571a5"
+    ],
     "reputation": [
       {
         "trader": 3,
@@ -9257,7 +10077,11 @@
     "id": 190,
     "require": {
       "level": 21,
-      "quests": [152, 186, 187]
+      "quests": [
+        152,
+        186,
+        187
+      ]
     },
     "giver": 6,
     "turnin": 6,
@@ -9290,14 +10114,19 @@
         "id": 341
       }
     ],
-    "alternatives": [153],
+    "alternatives": [
+      153
+    ],
     "gameId": "5edab4b1218d181e29451435"
   },
   {
     "id": 191,
     "require": {
       "level": 10,
-      "quests": [4]
+      "quests": [
+        4
+      ],
+      "storylineObjective": "tour_obj_12"
     },
     "giver": 0,
     "turnin": 0,
@@ -9348,7 +10177,10 @@
     "id": 192,
     "require": {
       "level": 10,
-      "quests": [191]
+      "quests": [
+        191
+      ],
+      "storylineObjective": "tour_obj_12"
     },
     "giver": 0,
     "turnin": 0,
@@ -9436,7 +10268,10 @@
     "id": 193,
     "require": {
       "level": 5,
-      "quests": [0]
+      "quests": [
+        0
+      ],
+      "storylineObjective": "tour_obj_12"
     },
     "giver": 0,
     "turnin": 0,
@@ -9487,7 +10322,10 @@
     "id": 194,
     "require": {
       "level": 26,
-      "quests": [176]
+      "quests": [
+        176
+      ],
+      "storylineObjective": "tour_obj_4"
     },
     "giver": 5,
     "turnin": 5,
@@ -9516,7 +10354,9 @@
   {
     "id": 196,
     "require": {
-      "quests": [151]
+      "quests": [
+        151
+      ]
     },
     "giver": 6,
     "turnin": 6,
@@ -9541,7 +10381,10 @@
         "target": "Scavs",
         "number": 6,
         "location": -1,
-        "with": ["No NVG or Thermals", "Between 21 and 04 hours"],
+        "with": [
+          "No NVG or Thermals",
+          "Between 21 and 04 hours"
+        ],
         "id": 288
       }
     ],
@@ -9552,10 +10395,75 @@
     "require": {
       "level": 40,
       "quests": [
-        2, 9, 11, 12, 18, 24, 25, 26, 27, 33, 35, 43, 45, 49, 53, 54, 56, 63,
-        73, 80, 81, 97, 101, 102, 103, 109, 110, 119, 121, 122, 123, 127, 129,
-        133, 136, 142, 150, 154, 155, 157, 161, 167, 170, 171, 173, 175, 177,
-        178, 179, 180, 181, 193, 196, 197, 206, 229, 230,231,232,233,234, 235,236,237,238,239, 241, 242, 243
+        2,
+        9,
+        11,
+        12,
+        18,
+        24,
+        25,
+        26,
+        27,
+        33,
+        35,
+        43,
+        45,
+        49,
+        53,
+        54,
+        56,
+        63,
+        73,
+        80,
+        81,
+        97,
+        101,
+        102,
+        103,
+        109,
+        110,
+        119,
+        121,
+        122,
+        123,
+        127,
+        129,
+        133,
+        136,
+        142,
+        150,
+        154,
+        155,
+        157,
+        161,
+        167,
+        170,
+        171,
+        173,
+        175,
+        177,
+        178,
+        179,
+        180,
+        181,
+        193,
+        196,
+        197,
+        206,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        241,
+        242,
+        243
       ]
     },
     "giver": 7,
@@ -9829,7 +10737,10 @@
   {
     "id": 197,
     "require": {
-      "quests": [30]
+      "quests": [
+        30
+      ],
+      "storylineObjective": "tour_obj_2"
     },
     "giver": 1,
     "turnin": 1,
@@ -9859,7 +10770,9 @@
     "id": 198,
     "require": {
       "level": 33,
-      "quests": [135],
+      "quests": [
+        135
+      ],
       "loyalty": [
         {
           "trader": 6,
@@ -9877,7 +10790,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Hunter",
     "exp": 0,
-    "unlocks": ["5fc22d7c187fea44d52eda44"],
+    "unlocks": [
+      "5fc22d7c187fea44d52eda44"
+    ],
     "reputation": [],
     "nokappa": true,
     "objectives": [
@@ -9895,7 +10810,13 @@
     "id": 199,
     "require": {
       "level": 11,
-      "quests": [[43, 179]]
+      "quests": [
+        [
+          43,
+          179
+        ]
+      ],
+      "storylineObjective": "tour_obj_12"
     },
     "giver": 0,
     "turnin": 0,
@@ -9930,7 +10851,13 @@
     "id": 200,
     "require": {
       "level": 11,
-      "quests": [[43, 180]]
+      "quests": [
+        [
+          43,
+          180
+        ]
+      ],
+      "storylineObjective": "tour_obj_2"
     },
     "giver": 1,
     "turnin": 1,
@@ -9986,7 +10913,13 @@
     "id": 201,
     "require": {
       "level": 11,
-      "quests": [[179, 180]]
+      "quests": [
+        [
+          179,
+          180
+        ]
+      ],
+      "storylineObjective": "tour_obj_5"
     },
     "giver": 2,
     "turnin": 2,
@@ -10021,7 +10954,11 @@
     "id": 202,
     "require": {
       "level": 10,
-      "quests": [173, 27]
+      "quests": [
+        173,
+        27
+      ],
+      "storylineObjective": "tour_obj_2"
     },
     "giver": 1,
     "turnin": 1,
@@ -10063,7 +11000,10 @@
     "id": 203,
     "require": {
       "level": 10,
-      "quests": [23]
+      "quests": [
+        23
+      ],
+      "storylineObjective": "tour_obj_2"
     },
     "giver": 1,
     "turnin": 1,
@@ -10128,7 +11068,10 @@
     "id": 204,
     "require": {
       "level": 15,
-      "quests": [111]
+      "quests": [
+        111
+      ],
+      "storylineObjective": "tour_obj_4"
     },
     "giver": 5,
     "turnin": 5,
@@ -10182,7 +11125,10 @@
     "id": 205,
     "require": {
       "level": 12,
-      "quests": [102]
+      "quests": [
+        102
+      ],
+      "storylineObjective": "tour_obj_9"
     },
     "giver": 4,
     "turnin": 4,
@@ -10228,7 +11174,10 @@
     "id": 206,
     "require": {
       "level": 12,
-      "quests": [205]
+      "quests": [
+        205
+      ],
+      "storylineObjective": "tour_obj_9"
     },
     "giver": 4,
     "turnin": 4,
@@ -10267,7 +11216,10 @@
     "id": 207,
     "require": {
       "level": 11,
-      "quests": [60]
+      "quests": [
+        60
+      ],
+      "storylineObjective": "tour_obj_15"
     },
     "giver": 3,
     "turnin": 3,
@@ -10390,7 +11342,10 @@
     "id": 208,
     "require": {
       "level": 11,
-      "quests": [207]
+      "quests": [
+        207
+      ],
+      "storylineObjective": "tour_obj_15"
     },
     "giver": 3,
     "turnin": 3,
@@ -10429,7 +11384,10 @@
     "id": 209,
     "require": {
       "level": 15,
-      "quests": [204]
+      "quests": [
+        204
+      ],
+      "storylineObjective": "tour_obj_4"
     },
     "giver": 5,
     "turnin": 5,
@@ -10544,7 +11502,10 @@
     "id": 210,
     "require": {
       "level": 10,
-      "quests": [192]
+      "quests": [
+        192
+      ],
+      "storylineObjective": "tour_obj_12"
     },
     "giver": 0,
     "turnin": 0,
@@ -10569,7 +11530,9 @@
         "target": "Raiders",
         "number": 5,
         "location": 6,
-        "with": ["in command bunker"],
+        "with": [
+          "in command bunker"
+        ],
         "id": 412
       }
     ],
@@ -10579,7 +11542,10 @@
     "id": 211,
     "require": {
       "level": 10,
-      "quests": [210]
+      "quests": [
+        210
+      ],
+      "storylineObjective": "tour_obj_12"
     },
     "giver": 0,
     "turnin": 0,
@@ -10642,7 +11608,10 @@
     "id": 212,
     "require": {
       "level": 11,
-      "quests": [43]
+      "quests": [
+        43
+      ],
+      "storylineObjective": "tour_obj_5"
     },
     "giver": 2,
     "turnin": 2,
@@ -10668,7 +11637,9 @@
         "target": "Scavs",
         "number": 10,
         "location": 6,
-        "with": ["in underground warehouse"],
+        "with": [
+          "in underground warehouse"
+        ],
         "id": 416
       }
     ],
@@ -10678,7 +11649,9 @@
     "id": 213,
     "require": {
       "level": 17,
-      "quests": [156]
+      "quests": [
+        156
+      ]
     },
     "giver": 6,
     "turnin": 6,
@@ -10719,7 +11692,9 @@
     "id": 214,
     "require": {
       "level": 17,
-      "quests": [165]
+      "quests": [
+        165
+      ]
     },
     "giver": 6,
     "turnin": 6,
@@ -10744,7 +11719,9 @@
         "target": "Scavs",
         "number": 10,
         "location": 6,
-        "with": ["in barracks area"],
+        "with": [
+          "in barracks area"
+        ],
         "id": 419
       }
     ],
@@ -10754,7 +11731,10 @@
     "id": 215,
     "require": {
       "level": 45,
-      "quests": [18]
+      "quests": [
+        18
+      ],
+      "storylineObjective": "tour_obj_12"
     },
     "giver": 0,
     "turnin": 0,
@@ -10773,7 +11753,9 @@
         "target": "PMCs",
         "number": 15,
         "location": 1,
-        "with": ["in the scav base"],
+        "with": [
+          "in the scav base"
+        ],
         "id": 438
       },
       {
@@ -10781,7 +11763,9 @@
         "target": "PMCs",
         "number": 15,
         "location": 2,
-        "with": ["in the scav base"],
+        "with": [
+          "in the scav base"
+        ],
         "id": 439
       },
       {
@@ -10789,7 +11773,9 @@
         "target": "PMCs",
         "number": 15,
         "location": 3,
-        "with": ["in the pier"],
+        "with": [
+          "in the pier"
+        ],
         "id": 440
       }
     ],
@@ -10799,7 +11785,10 @@
     "id": 216,
     "require": {
       "level": 45,
-      "quests": [18]
+      "quests": [
+        18
+      ],
+      "storylineObjective": "tour_obj_12"
     },
     "giver": 0,
     "turnin": 0,
@@ -10818,7 +11807,9 @@
         "target": "Scavs",
         "number": 40,
         "location": -1,
-        "with": ["headshots"],
+        "with": [
+          "headshots"
+        ],
         "id": 441
       }
     ],
@@ -10828,7 +11819,8 @@
     "id": 217,
     "require": {
       "level": 47,
-      "quests": []
+      "quests": [],
+      "storylineObjective": "tour_obj_9"
     },
     "giver": 4,
     "turnin": 4,
@@ -10847,7 +11839,9 @@
         "target": "PMCs",
         "number": 20,
         "location": -1,
-        "with": ["100 meters distance"],
+        "with": [
+          "100 meters distance"
+        ],
         "id": 442
       }
     ],
@@ -10857,7 +11851,8 @@
     "id": 218,
     "require": {
       "level": 50,
-      "quests": []
+      "quests": [],
+      "storylineObjective": "tour_obj_5"
     },
     "giver": 2,
     "turnin": 2,
@@ -10885,7 +11880,9 @@
     "id": 219,
     "require": {
       "level": 50,
-      "quests": [190]
+      "quests": [
+        190
+      ]
     },
     "giver": 6,
     "turnin": 6,
@@ -10904,7 +11901,10 @@
         "target": "PMCs",
         "number": 20,
         "location": 2,
-        "with": ["no body armor", "no helmet"],
+        "with": [
+          "no body armor",
+          "no helmet"
+        ],
         "id": 444
       }
     ],
@@ -10914,7 +11914,8 @@
     "id": 220,
     "require": {
       "level": 55,
-      "quests": []
+      "quests": [],
+      "storylineObjective": "tour_obj_2"
     },
     "giver": 1,
     "turnin": 1,
@@ -10963,7 +11964,10 @@
     "id": 221,
     "require": {
       "level": 60,
-      "quests": [18]
+      "quests": [
+        18
+      ],
+      "storylineObjective": "tour_obj_12"
     },
     "giver": 0,
     "turnin": 0,
@@ -11041,7 +12045,9 @@
     "id": 222,
     "require": {
       "level": 60,
-      "quests": [18]
+      "quests": [
+        18
+      ]
     },
     "giver": 7,
     "turnin": 7,
@@ -11074,7 +12080,10 @@
     "id": 223,
     "require": {
       "level": 45,
-      "quests": [81]
+      "quests": [
+        81
+      ],
+      "storylineObjective": "tour_obj_15"
     },
     "giver": 3,
     "turnin": 3,
@@ -11102,7 +12111,10 @@
     "id": 224,
     "require": {
       "level": 45,
-      "quests": [119]
+      "quests": [
+        119
+      ],
+      "storylineObjective": "tour_obj_4"
     },
     "giver": 5,
     "turnin": 5,
@@ -11120,7 +12132,9 @@
         "type": "kill",
         "target": "PMCs",
         "number": 30,
-        "with": ["inside the ULTRA mall"],
+        "with": [
+          "inside the ULTRA mall"
+        ],
         "location": 4,
         "id": 459
       }
@@ -11201,7 +12215,10 @@
     "id": 226,
     "require": {
       "level": 50,
-      "quests": [224]
+      "quests": [
+        224
+      ],
+      "storylineObjective": "tour_obj_4"
     },
     "giver": 5,
     "turnin": 5,
@@ -11243,7 +12260,10 @@
     "id": 227,
     "require": {
       "level": 55,
-      "quests": [217]
+      "quests": [
+        217
+      ],
+      "storylineObjective": "tour_obj_9"
     },
     "giver": 4,
     "turnin": 4,
@@ -11290,7 +12310,10 @@
     "id": 228,
     "require": {
       "level": 60,
-      "quests": [223]
+      "quests": [
+        223
+      ],
+      "storylineObjective": "tour_obj_15"
     },
     "giver": 3,
     "turnin": 3,
@@ -11339,7 +12362,10 @@
     "id": 229,
     "require": {
       "level": 20,
-      "quests": [47]
+      "quests": [
+        47
+      ],
+      "storylineObjective": "tour_obj_5"
     },
     "giver": 2,
     "turnin": 2,
@@ -11349,7 +12375,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Long_Road",
     "exp": 8300,
-    "unlocks": ["588892092459774ac91d4b11"],
+    "unlocks": [
+      "588892092459774ac91d4b11"
+    ],
     "reputation": [
       {
         "trader": 2,
@@ -11362,7 +12390,9 @@
         "target": "Scavs",
         "number": 15,
         "location": 7,
-        "with": ["on the main road"],
+        "with": [
+          "on the main road"
+        ],
         "id": 476
       }
     ],
@@ -11372,7 +12402,10 @@
     "id": 230,
     "require": {
       "level": 17,
-      "quests": [106]
+      "quests": [
+        106
+      ],
+      "storylineObjective": "tour_obj_9"
     },
     "giver": 4,
     "turnin": 4,
@@ -11394,7 +12427,7 @@
         "type": "pickup",
         "target": "Water pump operation data",
         "number": 1,
-        "location": 7, 
+        "location": 7,
         "id": 477,
         "gps": {
           "leftPercent": 43.9,
@@ -11421,7 +12454,10 @@
     "id": 231,
     "require": {
       "level": 20,
-      "quests": [23]
+      "quests": [
+        23
+      ],
+      "storylineObjective": "tour_obj_2"
     },
     "giver": 1,
     "turnin": 1,
@@ -11431,7 +12467,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Seaside_Vacation",
     "exp": 8000,
-    "unlocks": ["5af0454c86f7746bf20992e8"],
+    "unlocks": [
+      "5af0454c86f7746bf20992e8"
+    ],
     "reputation": [
       {
         "trader": 1,
@@ -11457,7 +12495,10 @@
   {
     "id": 232,
     "require": {
-      "quests": [14]
+      "quests": [
+        14
+      ],
+      "storylineObjective": "tour_obj_12"
     },
     "giver": 0,
     "turnin": 0,
@@ -11494,7 +12535,10 @@
   {
     "id": 233,
     "require": {
-      "quests": [232]
+      "quests": [
+        232
+      ],
+      "storylineObjective": "tour_obj_12"
     },
     "giver": 0,
     "turnin": 0,
@@ -11504,7 +12548,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Easy_Job_-_Part_2",
     "exp": 1800,
-    "unlocks": ["5cbdc23eae9215001136a407"],
+    "unlocks": [
+      "5cbdc23eae9215001136a407"
+    ],
     "reputation": [
       {
         "trader": 0,
@@ -11526,7 +12572,10 @@
     "id": 234,
     "require": {
       "level": null,
-      "quests": [73]
+      "quests": [
+        73
+      ],
+      "storylineObjective": "tour_obj_15"
     },
     "giver": 3,
     "turnin": 3,
@@ -11538,7 +12587,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Cargo_X_-_Part_4",
     "exp": 8600,
-    "unlocks": ["5d5e9c74a4b9364855191c40"],
+    "unlocks": [
+      "5d5e9c74a4b9364855191c40"
+    ],
     "reputation": [
       {
         "trader": 3,
@@ -11567,7 +12618,9 @@
     "id": 235,
     "require": {
       "level": null,
-      "quests": [140]
+      "quests": [
+        140
+      ]
     },
     "giver": 6,
     "turnin": 6,
@@ -11579,7 +12632,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/The_Hermit",
     "exp": 12000,
-    "unlocks": ["5b2388675acfc4771e1be0be"],
+    "unlocks": [
+      "5b2388675acfc4771e1be0be"
+    ],
     "reputation": [
       {
         "trader": 6,
@@ -11618,7 +12673,10 @@
     "id": 236,
     "require": {
       "level": null,
-      "quests": [122]
+      "quests": [
+        122
+      ],
+      "storylineObjective": "tour_obj_4"
     },
     "giver": 5,
     "turnin": 5,
@@ -11630,7 +12688,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Communication_Difficulties",
     "exp": 9000,
-    "unlocks": ["545cdae64bdc2d39198b4568"],
+    "unlocks": [
+      "545cdae64bdc2d39198b4568"
+    ],
     "reputation": [
       {
         "trader": 5,
@@ -11657,7 +12717,10 @@
     "id": 237,
     "require": {
       "level": null,
-      "quests": [229]
+      "quests": [
+        229
+      ],
+      "storylineObjective": "tour_obj_5"
     },
     "giver": 2,
     "turnin": 2,
@@ -11669,7 +12732,10 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Missing_Cargo",
     "exp": 14000,
-    "unlocks": ["56eabf3bd2720b75698b4569", "5649ae4a4bdc2d1b2b8b4588"],
+    "unlocks": [
+      "56eabf3bd2720b75698b4569",
+      "5649ae4a4bdc2d1b2b8b4588"
+    ],
     "reputation": [
       {
         "trader": 2,
@@ -11708,7 +12774,9 @@
     "id": 238,
     "require": {
       "level": null,
-      "quests": [162]
+      "quests": [
+        162
+      ]
     },
     "giver": 6,
     "turnin": 6,
@@ -11720,7 +12788,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/The_Huntsman_Path_-_Outcasts",
     "exp": 9000,
-    "unlocks": ["5b3b99475acfc432ff4dcbee"],
+    "unlocks": [
+      "5b3b99475acfc432ff4dcbee"
+    ],
     "reputation": [
       {
         "trader": 6,
@@ -11742,7 +12812,10 @@
     "id": 239,
     "require": {
       "level": null,
-      "quests": [60]
+      "quests": [
+        60
+      ],
+      "storylineObjective": "tour_obj_15"
     },
     "giver": 3,
     "turnin": 3,
@@ -11754,7 +12827,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Revision_-_Part_2",
     "exp": 7800,
-    "unlocks": ["5d67abc1a4b93614ec50137f"],
+    "unlocks": [
+      "5d67abc1a4b93614ec50137f"
+    ],
     "reputation": [
       {
         "trader": 3,
@@ -11772,7 +12847,7 @@
           "leftPercent": 47.72,
           "topPercent": 29.18,
           "floor": "Ground_Level"
-       },
+        },
         "id": 488
       },
       {
@@ -11821,7 +12896,10 @@
     "id": 240,
     "require": {
       "level": null,
-      "quests": [16]
+      "quests": [
+        16
+      ],
+      "storylineObjective": "tour_obj_12"
     },
     "giver": 0,
     "turnin": 0,
@@ -11832,7 +12910,9 @@
     "nokappa": true,
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Our_Own_Land",
     "exp": 22000,
-    "unlocks": ["5e85a9f4add9fe03027d9bf1"],
+    "unlocks": [
+      "5e85a9f4add9fe03027d9bf1"
+    ],
     "reputation": [
       {
         "trader": 0,
@@ -11861,7 +12941,10 @@
     "id": 241,
     "require": {
       "level": null,
-      "quests": [29]
+      "quests": [
+        29
+      ],
+      "storylineObjective": "tour_obj_2"
     },
     "giver": 1,
     "turnin": 1,
@@ -11871,7 +12954,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Lost_Contact",
     "exp": 7000,
-    "unlocks": ["590c657e86f77412b013051d"],
+    "unlocks": [
+      "590c657e86f77412b013051d"
+    ],
     "reputation": [
       {
         "trader": 1,
@@ -11898,7 +12983,8 @@
     "id": 242,
     "require": {
       "level": 25,
-      "quests": []
+      "quests": [],
+      "storylineObjective": "tour_obj_9"
     },
     "giver": 4,
     "turnin": 4,
@@ -11908,7 +12994,9 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Energy_Crisis",
     "exp": 13000,
-    "unlocks": ["619e61e70459e93c12392ba7"],
+    "unlocks": [
+      "619e61e70459e93c12392ba7"
+    ],
     "reputation": [
       {
         "trader": 4,
@@ -11976,31 +13064,38 @@
     "id": 243,
     "require": {
       "level": null,
-      "quests": [64]
+      "quests": [
+        64
+      ],
+      "storylineObjective": "tour_obj_15"
     },
     "giver": 3,
     "turnin": 3,
     "title": "Overpopulation",
     "locales": {
       "en": "Overpopulation",
-      "ru":"Перенаселение"
+      "ru": "Перенаселение"
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Overpopulation",
     "exp": 8500,
-    "unlocks": ["5b0bbe4e5acfc40dc528a72d"],
+    "unlocks": [
+      "5b0bbe4e5acfc40dc528a72d"
+    ],
     "reputation": [
       {
         "trader": 3,
         "rep": 0.02
       }
-    ], 
+    ],
     "objectives": [
       {
         "type": "kill",
         "target": "Scavs",
         "number": 12,
         "location": 7,
-        "with": ["Secure the cottage area from"],
+        "with": [
+          "Secure the cottage area from"
+        ],
         "id": 501
       }
     ],
@@ -12010,7 +13105,10 @@
     "id": 244,
     "require": {
       "level": null,
-      "quests": [16]
+      "quests": [
+        16
+      ],
+      "storylineObjective": "tour_obj_15"
     },
     "giver": 3,
     "turnin": 3,
@@ -12050,7 +13148,10 @@
     "id": 245,
     "require": {
       "level": null,
-      "quests": [105]
+      "quests": [
+        105
+      ],
+      "storylineObjective": "tour_obj_9"
     },
     "giver": 4,
     "turnin": 4,
@@ -12097,7 +13198,10 @@
     "id": 246,
     "require": {
       "level": null,
-      "quests": [47]
+      "quests": [
+        47
+      ],
+      "storylineObjective": "tour_obj_5"
     },
     "giver": 2,
     "turnin": 2,
