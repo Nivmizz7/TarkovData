@@ -16,25 +16,29 @@
         "level": 1,
         "requiredLevel": 1,
         "requiredReputation": 0,
-        "requiredSales": 0
+        "requiredSales": 0,
+        "items": []
       },
       {
         "level": 2,
         "requiredLevel": 15,
         "requiredReputation": 0.2,
-        "requiredSales": 1120000
+        "requiredSales": 1120000,
+        "items": []
       },
       {
         "level": 3,
         "requiredLevel": 26,
         "requiredReputation": 0.35,
-        "requiredSales": 1700000
+        "requiredSales": 1700000,
+        "items": []
       },
       {
         "level": 4,
         "requiredLevel": 36,
         "requiredReputation": 0.5,
-        "requiredSales": 3400000
+        "requiredSales": 3400000,
+        "items": []
       }
     ]
   },
@@ -56,25 +60,29 @@
         "level": 1,
         "requiredLevel": 1,
         "requiredReputation": 0,
-        "requiredSales": 0
+        "requiredSales": 0,
+        "items": []
       },
       {
         "level": 2,
         "requiredLevel": 14,
         "requiredReputation": 0.15,
-        "requiredSales": 600000
+        "requiredSales": 600000,
+        "items": []
       },
       {
         "level": 3,
         "requiredLevel": 23,
         "requiredReputation": 0.3,
-        "requiredSales": 1000000
+        "requiredSales": 1000000,
+        "items": []
       },
       {
         "level": 4,
         "requiredLevel": 37,
         "requiredReputation": 0.6,
-        "requiredSales": 1600000
+        "requiredSales": 1600000,
+        "items": []
       }
     ]
   },
@@ -97,25 +105,29 @@
         "level": 1,
         "requiredLevel": 1,
         "requiredReputation": 0,
-        "requiredSales": 0
+        "requiredSales": 0,
+        "items": []
       },
       {
         "level": 2,
         "requiredLevel": 15,
         "requiredReputation": 0.2,
-        "requiredSales": 1200000
+        "requiredSales": 1200000,
+        "items": []
       },
       {
         "level": 3,
         "requiredLevel": 28,
         "requiredReputation": 0.4,
-        "requiredSales": 2400000
+        "requiredSales": 2400000,
+        "items": []
       },
       {
         "level": 4,
         "requiredLevel": 38,
         "requiredReputation": 0.75,
-        "requiredSales": 3900000
+        "requiredSales": 3900000,
+        "items": []
       }
     ]
   },
@@ -136,25 +148,29 @@
         "level": 1,
         "requiredLevel": 1,
         "requiredReputation": 0,
-        "requiredSales": 0
+        "requiredSales": 0,
+        "items": []
       },
       {
         "level": 2,
         "requiredLevel": 14,
         "requiredReputation": 0,
-        "requiredSales": 16000
+        "requiredSales": 16000,
+        "items": []
       },
       {
         "level": 3,
         "requiredLevel": 23,
         "requiredReputation": 0.3,
-        "requiredSales": 37000
+        "requiredSales": 37000,
+        "items": []
       },
       {
         "level": 4,
         "requiredLevel": 37,
         "requiredReputation": 0.6,
-        "requiredSales": 55000
+        "requiredSales": 55000,
+        "items": []
       }
     ]
   },
@@ -177,25 +193,29 @@
         "level": 1,
         "requiredLevel": 1,
         "requiredReputation": 0,
-        "requiredSales": 0
+        "requiredSales": 0,
+        "items": []
       },
       {
         "level": 2,
         "requiredLevel": 20,
         "requiredReputation": 0.15,
-        "requiredSales": 1120000
+        "requiredSales": 1120000,
+        "items": []
       },
       {
         "level": 3,
         "requiredLevel": 30,
         "requiredReputation": 0.3,
-        "requiredSales": 2400000
+        "requiredSales": 2400000,
+        "items": []
       },
       {
         "level": 4,
         "requiredLevel": 40,
         "requiredReputation": 0.6,
-        "requiredSales": 3700000
+        "requiredSales": 3700000,
+        "items": []
       }
     ]
   },
@@ -216,25 +236,29 @@
         "level": 1,
         "requiredLevel": 1,
         "requiredReputation": 0,
-        "requiredSales": 0
+        "requiredSales": 0,
+        "items": []
       },
       {
         "level": 2,
         "requiredLevel": 17,
         "requiredReputation": 0,
-        "requiredSales": 1120000
+        "requiredSales": 1120000,
+        "items": []
       },
       {
         "level": 3,
         "requiredLevel": 32,
         "requiredReputation": 0.3,
-        "requiredSales": 2400000
+        "requiredSales": 2400000,
+        "items": []
       },
       {
         "level": 4,
         "requiredLevel": 42,
         "requiredReputation": 0.6,
-        "requiredSales": 3700000
+        "requiredSales": 3700000,
+        "items": []
       }
     ]
   },
@@ -255,25 +279,29 @@
         "level": 1,
         "requiredLevel": 1,
         "requiredReputation": 0,
-        "requiredSales": 0
+        "requiredSales": 0,
+        "items": []
       },
       {
         "level": 2,
         "requiredLevel": 15,
         "requiredReputation": 0.2,
-        "requiredSales": 840000
+        "requiredSales": 840000,
+        "items": []
       },
       {
         "level": 3,
         "requiredLevel": 22,
         "requiredReputation": 0.35,
-        "requiredSales": 1680000
+        "requiredSales": 1680000,
+        "items": []
       },
       {
         "level": 4,
         "requiredLevel": 33,
         "requiredReputation": 0.5,
-        "requiredSales": 2580000
+        "requiredSales": 2580000,
+        "items": []
       }
     ]
   },
