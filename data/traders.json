@@ -359,5 +359,46 @@
         "requiredSales": 0
       }
     ]
+  },
+    "ref": {
+    "id": 7,
+    "name": "<unknown>",
+    "locale": {
+      "en": "Ref"
+    },
+    "wiki": "https://escapefromtarkov.fandom.com/wiki/Ref",
+    "location": "Tarkov airport",
+    "origin": "Unknown",
+    "description": "The Arena host who organizes pit fights across Tarkov.",
+    "currencies": [
+      "GP"
+    ],
+    "salesCurrency": "GP",
+    "loyalty": [
+      {
+        "level": 1,
+        "requiredLevel": 1,
+        "requiredReputation": 0,
+        "requiredSales": 0
+      },
+      {
+        "level": 2,
+        "requiredLevel": 15,
+        "requiredReputation": 0.25,
+        "requiredSales": 0
+      },
+      {
+        "level": 3,
+        "requiredLevel": 25,
+        "requiredReputation": 0.5,
+        "requiredSales": 0
+      },
+      {
+        "level": 4,
+        "requiredLevel": 35,
+        "requiredReputation": 1.2,
+        "requiredSales": 0
+      }
+    ]
   }
 }
