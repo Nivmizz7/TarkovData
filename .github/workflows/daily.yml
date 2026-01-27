@@ -44,9 +44,7 @@ jobs:
             cd ${{ secrets.SSH_PATH_BUILD }}
 
             echo "Installing dependencies if needed"
-            if [ ! -d node_modules ]; then
-              npm ci
-            fi
+            npm install
 
             echo "Running sync scripts"
             npm run sync:ammo
