@@ -2,7 +2,7 @@ name: Daily data update
 
 on:
   schedule:
-    - cron: "0 2 * * *" # Every day at 02:00 UTC
+    - cron: "0 2 * * *"
   workflow_dispatch:
 
 jobs:
@@ -14,14 +14,12 @@ jobs:
       pull-requests: write
 
     steps:
-      # Checkout master branch only (base for new branch)
       - name: Checkout master
         uses: actions/checkout@v4
         with:
           ref: master
-          fetch-depth: 0  # full history for creating branch
+          fetch-depth: 0
 
-      # Set date variables
       - name: Set date variables
         id: date
         run: |
@@ -29,29 +27,38 @@ jobs:
           echo "date=$DATE" >> $GITHUB_OUTPUT
           echo "branch=$DATE" >> $GITHUB_OUTPUT
 
-      # Create a branch named after the date
       - name: Create daily branch
-        run: |
-          git checkout -b ${{ steps.date.outputs.branch }}
-
-      # Setup Node.js
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+        run: git checkout -b ${{ steps.date.outputs.branch }}
+        
+      - name: Run data sync on production server
+        uses: appleboy/ssh-action@v1.0.3
         with:
-          node-version: 20
+          host: ${{ secrets.SSH_HOST_PROD }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_KEY }}
+          port: ${{ secrets.SSH_HOST_PORT }}
+          script: |
+            set -e
 
-      # Install dependencies
-      - name: Install dependencies
-        run: npm install --no-audit --no-fund
+            echo "Moving to project directory"
+            cd ${{ secrets.SSH_PATH_BUILD }}
 
-      # Run the update scripts
-      - name: Run data sync scripts
+            echo "Installing dependencies if needed"
+            if [ ! -d node_modules ]; then
+              npm ci
+            fi
+
+            echo "Running sync scripts"
+            npm run sync:ammo
+            npm run sync:levels
+
+      - name: Pull updated files from server
         run: |
-          set -e
-          npm run sync:ammo
-          npm run sync:levels
-
-      # Generate changelog of modified files and line changes
+          rsync -avz --delete \
+            --exclude=node_modules \
+            -e "ssh -p ${{ secrets.SSH_HOST_PORT }}" \
+            ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST_PROD }}:${{ secrets.SSH_PATH_BUILD }}/ ./ 
+            
       - name: Generate changelog
         run: |
           echo "### Changed files" > CHANGELOG.md
@@ -63,7 +70,6 @@ jobs:
           echo "" >> CHANGELOG.md
           git diff --numstat >> CHANGELOG.md
 
-      # Commit changes to the daily branch
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
@@ -77,8 +83,7 @@ jobs:
             echo "No changes detected"
             exit 0
           fi
-
-      # Create Pull Request into master
+          
       - name: Create Pull Request
         uses: actions/github-script@v7
         with:
@@ -91,6 +96,8 @@ jobs:
               title: "Daily data update – ${{ steps.date.outputs.date }}",
               body: `
               Automated daily data update.
+
+              Sync executed on production server.
 
               Executed scripts:
               - npm run sync:ammo
