@@ -84,16 +84,6 @@ npm run verify-quest-data
 
 This helps ensure no critical mistakes were made when modifying the data.
 
-## CLI Tool
-
-The repository includes a CLI tool for data management:
-
-```bash
-node cli.js help                 # List available commands
-node cli.js verify-quest-data    # Verify quest data
-node cli.js new-quest-id         # Find next available quest ID
-```
-
 ## Documentation
 
 Additional documentation is available in the [docs/](docs/) directory:
