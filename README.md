@@ -1,6 +1,6 @@
 # TarkovData
 
-Community-maintained game data for [Escape From Tarkov](https://www.escapefromtarkov.com/) in easy-to-use formats. Everything here is contributed by the community and maintained by developers of community tools like [Tarkov Tracker](https://tarkovtracker.io/), [Tarkov Guru](https://tarkov.guru/), [Tarkov.dev](https://tarkov.dev/), and [Tarkov Tools](https://tarkov-tools.com/).
+Community-maintained game data for [Escape From Tarkov](https://www.escapefromtarkov.com/) in easy-to-use formats. Everything here is contributed by the community and maintained by developers of community tools like [Tarkov Tracker](https://tarkovtracker.org/), [Tarkov Guru](https://tarkov.guru/), [Tarkov.dev](https://tarkov.dev/), and [Tarkov Tools](https://tarkov-tools.com/).
 
 ## Repository Structure
 
