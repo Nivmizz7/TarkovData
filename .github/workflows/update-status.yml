@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'data/*.json'
+  workflow_dispatch:
 
 jobs:
   update-status:
@@ -11,47 +12,79 @@ jobs:
     
     steps:
       - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
       
-      - name: Get modified files
-        id: files
-        run: |
-          # Get list of modified JSON files in data/
-          MODIFIED_FILES=$(git diff --name-only HEAD~1 HEAD 2>/dev/null | grep "^data/.*\.json$" || git diff --name-only HEAD | grep "^data/.*\.json$" || echo "")
-          echo "files<<EOF" >> $GITHUB_OUTPUT
-          echo "$MODIFIED_FILES" >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
       
       - name: Update UPDATE_STATUS.md
-        if: steps.files.outputs.files != ''
         run: |
-          TODAY=$(date +%d/%m/%Y)
+          const fs = require('fs');
+          const path = require('path');
+          const { execSync } = require('child_process');
           
-          # Process each modified file
-          while IFS= read -r file; do
-            if [ ! -z "$file" ]; then
-              # Extract filename without extension
-              filename=$(basename "$file" .json)
-              
-              # Capitalize first letter for display
-              displayname=$(echo "$filename" | sed 's/^\(.\)/\U\1/')
-              displayname=$(echo "$displayname" | sed 's/_/ /g')
-              
-              # Update or add the line in UPDATE_STATUS.md
-              if grep -q "\[$displayname\]" UPDATE_STATUS.md; then
-                # Update existing entry
-                sed -i "s|\(\[$displayname\][^)]*\)[0-9]\{2\}/[0-9]\{2\}/[0-9]\{4\}|\\1$TODAY|" UPDATE_STATUS.md
-              else
-                # Add new entry
-                echo "[$displayname](https://github.com/Nivmizz7/TarkovData/blob/master/$file) : $TODAY" >> UPDATE_STATUS.md
-              fi
-            fi
-          done <<< "${{ steps.files.outputs.files }}"
+          // Get today's date in DD/MM/YYYY format
+          const today = new Date();
+          const dateStr = String(today.getDate()).padStart(2, '0') + '/' + 
+                          String(today.getMonth() + 1).padStart(2, '0') + '/' + 
+                          today.getFullYear();
+          
+          // Get modified files
+          let modifiedFiles = [];
+          try {
+            const output = execSync('git diff --name-only HEAD~1 HEAD', { encoding: 'utf-8' });
+            modifiedFiles = output.split('\n').filter(f => f.startsWith('data/') && f.endsWith('.json'));
+          } catch {
+            try {
+              const output = execSync('git diff --name-only HEAD', { encoding: 'utf-8' });
+              modifiedFiles = output.split('\n').filter(f => f.startsWith('data/') && f.endsWith('.json'));
+            } catch {
+              console.log('No modified files detected');
+            }
+          }
+          
+          if (modifiedFiles.length === 0) {
+            console.log('No data files modified');
+            process.exit(0);
+          }
+          
+          // Read UPDATE_STATUS.md
+          let content = fs.readFileSync('UPDATE_STATUS.md', 'utf-8');
+          
+          // Map filenames to display names
+          const fileMap = {
+            'ammunition.json': 'Ammunition',
+            'hideout.json': 'Hideout',
+            'items.en.json': 'Items',
+            'item_presets.json': 'Item Presets',
+            'levels.json': 'Levels',
+            'maps.json': 'Maps',
+            'quests.json': 'Quests',
+            'storyline.json': 'Storyline',
+            'traders.json': 'Traders'
+          };
+          
+          // Update dates for modified files
+          modifiedFiles.forEach(file => {
+            const filename = path.basename(file);
+            const displayName = fileMap[filename] || path.basename(file, '.json');
+            
+            // Replace the date for this file
+            const regex = new RegExp(`(\\[${displayName}\\][^:]*: )\\d{2}/\\d{2}/\\d{4}`, 'g');
+            content = content.replace(regex, `$1${dateStr}`);
+          });
+          
+          // Write back
+          fs.writeFileSync('UPDATE_STATUS.md', content);
+          console.log('Updated UPDATE_STATUS.md with date:', dateStr);
+        shell: node {0}
       
       - name: Commit and push changes
-        if: steps.files.outputs.files != ''
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add UPDATE_STATUS.md
-          git commit -m "Update status for modified data files" || echo "No changes to commit"
-          git push
+          git diff --cached --exit-code UPDATE_STATUS.md > /dev/null || (git commit -m "Update status for modified data files" && git push)
