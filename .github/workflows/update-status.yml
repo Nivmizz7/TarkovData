@@ -1,0 +1,57 @@
+name: Update Status
+
+on:
+  push:
+    paths:
+      - 'data/*.json'
+
+jobs:
+  update-status:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Get modified files
+        id: files
+        run: |
+          # Get list of modified JSON files in data/
+          MODIFIED_FILES=$(git diff --name-only ${{ github.event.before }} ${{ github.event.after }} | grep "^data/.*\.json$" || echo "")
+          echo "files<<EOF" >> $GITHUB_OUTPUT
+          echo "$MODIFIED_FILES" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+      
+      - name: Update UPDATE_STATUS.md
+        if: steps.files.outputs.files != ''
+        run: |
+          TODAY=$(date +%d/%m/%Y)
+          
+          # Process each modified file
+          while IFS= read -r file; do
+            if [ ! -z "$file" ]; then
+              # Extract filename without extension
+              filename=$(basename "$file" .json)
+              
+              # Capitalize first letter for display
+              displayname=$(echo "$filename" | sed 's/^\(.\)/\U\1/')
+              displayname=$(echo "$displayname" | sed 's/_/ /g')
+              
+              # Update or add the line in UPDATE_STATUS.md
+              if grep -q "\[$displayname\]" UPDATE_STATUS.md; then
+                # Update existing entry
+                sed -i "s|\(\[$displayname\][^)]*\)[0-9]\{2\}/[0-9]\{2\}/[0-9]\{4\}|\\1$TODAY|" UPDATE_STATUS.md
+              else
+                # Add new entry
+                echo "[$displayname](https://github.com/Nivmizz7/TarkovData/blob/master/$file) : $TODAY" >> UPDATE_STATUS.md
+              fi
+            fi
+          done <<< "${{ steps.files.outputs.files }}"
+      
+      - name: Commit and push changes
+        if: steps.files.outputs.files != ''
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add UPDATE_STATUS.md
+          git commit -m "Update status for modified data files" || echo "No changes to commit"
+          git push
