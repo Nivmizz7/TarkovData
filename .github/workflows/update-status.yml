@@ -16,7 +16,7 @@ jobs:
         id: files
         run: |
           # Get list of modified JSON files in data/
-          MODIFIED_FILES=$(git diff --name-only ${{ github.event.before }} ${{ github.event.after }} | grep "^data/.*\.json$" || echo "")
+          MODIFIED_FILES=$(git diff --name-only HEAD~1 HEAD 2>/dev/null | grep "^data/.*\.json$" || git diff --name-only HEAD | grep "^data/.*\.json$" || echo "")
           echo "files<<EOF" >> $GITHUB_OUTPUT
           echo "$MODIFIED_FILES" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
