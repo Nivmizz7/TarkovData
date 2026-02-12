@@ -1,5 +1,7 @@
 Update status:
 
+[Achievements](https://github.com/Nivmizz7/TarkovData/blob/master/data/achievements.json) : 12/02/2026
+
 [Ammunition](https://github.com/Nivmizz7/TarkovData/blob/master/data/ammunition.json) : 12/02/2026
 
 [Hideout](https://github.com/Nivmizz7/TarkovData/blob/master/data/hideout.json) : 12/02/2026

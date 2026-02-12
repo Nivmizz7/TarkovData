@@ -7,6 +7,7 @@ Community-maintained game data for [Escape From Tarkov](https://www.escapefromta
 ```
 tarkovdata/
 ├── data/              # Game data files
+│   ├── achievements.json
 │   ├── ammunition.json
 │   ├── hideout.json
 │   ├── items.en.json
@@ -21,6 +22,9 @@ tarkovdata/
 ```
 
 ## Data Files
+
+### [data/achievements.json](data/achievements.json)
+Achievement data including all main game achievements, hidden achievements, and event achievements with their descriptions, rarity levels, and rewards.
 
 ### [data/ammunition.json](data/ammunition.json)
 Ammunition metadata including ballistics, damage, penetration, and other stats for all ammunition types in the game.
