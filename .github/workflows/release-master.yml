@@ -1,0 +1,128 @@
+name: Release & Version - Direct Push
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'schema/**'
+      - 'workflows/**'
+      - 'data/**'
+      - 'dependencies/**'
+      - '.github/workflows/release-master.yml'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      packages: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Git config
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Get previous version
+        id: previous_version
+        run: |
+          PREVIOUS_VERSION=$(git describe --tags --abbrev=0 2>/dev/null || echo "v0.0.0")
+          echo "version=$PREVIOUS_VERSION" >> $GITHUB_OUTPUT
+          echo "Previous version: $PREVIOUS_VERSION"
+
+      - name: Determine version bump
+        id: determine_version
+        run: |
+          PREVIOUS_VERSION=${{ steps.previous_version.outputs.version }}
+          # Remove 'v' prefix for processing
+          VERSION=${PREVIOUS_VERSION#v}
+          
+          # Get commit messages since last tag
+          COMMITS=$(git log --oneline --format=%B ${PREVIOUS_VERSION}..HEAD 2>/dev/null || git log --oneline --format=%B)
+          
+          echo "Commit messages:"
+          echo "$COMMITS"
+          
+          # Parse version components
+          IFS='.' read -r MAJOR MINOR PATCH <<< "$VERSION"
+          MAJOR=${MAJOR:-0}
+          MINOR=${MINOR:-0}
+          PATCH=${PATCH:-0}
+          
+          # Check for commit prefixes
+          if echo "$COMMITS" | grep -qi "^schema:"; then
+            # schema: change minor version (2ème chiffre)
+            MINOR=$((MINOR + 1))
+            PATCH=0
+            BUMP_TYPE="minor (schema)"
+          elif echo "$COMMITS" | grep -qi "^fix:"; then
+            # fix: change minor version (2ème chiffre)
+            MINOR=$((MINOR + 1))
+            PATCH=0
+            BUMP_TYPE="minor (fix)"
+          elif echo "$COMMITS" | grep -qi "^workflow:"; then
+            # workflow: change patch version (3ème chiffre)
+            PATCH=$((PATCH + 1))
+            BUMP_TYPE="patch (workflow)"
+          elif echo "$COMMITS" | grep -qi "^data:"; then
+            # data: change patch version (3ème chiffre)
+            PATCH=$((PATCH + 1))
+            BUMP_TYPE="patch (data)"
+          elif echo "$COMMITS" | grep -qi "^dependencies:"; then
+            # dependencies: change patch version (3ème chiffre)
+            PATCH=$((PATCH + 1))
+            BUMP_TYPE="patch (dependencies)"
+          else
+            # Default: patch version
+            PATCH=$((PATCH + 1))
+            BUMP_TYPE="patch (default)"
+          fi
+          
+          NEW_VERSION="$MAJOR.$MINOR.$PATCH"
+          echo "version=$NEW_VERSION" >> $GITHUB_OUTPUT
+          echo "version_tag=v$NEW_VERSION" >> $GITHUB_OUTPUT
+          echo "bump_type=$BUMP_TYPE" >> $GITHUB_OUTPUT
+          echo "New version: $NEW_VERSION (${BUMP_TYPE} bump)"
+
+      - name: Update package.json
+        run: |
+          npm version ${{ steps.determine_version.outputs.version }} --no-git-tag-v
+          
+      - name: Commit version update
+        run: |
+          git add package.json
+          git commit -m "chore: bump version to ${{ steps.determine_version.outputs.version_tag }}" || true
+
+      - name: Create tag
+        run: |
+          git tag -a ${{ steps.determine_version.outputs.version_tag }} -m "Release ${{ steps.determine_version.outputs.version_tag }}" || true
+          git push origin ${{ steps.determine_version.outputs.version_tag }}
+          
+      - name: Push version commit
+        run: |
+          git push origin master || true
+
+      - name: Create GitHub Release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ steps.determine_version.outputs.version_tag }}
+          release_name: Release ${{ steps.determine_version.outputs.version_tag }}
+          body: |
+            Version ${{ steps.determine_version.outputs.version_tag }}
+            Bump type: ${{ steps.determine_version.outputs.bump_type }}
+          draft: false
+          prerelease: false

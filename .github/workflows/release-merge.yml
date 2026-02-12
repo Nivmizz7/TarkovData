@@ -1,17 +1,21 @@
-name: Release & Version
+name: Release & Version - PR Merge
 
 on:
-  push:
+  pull_request:
     branches:
       - master
+    types:
+      - closed
     paths:
       - 'schema/**'
       - 'workflows/**'
       - 'data/**'
-      - '.github/workflows/release.yml'
+      - 'dependencies/**'
+      - '.github/workflows/release-merge.yml'
 
 jobs:
   release:
+    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -79,6 +83,10 @@ jobs:
             # data: change patch version (3ème chiffre)
             PATCH=$((PATCH + 1))
             BUMP_TYPE="patch (data)"
+          elif echo "$COMMITS" | grep -qi "^dependencies:"; then
+            # dependencies: change patch version (3ème chiffre)
+            PATCH=$((PATCH + 1))
+            BUMP_TYPE="patch (dependencies)"
           else
             # Default: patch version
             PATCH=$((PATCH + 1))
