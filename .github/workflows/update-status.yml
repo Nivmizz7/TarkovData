@@ -36,15 +36,17 @@ jobs:
           let modifiedFiles = [];
           try {
             const output = execSync('git diff --name-only HEAD~1 HEAD', { encoding: 'utf-8' });
-            modifiedFiles = output.split('\n').filter(f => f.startsWith('data/') && f.endsWith('.json'));
+            modifiedFiles = output.trim().split('\n').filter(f => f.startsWith('data/') && f.endsWith('.json') && f.length > 0);
           } catch {
             try {
               const output = execSync('git diff --name-only HEAD', { encoding: 'utf-8' });
-              modifiedFiles = output.split('\n').filter(f => f.startsWith('data/') && f.endsWith('.json'));
+              modifiedFiles = output.trim().split('\n').filter(f => f.startsWith('data/') && f.endsWith('.json') && f.length > 0);
             } catch {
               console.log('No modified files detected');
             }
           }
+          
+          console.log('Modified files:', modifiedFiles);
           
           if (modifiedFiles.length === 0) {
             console.log('No data files modified');
@@ -53,33 +55,45 @@ jobs:
           
           // Read UPDATE_STATUS.md
           let content = fs.readFileSync('UPDATE_STATUS.md', 'utf-8');
+          console.log('Original content:', content);
           
           // Map filenames to display names
           const fileMap = {
-            'ammunition.json': 'Ammunition',
-            'hideout.json': 'Hideout',
-            'items.en.json': 'Items',
-            'item_presets.json': 'Item Presets',
-            'levels.json': 'Levels',
-            'maps.json': 'Maps',
-            'quests.json': 'Quests',
-            'storyline.json': 'Storyline',
-            'traders.json': 'Traders'
+            'data/ammunition.json': 'Ammunition',
+            'data/hideout.json': 'Hideout',
+            'data/items.en.json': 'Items',
+            'data/item_presets.json': 'Item Presets',
+            'data/levels.json': 'Levels',
+            'data/maps.json': 'Maps',
+            'data/quests.json': 'Quests',
+            'data/storyline.json': 'Storyline',
+            'data/traders.json': 'Traders'
           };
           
           // Update dates for modified files
           modifiedFiles.forEach(file => {
-            const filename = path.basename(file);
-            const displayName = fileMap[filename] || path.basename(file, '.json');
+            const displayName = fileMap[file];
+            console.log('Processing:', file, '->', displayName);
             
-            // Replace the date for this file
-            const regex = new RegExp(`(\\[${displayName}\\][^:]*: )\\d{2}/\\d{2}/\\d{4}`, 'g');
-            content = content.replace(regex, `$1${dateStr}`);
+            if (displayName) {
+              // Use a more robust approach
+              const lines = content.split('\n');
+              const updatedLines = lines.map(line => {
+                if (line.includes(`[${displayName}]`) && line.includes(file)) {
+                  // Replace the date at the end of the line
+                  return line.replace(/(\d{2}\/\d{2}\/\d{4})(\s*)$/, `${dateStr}$2`);
+                }
+                return line;
+              });
+              content = updatedLines.join('\n');
+              console.log('Updated line for:', displayName);
+            }
           });
           
           // Write back
           fs.writeFileSync('UPDATE_STATUS.md', content);
           console.log('Updated UPDATE_STATUS.md with date:', dateStr);
+          console.log('New content:', content);
         shell: node {0}
       
       - name: Commit and push changes
