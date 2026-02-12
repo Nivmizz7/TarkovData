@@ -1,31 +1,4 @@
 {
-  "Caliber762x25TT_7_62x25mm_tt_akbs": {
-    "id": "Caliber762x25TT_7_62x25mm_tt_akbs",
-    "name": "7.62x25mm TT AKBS",
-    "shortName": "AKBS",
-    "weight": 0.012,
-    "caliber": "Caliber762x25TT",
-    "stackMaxSize": 50,
-    "tracer": false,
-    "tracerColor": "red",
-    "ammoType": "bullet",
-    "projectileCount": 1,
-    "ballistics": {
-      "damage": 58,
-      "armorDamage": 32,
-      "fragmentationChance": 0,
-      "ricochetChance": 0.1,
-      "penetrationChance": 0.2,
-      "penetrationPower": 12,
-      "accuracy": 15,
-      "recoil": -15,
-      "initialSpeed": 425,
-      "lightBleedingDelta": 0,
-      "heavyBleedingDelta": 0,
-      "durabilityBurnFactor": 0,
-      "heatFactor": 0
-    }
-  },
   "Caliber762x25TT_7_62x25mm_tt_fmj43": {
     "id": "Caliber762x25TT_7_62x25mm_tt_fmj43",
     "name": "7.62x25mm TT FMJ43",
