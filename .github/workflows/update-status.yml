@@ -59,6 +59,7 @@ jobs:
           
           // Map filenames to display names
           const fileMap = {
+            'data/achievements.json': 'Achievements',
             'data/ammunition.json': 'Ammunition',
             'data/hideout.json': 'Hideout',
             'data/items.en.json': 'Items',
