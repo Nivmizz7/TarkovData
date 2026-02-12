@@ -1,6 +1,6 @@
 {
   "name": "tarkovdata",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Escape From Tarkov game data for external tools & fan sites",
   "type": "module",
   "main": "index.js",
