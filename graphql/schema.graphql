@@ -1,0 +1,213 @@
+scalar JSON
+
+type Achievement {
+  id: ID!
+  name: String!
+  description: String
+  hidden: Boolean
+  rarity: String
+  reward: String
+}
+
+type Ballistics {
+  damage: Int
+  armorDamage: Int
+  fragmentationChance: Float
+  ricochetChance: Float
+  penetrationChance: Float
+  penetrationPower: Int
+  accuracy: Int
+  recoil: Int
+  initialSpeed: Int
+  lightBleedingDelta: Float
+  heavyBleedingDelta: Float
+  durabilityBurnFactor: Float
+  heatFactor: Float
+}
+
+type Ammunition {
+  id: ID!
+  name: String!
+  shortName: String
+  weight: Float
+  caliber: String
+  stackMaxSize: Int
+  tracer: Boolean
+  tracerColor: String
+  ammoType: String
+  projectileCount: Int
+  ballistics: Ballistics
+}
+
+type HideoutStation {
+  id: Int!
+  locales: JSON
+  function: String
+  imgSource: String
+  disabled: Boolean
+}
+
+type HideoutRequirement {
+  id: Int
+  type: String
+  name: JSON
+  quantity: Int
+}
+
+type HideoutModule {
+  id: Int!
+  module: String
+  level: Int
+  stationId: Int
+  require: [HideoutRequirement!]!
+}
+
+type Hideout {
+  stations: [HideoutStation!]!
+  modules: [HideoutModule!]!
+}
+
+type ItemPresetPart {
+  id: ID!
+  quantity: Int!
+}
+
+type ItemPreset {
+  id: ID!
+  name: String
+  appendName: String
+  default: Boolean
+  baseId: ID
+  parts: [ItemPresetPart!]!
+}
+
+type Item {
+  id: ID!
+  name: String!
+}
+
+type Level {
+  level: Int!
+  exp: Int!
+  total: Int!
+  group: String!
+}
+
+type MapSvg {
+  file: String
+  floors: [String!]
+  defaultFloor: String
+}
+
+type Map {
+  id: ID!
+  numericId: Int
+  locale: JSON
+  wiki: String
+  description: String
+  enemies: [String!]
+  raidDuration: JSON
+  svg: MapSvg
+}
+
+type QuestRequirement {
+  level: Int
+  quests: [Int!]
+  storylineObjective: String
+}
+
+type QuestReputation {
+  trader: Int
+  rep: Float
+}
+
+type QuestObjective {
+  type: String
+  target: String
+  number: Int
+  location: Int
+  gps: JSON
+  id: Int
+}
+
+type Quest {
+  id: Int!
+  require: QuestRequirement
+  giver: Int
+  turnin: Int
+  title: String
+  locales: JSON
+  wiki: String
+  exp: Int
+  unlocks: [String!]
+  reputation: [QuestReputation!]
+  objectives: [QuestObjective!]
+  gameId: String
+}
+
+type StorylineChapter {
+  key: String
+  name: String
+  id: String
+  require: Int
+  wiki: String
+  description: String
+  objectives: [JSON!]
+}
+
+type Storyline {
+  storylines: [String!]!
+  chapters: [StorylineChapter!]!
+}
+
+type TraderLoyalty {
+  level: Int
+  requiredLevel: Int
+  requiredReputation: Float
+  requiredSales: Int
+  items: [JSON!]
+}
+
+type Trader {
+  key: String
+  id: Int!
+  name: String
+  locale: JSON
+  wiki: String
+  location: String
+  origin: String
+  description: String
+  currencies: [String!]
+  salesCurrency: String
+  loyalty: [TraderLoyalty!]
+}
+
+type Query {
+  achievements: [Achievement!]!
+  achievement(id: ID!): Achievement
+
+  ammunition: [Ammunition!]!
+  ammo(id: ID!): Ammunition
+
+  hideout: Hideout!
+
+  itemPresets: [ItemPreset!]!
+  itemPreset(id: ID!): ItemPreset
+
+  items: [Item!]!
+  item(id: ID!): Item
+
+  levels: [Level!]!
+  level(level: Int!): Level
+
+  maps: [Map!]!
+  map(id: ID!): Map
+
+  quests: [Quest!]!
+  quest(id: Int!): Quest
+
+  storyline: Storyline!
+
+  traders: [Trader!]!
+  trader(id: Int!): Trader
+}

@@ -1,0 +1,854 @@
+[
+  {
+    "id": "vagabond",
+    "name": "Vagabond",
+    "description": "Use the transit from any location",
+    "hidden": false,
+    "rarity": "Common",
+    "reward": null
+  },
+  {
+    "id": "traveler",
+    "name": "Traveler",
+    "description": "Survive and extract from every location in Tarkov while playing as a PMC",
+    "hidden": false,
+    "rarity": "Common",
+    "reward": null
+  },
+  {
+    "id": "make_a_notch",
+    "name": "Make a Notch",
+    "description": "Eliminate 30 PMC operatives with a melee weapon while playing as a PMC",
+    "hidden": false,
+    "rarity": "Common",
+    "reward": "Factory floor Hideout floor style"
+  },
+  {
+    "id": "u_succ",
+    "name": "U-SUCC",
+    "description": "Eliminate 50 USEC PMC operatives",
+    "hidden": false,
+    "rarity": "Common",
+    "reward": null
+  },
+  {
+    "id": "bear_with_me",
+    "name": "BEAR With Me",
+    "description": "Eliminate 50 BEAR PMC operatives",
+    "hidden": false,
+    "rarity": "Common",
+    "reward": null
+  },
+  {
+    "id": "pmcs_best_friend",
+    "name": "PMC's Best Friend",
+    "description": "Survive and extract from Interchange through the Scav Co-Op extraction while playing as a PMC",
+    "hidden": false,
+    "rarity": "Common",
+    "reward": null
+  },
+  {
+    "id": "art_of_style",
+    "name": "Art of Style",
+    "description": "Eliminate Killa for the first time while playing as a PMC (Not Vengeful Killa)",
+    "hidden": false,
+    "rarity": "Common",
+    "reward": null
+  },
+  {
+    "id": "call_your_brother",
+    "name": "Call Your Brother",
+    "description": "Eliminate Tagilla for the first time while playing as a PMC (Not Shadow of Tagilla)",
+    "hidden": false,
+    "rarity": "Common",
+    "reward": null
+  },
+  {
+    "id": "silence_of_the_sawmill",
+    "name": "Silence of the Sawmill",
+    "description": "Eliminate Shturman for the first time while playing as a PMC",
+    "hidden": false,
+    "rarity": "Common",
+    "reward": null
+  },
+  {
+    "id": "deal_to_make",
+    "name": "Deal to Make",
+    "description": "Eliminate Reshala for the first time while playing as a PMC",
+    "hidden": false,
+    "rarity": "Common",
+    "reward": null
+  },
+  {
+    "id": "grouse_hunting",
+    "name": "Grouse Hunting",
+    "description": "Eliminate Glukhar for the first time while playing as a PMC",
+    "hidden": false,
+    "rarity": "Common",
+    "reward": null
+  },
+  {
+    "id": "sanatorium_orderly",
+    "name": "Sanatorium Orderly",
+    "description": "Eliminate Sanitar for the first time while playing as a PMC",
+    "hidden": false,
+    "rarity": "Common",
+    "reward": null
+  },
+  {
+    "id": "funny_graveyard_keeper",
+    "name": "Funny Graveyard Keeper",
+    "description": "Eliminate Kaban for the first time while playing as a PMC",
+    "hidden": false,
+    "rarity": "Common",
+    "reward": null
+  },
+  {
+    "id": "now_there_are_three_of_them",
+    "name": "Now There Are Three of Them!",
+    "description": "Eliminate Knight, Birdeye, and Big Pipe in a single raid for the first time while playing as a PMC",
+    "hidden": false,
+    "rarity": "Common",
+    "reward": null
+  },
+  {
+    "id": "justice",
+    "name": "Justice",
+    "description": "Eliminate Kollontay for the first time while playing as a PMC",
+    "hidden": false,
+    "rarity": "Common",
+    "reward": null
+  },
+  {
+    "id": "time_to_clean_my_karma",
+    "name": "Time To Clean My Karma",
+    "description": "Eliminate Partisan for the first time while playing as a PMC",
+    "hidden": false,
+    "rarity": "Common",
+    "reward": null
+  },
+  {
+    "id": "first_time_always_hurts",
+    "name": "First Time Always Hurts",
+    "description": "Survive a raid without the Run-through status for the first time",
+    "hidden": true,
+    "rarity": "Common",
+    "reward": null
+  },
+  {
+    "id": "welcome_to_tarkov",
+    "name": "Welcome to Tarkov",
+    "description": "Die in Tarkov for the first time",
+    "hidden": true,
+    "rarity": "Common",
+    "reward": null
+  },
+  {
+    "id": "lost",
+    "name": "Lost",
+    "description": "Locate the crashed plane on Woods while playing as a PMC",
+    "hidden": true,
+    "rarity": "Common",
+    "reward": null
+  },
+  {
+    "id": "thats_what_she_said",
+    "name": "That's What She Said",
+    "description": "Search the office in Factory while playing as PMC",
+    "hidden": true,
+    "rarity": "Common",
+    "reward": null
+  },
+  {
+    "id": "you_are_not_my_brother",
+    "name": "You Are Not My Brother",
+    "description": "Eliminate a Scav while playing as a Scav",
+    "hidden": true,
+    "rarity": "Common",
+    "reward": null
+  },
+  {
+    "id": "chriss_heir",
+    "name": "Chris's Heir",
+    "description": "Eliminate a PMC operative with a headshot from over 500 meters away while playing as a PMC",
+    "hidden": true,
+    "rarity": "Common",
+    "reward": null
+  },
+  {
+    "id": "johns_heir",
+    "name": "John's Heir",
+    "description": "Eliminate 4 PMC operatives with a headshot while using a pistol in a single raid while playing as a PMC Note: Revolvers can't be used.",
+    "hidden": true,
+    "rarity": "Common",
+    "reward": null
+  },
+  {
+    "id": "drunken_master",
+    "name": "Drunken Master",
+    "description": "Eliminate a PMC operative with a headshot while under the alcohol effect while playing as a PMC",
+    "hidden": true,
+    "rarity": "Common",
+    "reward": null
+  },
+  {
+    "id": "the_blind_watcher",
+    "name": "The Blind Watcher",
+    "description": "Eliminate Zryachiy for the first time while playing as a PMC",
+    "hidden": true,
+    "rarity": "Common",
+    "reward": null
+  },
+  {
+    "id": "killer_of_killers",
+    "name": "Killer of Killers",
+    "description": "Eliminate one of the hooded men with their own knife at night time while playing as a PMC",
+    "hidden": true,
+    "rarity": "Common",
+    "reward": null
+  },
+  {
+    "id": "all_wheel_drive",
+    "name": "All-Wheel Drive",
+    "description": "Resolve the issue with the BTR Driver one way or another",
+    "hidden": false,
+    "rarity": "Rare",
+    "reward": "Modest wallpaper Hideout wall style"
+  },
+  {
+    "id": "all_on_red",
+    "name": "All on Red",
+    "description": "Go all in on the BEAR squad beyond the cordon and complete Skier's Profitable Venture task line",
+    "hidden": false,
+    "rarity": "Rare",
+    "reward": null
+  },
+  {
+    "id": "what_not_to_wear",
+    "name": "What Not To Wear",
+    "description": "Eliminate Killa 15 times while playing as a PMC (Not Vengeful Killa)",
+    "hidden": false,
+    "rarity": "Rare",
+    "reward": "Factory ceiling Hideout ceiling style"
+  },
+  {
+    "id": "hammer_and_scythe",
+    "name": "Hammer and Scythe",
+    "description": "Eliminate Tagilla 15 times while playing as a PMC (Not Shadow of Tagilla)",
+    "hidden": false,
+    "rarity": "Rare",
+    "reward": "Factory walls Hideout wall style"
+  },
+  {
+    "id": "king_of_the_sawmill",
+    "name": "King of the Sawmill",
+    "description": "Eliminate Shturman 15 times while playing as a PMC",
+    "hidden": false,
+    "rarity": "Rare",
+    "reward": null
+  },
+  {
+    "id": "this_is_a_tarkov_showdown",
+    "name": "This Is a Tarkov Showdown",
+    "description": "Eliminate Reshala 15 times while playing as a PMC",
+    "hidden": false,
+    "rarity": "Rare",
+    "reward": null
+  },
+  {
+    "id": "another_cold_case",
+    "name": "Another Cold Case",
+    "description": "Eliminate Glukhar 15 times while playing as a PMC",
+    "hidden": false,
+    "rarity": "Rare",
+    "reward": null
+  },
+  {
+    "id": "who_called_the_doctor",
+    "name": "Who Called the Doctor?",
+    "description": "Eliminate Sanitar 15 times while playing as a PMC",
+    "hidden": false,
+    "rarity": "Rare",
+    "reward": null
+  },
+  {
+    "id": "old_dog_with_old_tricks",
+    "name": "Old Dog With Old tricks",
+    "description": "Eliminate Kaban 15 times while playing as a PMC",
+    "hidden": false,
+    "rarity": "Rare",
+    "reward": null
+  },
+  {
+    "id": "i_hear_the_voice_of_darkness",
+    "name": "I Hear the Voice of Darkness",
+    "description": "Eliminate Knight 15 times while playing as a PMC",
+    "hidden": false,
+    "rarity": "Rare",
+    "reward": null
+  },
+  {
+    "id": "the_red_book",
+    "name": "The Red Book",
+    "description": "Eliminate Birdeye 15 times while playing as a PMC",
+    "hidden": false,
+    "rarity": "Rare",
+    "reward": null
+  },
+  {
+    "id": "smoke_the_peace_pipe",
+    "name": "Smoke the Peace Pipe",
+    "description": "Eliminate Big Pipe 15 times while playing as a PMC",
+    "hidden": false,
+    "rarity": "Rare",
+    "reward": null
+  },
+  {
+    "id": "samsara_wheel_spins_again",
+    "name": "Samsara Wheel Spins Again",
+    "description": "Eliminate Partisan 15 times while playing as a PMC",
+    "hidden": false,
+    "rarity": "Rare",
+    "reward": null
+  },
+  {
+    "id": "ready_for_anything",
+    "name": "Ready for Anything",
+    "description": "Survive 10 consecutive raids while playing as a PMC",
+    "hidden": false,
+    "rarity": "Rare",
+    "reward": "Blue paint Hideout wall style"
+  },
+  {
+    "id": "pmc",
+    "name": "PMC",
+    "description": "Survive 300 raids while playing as a PMC",
+    "hidden": false,
+    "rarity": "Rare",
+    "reward": null
+  },
+  {
+    "id": "long_live_the_king",
+    "name": "Long Live the King!",
+    "description": "Eliminate every Boss once while playing as a PMC",
+    "hidden": false,
+    "rarity": "Rare",
+    "reward": null
+  },
+  {
+    "id": "true_crime",
+    "name": "True Crime",
+    "description": "Eliminate Kollontay 15 times while playing as a PMC",
+    "hidden": false,
+    "rarity": "Rare",
+    "reward": null
+  },
+  {
+    "id": "blind_fury",
+    "name": "Blind Fury",
+    "description": "Eliminate any enemy while suffering from the Flash effect while playing as a PMC",
+    "hidden": false,
+    "rarity": "Rare",
+    "reward": null
+  },
+  {
+    "id": "jack_of_all_trades",
+    "name": "Jack of All Trades",
+    "description": "Complete all of Gunsmith series tasks",
+    "hidden": false,
+    "rarity": "Rare",
+    "reward": "Small tiles Hideout floor style"
+  },
+  {
+    "id": "killer7",
+    "name": "Killer7",
+    "description": "Kill 7 PMC operatives in one raid, playing as a PMC",
+    "hidden": true,
+    "rarity": "Rare",
+    "reward": null
+  },
+  {
+    "id": "now_thats_a_good_shot",
+    "name": "Now That's a Good Shot",
+    "description": "Eliminate Zryachiy 15 times while playing as a PMC",
+    "hidden": true,
+    "rarity": "Rare",
+    "reward": null
+  },
+  {
+    "id": "star_called_sun",
+    "name": "Star Called Sun",
+    "description": "Obliterate a cultist while using the RShG-2 rocket launcher",
+    "hidden": true,
+    "rarity": "Rare",
+    "reward": null
+  },
+  {
+    "id": "master_of_ultra",
+    "name": "Master of ULTRA",
+    "description": "Eliminate Killa 100 times while playing as a PMC (Not Vengeful Killa)",
+    "hidden": false,
+    "rarity": "Legendary",
+    "reward": "Adik tracksuit clothing buy option"
+  },
+  {
+    "id": "firefly",
+    "name": "Firefly",
+    "description": "Meet Lightkeeper for the first time while playing as PMC",
+    "hidden": false,
+    "rarity": "Legendary",
+    "reward": null
+  },
+  {
+    "id": "the_kappa_path",
+    "name": "The Kappa Path",
+    "description": "Obtain Secure container Kappa",
+    "hidden": false,
+    "rarity": "Legendary",
+    "reward": null
+  },
+  {
+    "id": "snowball",
+    "name": "Snowball",
+    "description": "Eliminate every Boss without dying while playing as a PMC (Big Pipe, Birdeye, Glukhar, Kaban, Killa, Knight, Kollontay, Partisan, Reshala, Sanitar, Shturman, Tagilla, Zryachiy)",
+    "hidden": false,
+    "rarity": "Legendary",
+    "reward": "Predator Upper clothing buy option"
+  },
+  {
+    "id": "marathon",
+    "name": "Marathon",
+    "description": "Visit all locations in one raid as a PMC (Ground Zero, Streets of Tarkov, The Lab, Interchange, Customs, Factory, Woods, Reserve, Lighthouse, Shoreline) Note: Starting on Ground Zero and ending on Shoreline is required complete this achievement.",
+    "hidden": false,
+    "rarity": "Legendary",
+    "reward": null
+  },
+  {
+    "id": "pathfinder",
+    "name": "Pathfinder",
+    "description": "Fully explore Tarkov and its inhabitants",
+    "hidden": false,
+    "rarity": "Legendary",
+    "reward": null
+  },
+  {
+    "id": "inferno",
+    "name": "Inferno",
+    "description": "Learn everything about the Blue Fire",
+    "hidden": false,
+    "rarity": "Legendary",
+    "reward": null
+  },
+  {
+    "id": "trail_of_breadcrumbs",
+    "name": "Trail of Breadcrumbs",
+    "description": "Find traces of a mysterious organization in Tarkov",
+    "hidden": false,
+    "rarity": "Legendary",
+    "reward": null
+  },
+  {
+    "id": "through_anothers_eyes",
+    "name": "Through Another's Eyes",
+    "description": "Discover what the cultists were really after",
+    "hidden": false,
+    "rarity": "Legendary",
+    "reward": null
+  },
+  {
+    "id": "pay_your_debt",
+    "name": "Pay Your Debt",
+    "description": "Learn what happened to Kozlov",
+    "hidden": false,
+    "rarity": "Legendary",
+    "reward": null
+  },
+  {
+    "id": "theseus",
+    "name": "Theseus",
+    "description": "Uncover the secret of The Labyrinth",
+    "hidden": false,
+    "rarity": "Legendary",
+    "reward": null
+  },
+  {
+    "id": "this_is_all_not_coincidence",
+    "name": "This Is All (Not) Coincidence",
+    "description": "Find out what happened to a certain BEAR squad",
+    "hidden": false,
+    "rarity": "Legendary",
+    "reward": null
+  },
+  {
+    "id": "little_triumphs",
+    "name": "Little Triumphs",
+    "description": "Gather evidence of all of TerraGroup's \"minor\" misdeeds",
+    "hidden": false,
+    "rarity": "Legendary",
+    "reward": null
+  },
+  {
+    "id": "enough_of_your_games",
+    "name": "Enough of Your Games!",
+    "description": "Refuse to fall for Mr. Kerman's schemes",
+    "hidden": true,
+    "rarity": "Legendary",
+    "reward": null
+  },
+  {
+    "id": "easy_way",
+    "name": "Easy Way",
+    "description": "Use the instructions given by TerraGroup. Wonder what could go wrong?",
+    "hidden": true,
+    "rarity": "Legendary",
+    "reward": null
+  },
+  {
+    "id": "u_turn",
+    "name": "U-Turn",
+    "description": "Agree to the job only to change your mind after",
+    "hidden": true,
+    "rarity": "Legendary",
+    "reward": null
+  },
+  {
+    "id": "will_it_blow",
+    "name": "Will It Blow?",
+    "description": "Hand the case with dangerous contents to the wrong people. You clearly had no other choice!",
+    "hidden": true,
+    "rarity": "Legendary",
+    "reward": null
+  },
+  {
+    "id": "man_of_his_word",
+    "name": "Man of His Word",
+    "description": "Complete the task given to you to the end",
+    "hidden": true,
+    "rarity": "Legendary",
+    "reward": null
+  },
+  {
+    "id": "just_business",
+    "name": "Just Business",
+    "description": "Double-cross Prapor",
+    "hidden": true,
+    "rarity": "Legendary",
+    "reward": null
+  },
+  {
+    "id": "i_am_speed",
+    "name": "I Am Speed",
+    "description": "Complete Prapor's tasks within three days",
+    "hidden": true,
+    "rarity": "Legendary",
+    "reward": null
+  },
+  {
+    "id": "better_served",
+    "name": "Better Served",
+    "description": "Refuse to sell TerraGroup technology",
+    "hidden": true,
+    "rarity": "Legendary",
+    "reward": null
+  },
+  {
+    "id": "when_the_light_fades",
+    "name": "When the Light Fades",
+    "description": "Free Tarkov from the priests' eyes",
+    "hidden": true,
+    "rarity": "Legendary",
+    "reward": null
+  },
+  {
+    "id": "survivor",
+    "name": "Survivor",
+    "description": "Escape from Tarkov no matter the cost",
+    "hidden": true,
+    "rarity": "Legendary",
+    "reward": null
+  },
+  {
+    "id": "survivor_pve_zone",
+    "name": "Survivor (PVE ZONE)",
+    "description": "Escape from Tarkov no matter the cost",
+    "hidden": true,
+    "rarity": "Legendary",
+    "reward": null
+  },
+  {
+    "id": "fallen",
+    "name": "Fallen",
+    "description": "Escape from Tarkov only to fall in the darkness",
+    "hidden": true,
+    "rarity": "Legendary",
+    "reward": null
+  },
+  {
+    "id": "fallen_pve_zone",
+    "name": "Fallen (PVE ZONE)",
+    "description": "Escape from Tarkov only to fall in the darkness",
+    "hidden": true,
+    "rarity": "Legendary",
+    "reward": null
+  },
+  {
+    "id": "debtor",
+    "name": "Debtor",
+    "description": "Escape from Tarkov without ever escaping from yourself",
+    "hidden": true,
+    "rarity": "Legendary",
+    "reward": null
+  },
+  {
+    "id": "debtor_pve_zone",
+    "name": "Debtor (PVE ZONE)",
+    "description": "Escape from Tarkov without ever escaping from yourself",
+    "hidden": true,
+    "rarity": "Legendary",
+    "reward": null
+  },
+  {
+    "id": "savior",
+    "name": "Savior",
+    "description": "Escape from Tarkov to save the humanity",
+    "hidden": true,
+    "rarity": "Legendary",
+    "reward": null
+  },
+  {
+    "id": "savior_pve_zone",
+    "name": "Savior (PVE ZONE)",
+    "description": "Escape from Tarkov to save the humanity",
+    "hidden": true,
+    "rarity": "Legendary",
+    "reward": null
+  },
+  {
+    "id": "prestigious",
+    "name": "Prestigious",
+    "description": "Earn the Prestige level 1",
+    "hidden": true,
+    "rarity": "Legendary",
+    "reward": null
+  },
+  {
+    "id": "more_prestigious",
+    "name": "More Prestigious",
+    "description": "Earn the Prestige level 2",
+    "hidden": true,
+    "rarity": "Legendary",
+    "reward": null
+  },
+  {
+    "id": "keeping_up_the_pace",
+    "name": "Keeping Up the Pace",
+    "description": "Earn the Prestige level 3",
+    "hidden": true,
+    "rarity": "Legendary",
+    "reward": null
+  },
+  {
+    "id": "higher_and_higher",
+    "name": "Higher and Higher",
+    "description": "Earn the Prestige level 4",
+    "hidden": true,
+    "rarity": "Legendary",
+    "reward": null
+  },
+  {
+    "id": "five_plus",
+    "name": "Five Plus",
+    "description": "Earn the Prestige level 5",
+    "hidden": true,
+    "rarity": "Legendary",
+    "reward": null
+  },
+  {
+    "id": "no_limit_to_perfection",
+    "name": "No Limit to Perfection",
+    "description": "Earn the Prestige level 6",
+    "hidden": true,
+    "rarity": "Legendary",
+    "reward": null
+  },
+  {
+    "id": "maslenitsa",
+    "name": "Maslenitsa",
+    "description": "Complete the Maslenitsa 2024 event task line",
+    "hidden": false,
+    "rarity": "Legendary",
+    "type": "event",
+    "event": "Winter Tales (Spring!)",
+    "reward": null
+  },
+  {
+    "id": "high_competition",
+    "name": "High Competition",
+    "description": "Choose your side and complete the Arms Race event task line",
+    "hidden": false,
+    "rarity": "Legendary",
+    "type": "event",
+    "event": "Arms Race (Time-Tested or Western Quality Standards)",
+    "reward": null
+  },
+  {
+    "id": "local_strong_man",
+    "name": "Local Strong Man",
+    "description": "Pick Skier's side and complete The Tarkov Mystery event task line",
+    "hidden": true,
+    "rarity": "Legendary",
+    "type": "event",
+    "event": "The Tarkov Mystery (Redemption)",
+    "reward": "Mr Kerman's cat hologram"
+  },
+  {
+    "id": "involved_in_peace",
+    "name": "INVOLVED IN PEACE",
+    "description": "Pick Peacekeeper's side and complete The Tarkov Mystery event task line",
+    "hidden": true,
+    "rarity": "Legendary",
+    "type": "event",
+    "event": "The Tarkov Mystery (Redemption)",
+    "reward": "Mr Kerman's cat hologram"
+  },
+  {
+    "id": "cardinal_richelieu",
+    "name": "Cardinal Richelieu",
+    "description": "Find out who actually controls Tarkov and complete The Tarkov Mystery event task line",
+    "hidden": true,
+    "rarity": "Legendary",
+    "type": "event",
+    "event": "The Tarkov Mystery (Ding-Ding-Ding)",
+    "reward": "Mr Kerman's cat hologram"
+  },
+  {
+    "id": "a_key_to_salvation",
+    "name": "A Key to Salvation",
+    "description": "Help Therapist save lives and complete the Key to Salvation event task line",
+    "hidden": true,
+    "rarity": "Legendary",
+    "type": "event",
+    "event": "A Key to Salvation (A Key to Salvation)",
+    "reward": null
+  },
+  {
+    "id": "highway_to_the_danger_zone",
+    "name": "Highway to the Danger Zone",
+    "description": "Complete the Mortar Strike 2024 event task line",
+    "hidden": false,
+    "rarity": "Legendary",
+    "type": "event",
+    "event": "Mortar Strike (Cream of the Crop)",
+    "reward": null
+  },
+  {
+    "id": "complete_remission",
+    "name": "Complete Remission",
+    "description": "Cure all the infected and complete the Halloween 2024 event task line",
+    "hidden": false,
+    "rarity": "Legendary",
+    "type": "event",
+    "event": "Halloween 2024 (Clear Conscience)",
+    "reward": "Saiga-12K FA purchase at Jaeger LL4"
+  },
+  {
+    "id": "fatal_outcome",
+    "name": "Fatal Outcome",
+    "description": "Destroy the virus along with all the infected and complete the Halloween 2024 event task line",
+    "hidden": false,
+    "rarity": "Legendary",
+    "type": "event",
+    "event": "Halloween 2024 (Radical Treatment)",
+    "reward": "Saiga-12K FA purchase at Prapor LL4"
+  },
+  {
+    "id": "khorovod",
+    "name": "Khorovod",
+    "description": "Celebrate Christmas and New Year and complete the Khorovod 2024 event task line",
+    "hidden": false,
+    "rarity": "Legendary",
+    "type": "event",
+    "event": "Khorovod (Khorovod)",
+    "reward": "Khorovod armband, BEAR Winter upper clothing, BEAR Winter lower clothing, USEC Winter upper clothing, USEC Winter lower clothing"
+  },
+  {
+    "id": "in_search_of_an_exit",
+    "name": "In Search of an Exit",
+    "description": "Complete the Labyrinth 2025 event task line",
+    "hidden": false,
+    "rarity": "Legendary",
+    "type": "event",
+    "event": "The Labyrinth (Hypotheses Testing)",
+    "reward": null
+  },
+  {
+    "id": "dungeon_master",
+    "name": "Dungeon Master",
+    "description": "Complete the Labyrinth 2025 event task line and all side tasks",
+    "hidden": false,
+    "rarity": "Legendary",
+    "type": "event",
+    "event": "The Labyrinth (Keeper's Word)",
+    "reward": "Minotaur's Lair Hideout ceiling style, Minotaur's Lair Hideout wall style, Minotaur's Lair Hideout floor style"
+  },
+  {
+    "id": "one_last_ride",
+    "name": "One Last Ride",
+    "description": "Experience the Hardcore Wipe",
+    "hidden": false,
+    "rarity": "Legendary",
+    "type": "event",
+    "event": "Hardcore Wipe (Only Business)",
+    "reward": null
+  },
+  {
+    "id": "through_to_the_end",
+    "name": "Through to the End",
+    "description": "Collect the scars of the Hardcore Wipe",
+    "hidden": false,
+    "rarity": "Legendary",
+    "type": "event",
+    "event": "Hardcore Wipe (Collector)",
+    "reward": null
+  },
+  {
+    "id": "targrad_tales",
+    "name": "Targrad Tales",
+    "description": "He that steals honey, should beware of the sting.",
+    "hidden": false,
+    "rarity": "Legendary",
+    "type": "event",
+    "event": "Targrad Tales (Game Review - Part 3)",
+    "reward": "Targrad poster"
+  },
+  {
+    "id": "going_light",
+    "name": "Going Light",
+    "description": "Final prep before the release!",
+    "hidden": false,
+    "rarity": "Legendary",
+    "type": "event",
+    "event": "Softcore (Staying Light)",
+    "reward": null
+  },
+  {
+    "id": "whiteout",
+    "name": "Whiteout",
+    "description": "Celebrate Christmas and New Year and complete the Kolotun 2025 event task",
+    "hidden": false,
+    "rarity": "Legendary",
+    "type": "event",
+    "event": "Kolotun (A Small Celebration)",
+    "reward": "New Year ushanka hat purchase at Ragman LL1"
+  },
+  {
+    "id": "duck_hunt",
+    "name": "Duck Hunt",
+    "description": "Complete the Duck Hunt 2026 event task",
+    "hidden": true,
+    "rarity": "Legendary",
+    "type": "event",
+    "event": "Duck Hunt (Duck Hunt)",
+    "reward": "Escape from Duckov poster, Duck figurine, Scavenger Hideout shooting range target style"
+  }
+]
